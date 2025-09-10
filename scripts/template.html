@@ -1,0 +1,68 @@
+<!doctype html><html><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>ASX Shorts & Options – Daily</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
+<style>
+ body{font:14px/1.4 system-ui,Segoe UI,Roboto,Helvetica,Arial}
+ table{border-collapse:collapse;width:100%} th,td{padding:.4rem;border-bottom:1px solid #eee}
+ .pill{padding:.15rem .45rem;border-radius:999px;background:#eee;font-size:.8rem}
+ .flag{background:#000;color:#fff}
+ .grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+ h2{margin-top:1.2rem}
+</style></head><body>
+<h1>ASX Shorts – Daily Signals</h1>
+<p class="pill">Generated: {{ generated_at }}</p>
+
+<h2>Gross Short Sales (T+1)</h2>
+<p>Sources: ASX text & Cboe AU CSV. Latest date: <b>{{ gross_date }}</b>.</p>
+<div class="grid">
+<div>
+<h3>Top by quantity</h3>
+<table>
+<tr><th>Code</th><th>Gross</th><th>% Issued</th><th>Flags</th></tr>
+{% for r in gross_top_qty %}
+<tr><td>{{r.Code}}</td><td>{{"{:,}".format(r.Gross)}}</td>
+<td>{{"%.3f"%(r.PctGrossVsIssued*100 if r.PctGrossVsIssued==r.PctGrossVsIssued else 0)}}%</td>
+<td>{% if r.FLAG_big_qty %}<span class="pill flag">Q</span>{% endif %} {% if r.FLAG_big_pct %}<span class="pill flag">%</span>{% endif %}</td></tr>
+{% endfor %}
+</table></div>
+<div>
+<h3>Top by % issued</h3>
+<table>
+<tr><th>Code</th><th>Gross</th><th>% Issued</th><th>Flags</th></tr>
+{% for r in gross_top_pct %}
+<tr><td>{{r.Code}}</td><td>{{"{:,}".format(r.Gross)}}</td>
+<td>{{"%.3f"%(r.PctGrossVsIssued*100 if r.PctGrossVsIssued==r.PctGrossVsIssued else 0)}}%</td>
+<td>{% if r.FLAG_big_qty %}<span class="pill flag">Q</span>{% endif %} {% if r.FLAG_big_pct %}<span class="pill flag">%</span>{% endif %}</td></tr>
+{% endfor %}
+</table></div>
+</div>
+
+<h2>Short Positions (T+4)</h2>
+<p>Source: ASIC Short Position CSV. Latest date: <b>{{ asic_date }}</b>.</p>
+<div class="grid">
+<div>
+<h3>High % Shorted</h3>
+<table>
+<tr><th>Code</th><th>% Short</th><th>Δ pp</th><th>Flags</th></tr>
+{% for r in pos_high %}
+<tr><td>{{r.Code}}</td><td>{{"%.2f"%(r.PctShort_pp)}}</td>
+<td>{{"%.2f"%(r.Delta_pp if r.Delta_pp==r.Delta_pp else 0)}}</td>
+<td>{% if r.FLAG_high_pct %}<span class="pill flag">%</span>{% endif %} {% if r.FLAG_delta %}<span class="pill flag">Δ</span>{% endif %}</td>
+</tr>{% endfor %}
+</table></div>
+<div>
+<h3>Big Δ day-over-day</h3>
+<table>
+<tr><th>Code</th><th>% Short</th><th>Δ pp</th><th>Flags</th></tr>
+{% for r in pos_delta %}
+<tr><td>{{r.Code}}</td><td>{{"%.2f"%(r.PctShort_pp)}}</td>
+<td>{{"%.2f"%(r.Delta_pp if r.Delta_pp==r.Delta_pp else 0)}}</td>
+<td>{% if r.FLAG_high_pct %}<span class="pill flag">%</span>{% endif %} {% if r.FLAG_delta %}<span class="pill flag">Δ</span>{% endif %}</td>
+</tr>{% endfor %}
+</table></div>
+</div>
+
+<footer><p style="margin-top:1rem;color:#666;font-size:.85rem;">
+Public data. ASIC short positions ~T+4; gross short sales ~T+1. Timezone: AWST (UTC+8). Disclaimers per ASIC/ASX/Cboe. </p></footer>
+</body></html>

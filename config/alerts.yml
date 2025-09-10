@@ -1,0 +1,14 @@
+short_positions:
+  pct_short_ge: 5.0
+  pct_short_change_ge: 0.50
+  top_n: 25
+
+gross_shorts:
+  absolute_qty_ge: 200000
+  as_percent_issued_ge: 0.10
+  top_n: 25
+
+options:
+  enabled: false
+  put_call_ratio_ge: 1.5
+  vol_spike_x_ge: 3.0

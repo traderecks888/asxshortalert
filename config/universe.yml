@@ -1,0 +1,4 @@
+lists:
+  asx20: [BHP, CBA, CSL, NAB, WBC, ANZ, WES, WOW, TLS, MQG, RIO, FMG, GMG, TCL, WDS, REA, RMD, XRO, ALL, COL]
+  asx200: []   # optional; the pipeline does not require this list
+  watchlist: [STO, PLS, LTR, NVX, BRN, TWE, ALU, JHX]
