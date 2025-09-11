@@ -21,9 +21,15 @@
 <table>
 <tr><th>Code</th><th>Gross</th><th>% Issued</th><th>Flags</th></tr>
 {% for r in gross_top_qty %}
-<tr><td>{{r.Code}}</td><td>{{"{:,}".format(r.Gross)}}</td>
-<td>{{"%.3f"%(r.PctGrossVsIssued*100 if r.PctGrossVsIssued==r.PctGrossVsIssued else 0)}}%</td>
-<td>{% if r.FLAG_big_qty %}<span class="pill flag">Q</span>{% endif %} {% if r.FLAG_big_pct %}<span class="pill flag">%</span>{% endif %}</td></tr>
+<tr>
+  <td>{{ r.Code }}</td>
+  <td>{{ "{:,}".format((r.Gross | default(0, true)) | int) }}</td>
+  <td>{{ (((r.PctGrossVsIssued | default(0, true)) | float) * 100) | round(3) }}%</td>
+  <td>
+    {% if r.FLAG_big_qty %}<span class="pill flag">Q</span>{% endif %}
+    {% if r.FLAG_big_pct %}<span class="pill flag">%</span>{% endif %}
+  </td>
+</tr>
 {% endfor %}
 </table></div>
 <div>
@@ -31,9 +37,15 @@
 <table>
 <tr><th>Code</th><th>Gross</th><th>% Issued</th><th>Flags</th></tr>
 {% for r in gross_top_pct %}
-<tr><td>{{r.Code}}</td><td>{{"{:,}".format(r.Gross)}}</td>
-<td>{{"%.3f"%(r.PctGrossVsIssued*100 if r.PctGrossVsIssued==r.PctGrossVsIssued else 0)}}%</td>
-<td>{% if r.FLAG_big_qty %}<span class="pill flag">Q</span>{% endif %} {% if r.FLAG_big_pct %}<span class="pill flag">%</span>{% endif %}</td></tr>
+<tr>
+  <td>{{ r.Code }}</td>
+  <td>{{ "{:,}".format((r.Gross | default(0, true)) | int) }}</td>
+  <td>{{ (((r.PctGrossVsIssued | default(0, true)) | float) * 100) | round(3) }}%</td>
+  <td>
+    {% if r.FLAG_big_qty %}<span class="pill flag">Q</span>{% endif %}
+    {% if r.FLAG_big_pct %}<span class="pill flag">%</span>{% endif %}
+  </td>
+</tr>
 {% endfor %}
 </table></div>
 </div>
@@ -46,23 +58,35 @@
 <table>
 <tr><th>Code</th><th>% Short</th><th>Δ pp</th><th>Flags</th></tr>
 {% for r in pos_high %}
-<tr><td>{{r.Code}}</td><td>{{"%.2f"%(r.PctShort_pp)}}</td>
-<td>{{"%.2f"%(r.Delta_pp if r.Delta_pp==r.Delta_pp else 0)}}</td>
-<td>{% if r.FLAG_high_pct %}<span class="pill flag">%</span>{% endif %} {% if r.FLAG_delta %}<span class="pill flag">Δ</span>{% endif %}</td>
-</tr>{% endfor %}
+<tr>
+  <td>{{ r.Code }}</td>
+  <td>{{ ((r.PctShort_pp | default(0, true)) | float) | round(2) }}</td>
+  <td>{{ ((r.Delta_pp    | default(0, true)) | float) | round(2) }}</td>
+  <td>
+    {% if r.FLAG_high_pct %}<span class="pill flag">%</span>{% endif %}
+    {% if r.FLAG_delta %}<span class="pill flag">Δ</span>{% endif %}
+  </td>
+</tr>
+{% endfor %}
 </table></div>
 <div>
 <h3>Big Δ day-over-day</h3>
 <table>
 <tr><th>Code</th><th>% Short</th><th>Δ pp</th><th>Flags</th></tr>
 {% for r in pos_delta %}
-<tr><td>{{r.Code}}</td><td>{{"%.2f"%(r.PctShort_pp)}}</td>
-<td>{{"%.2f"%(r.Delta_pp if r.Delta_pp==r.Delta_pp else 0)}}</td>
-<td>{% if r.FLAG_high_pct %}<span class="pill flag">%</span>{% endif %} {% if r.FLAG_delta %}<span class="pill flag">Δ</span>{% endif %}</td>
-</tr>{% endfor %}
+<tr>
+  <td>{{ r.Code }}</td>
+  <td>{{ ((r.PctShort_pp | default(0, true)) | float) | round(2) }}</td>
+  <td>{{ ((r.Delta_pp    | default(0, true)) | float) | round(2) }}</td>
+  <td>
+    {% if r.FLAG_high_pct %}<span class="pill flag">%</span>{% endif %}
+    {% if r.FLAG_delta %}<span class="pill flag">Δ</span>{% endif %}
+  </td>
+</tr>
+{% endfor %}
 </table></div>
 </div>
 
 <footer><p style="margin-top:1rem;color:#666;font-size:.85rem;">
-Public data. ASIC short positions ~T+4; gross short sales ~T+1. Timezone: AWST (UTC+8). Disclaimers per ASIC/ASX/Cboe. </p></footer>
+Public data. ASIC short positions ~T+4; gross short sales ~T+1. Timezone: AWST (UTC+8). </p></footer>
 </body></html>
