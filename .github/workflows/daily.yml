@@ -28,4 +28,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: daily refresh"
-          file_pattern: data/*.csv docs/** api/** charts/** docs/api/** docs/charts/**
+          add_options: "-A"          # <- add everything that's changed; avoids missing-glob errors
+          push_options: "--force-with-lease"
