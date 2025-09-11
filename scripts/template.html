@@ -1,6 +1,7 @@
+<!-- scripts/template.html -->
 <!doctype html><html><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width">
-<title>ASX Shorts & Options – Daily</title>
+<title>ASX Shorts – Daily</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
 <style>
  body{font:14px/1.4 system-ui,Segoe UI,Roboto,Helvetica,Arial}
@@ -14,7 +15,7 @@
 <p class="pill">Generated: {{ generated_at }}</p>
 
 <h2>Gross Short Sales (T+1)</h2>
-<p>Sources: ASX text & Cboe AU CSV. Latest date: <b>{{ gross_date }}</b>.</p>
+<p>Latest date: <b>{{ gross_date }}</b>. (% Issued uses <i>Issued Capital</i>, not free float.)</p>
 <div class="grid">
 <div>
 <h3>Top by quantity</h3>
@@ -23,8 +24,12 @@
 {% for r in gross_top_qty %}
 <tr>
   <td>{{ r.Code }}</td>
-  <td>{{ "{:,}".format((r.Gross | default(0, true)) | int) }}</td>
-  <td>{{ (((r.PctGrossVsIssued | default(0, true)) | float) * 100) | round(3) }}%</td>
+  <td>{{ "{:,}".format((r.Gross_num or r.Gross or 0) | int) }}</td>
+  <td>
+    {# prefer normalized fraction field; fallback to raw fraction #}
+    {% set frac = r.PctGrossVsIssued_num if r.PctGrossVsIssued_num is defined else (r.PctGrossVsIssued or 0) %}
+    {{ (frac * 100) | round(3) }}%
+  </td>
   <td>
     {% if r.FLAG_big_qty %}<span class="pill flag">Q</span>{% endif %}
     {% if r.FLAG_big_pct %}<span class="pill flag">%</span>{% endif %}
@@ -39,8 +44,11 @@
 {% for r in gross_top_pct %}
 <tr>
   <td>{{ r.Code }}</td>
-  <td>{{ "{:,}".format((r.Gross | default(0, true)) | int) }}</td>
-  <td>{{ (((r.PctGrossVsIssued | default(0, true)) | float) * 100) | round(3) }}%</td>
+  <td>{{ "{:,}".format((r.Gross_num or r.Gross or 0) | int) }}</td>
+  <td>
+    {% set frac = r.PctGrossVsIssued_num if r.PctGrossVsIssued_num is defined else (r.PctGrossVsIssued or 0) %}
+    {{ (frac * 100) | round(3) }}%
+  </td>
   <td>
     {% if r.FLAG_big_qty %}<span class="pill flag">Q</span>{% endif %}
     {% if r.FLAG_big_pct %}<span class="pill flag">%</span>{% endif %}
@@ -51,7 +59,7 @@
 </div>
 
 <h2>Short Positions (T+4)</h2>
-<p>Source: ASIC Short Position CSV. Latest date: <b>{{ asic_date }}</b>.</p>
+<p>Latest ASIC date: <b>{{ asic_date }}</b>.</p>
 <div class="grid">
 <div>
 <h3>High % Shorted</h3>
@@ -60,8 +68,8 @@
 {% for r in pos_high %}
 <tr>
   <td>{{ r.Code }}</td>
-  <td>{{ ((r.PctShort_pp | default(0, true)) | float) | round(2) }}</td>
-  <td>{{ ((r.Delta_pp    | default(0, true)) | float) | round(2) }}</td>
+  <td>{{ ((r.PctShort_pp_num if r.PctShort_pp_num is defined else r.PctShort_pp or 0) | float) | round(2) }}</td>
+  <td>{{ ((r.Delta_pp_num    if r.Delta_pp_num    is defined else r.Delta_pp or 0)    | float) | round(2) }}</td>
   <td>
     {% if r.FLAG_high_pct %}<span class="pill flag">%</span>{% endif %}
     {% if r.FLAG_delta %}<span class="pill flag">Δ</span>{% endif %}
@@ -76,8 +84,8 @@
 {% for r in pos_delta %}
 <tr>
   <td>{{ r.Code }}</td>
-  <td>{{ ((r.PctShort_pp | default(0, true)) | float) | round(2) }}</td>
-  <td>{{ ((r.Delta_pp    | default(0, true)) | float) | round(2) }}</td>
+  <td>{{ ((r.PctShort_pp_num if r.PctShort_pp_num is defined else r.PctShort_pp or 0) | float) | round(2) }}</td>
+  <td>{{ ((r.Delta_pp_num    if r.Delta_pp_num    is defined else r.Delta_pp or 0)    | float) | round(2) }}</td>
   <td>
     {% if r.FLAG_high_pct %}<span class="pill flag">%</span>{% endif %}
     {% if r.FLAG_delta %}<span class="pill flag">Δ</span>{% endif %}
@@ -88,5 +96,6 @@
 </div>
 
 <footer><p style="margin-top:1rem;color:#666;font-size:.85rem;">
-Public data. ASIC short positions ~T+4; gross short sales ~T+1. Timezone: AWST (UTC+8). </p></footer>
+“% Issued” = Gross short sales / Issued Capital × 100. ASIC short positions are outstanding shorts (T+4 lag), not daily flow.
+</p></footer>
 </body></html>
