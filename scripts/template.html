@@ -9,22 +9,42 @@
  .flag{background:#000;color:#fff}
  .grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
  h2{margin-top:1.2rem}
+ .controls{display:flex;gap:.5rem;align-items:center;margin:.5rem 0}
+ input[type="search"]{padding:.35rem .5rem;border:1px solid #ddd;border-radius:8px}
+ select{padding:.35rem .5rem;border:1px solid #ddd;border-radius:8px}
+ /* DTC color bands */
+ .dtc-0-1   {background:#f5faff}
+ .dtc-1-3   {background:#eef8ff}
+ .dtc-3-5   {background:#fff6e6}
+ .dtc-5p    {background:#ffe9e9}
+ .muted{color:#666;font-size:.85rem}
+ tr.hidden{display:none}
 </style></head><body>
 <h1>ASX Shorts – Daily Signals</h1>
 <p class="pill">Generated: {{ generated_at }}</p>
+
+<div class="controls">
+  <label>Sector:</label>
+  <select id="sectorFilter">
+    {% for s in sectors %}<option value="{{ s }}">{{ s }}</option>{% endfor %}
+  </select>
+  <input id="codeFilter" type="search" placeholder="Filter by code (e.g., PLS)" />
+  <span class="muted">Filters apply to all tables</span>
+</div>
 
 <h2>Gross Short Sales (T+1)</h2>
 <p>Latest date: <b>{{ gross_date }}</b>. “% Issued” = Gross / Issued Capital × 100.</p>
 <div class="grid">
 <div>
 <h3>Top by quantity</h3>
-<table>
-<tr><th>Code</th><th>Gross</th><th>% Issued</th><th>Flags</th></tr>
+<table class="filterable">
+<tr><th>Code</th><th>Sector</th><th>Gross</th><th>% Issued</th><th>Flags</th></tr>
 {% for r in gross_top_qty %}
-<tr>
+<tr data-code="{{ r.Code }}" data-sector="{{ r.Sector | default('Unknown') }}">
   <td>{{ r.Code }}</td>
-  <td>{{ "{:,}".format((r.Gross_num or r.Gross or 0) | int) }}</td>
-  <td>{{ ((r.PctGrossVsIssuedPct_num if r.PctGrossVsIssuedPct_num is defined else (r.PctGrossVsIssuedPct or 0)) | float) | round(3) }}%</td>
+  <td>{{ r.Sector | default('Unknown') }}</td>
+  <td>{{ "{:,}".format(((r.Gross_num | default(r.Gross)) | default(0)) | int) }}</td>
+  <td>{{ ((r.PctGrossVsIssuedPct_num | default(r.PctGrossVsIssuedPct) | default(0)) | float) | round(3) }}%</td>
   <td>
     {% if r.FLAG_big_qty %}<span class="pill flag">Q</span>{% endif %}
     {% if r.FLAG_big_pct %}<span class="pill flag">%</span>{% endif %}
@@ -34,13 +54,14 @@
 </table></div>
 <div>
 <h3>Top by % issued</h3>
-<table>
-<tr><th>Code</th><th>Gross</th><th>% Issued</th><th>Flags</th></tr>
+<table class="filterable">
+<tr><th>Code</th><th>Sector</th><th>Gross</th><th>% Issued</th><th>Flags</th></tr>
 {% for r in gross_top_pct %}
-<tr>
+<tr data-code="{{ r.Code }}" data-sector="{{ r.Sector | default('Unknown') }}">
   <td>{{ r.Code }}</td>
-  <td>{{ "{:,}".format((r.Gross_num or r.Gross or 0) | int) }}</td>
-  <td>{{ ((r.PctGrossVsIssuedPct_num if r.PctGrossVsIssuedPct_num is defined else (r.PctGrossVsIssuedPct or 0)) | float) | round(3) }}%</td>
+  <td>{{ r.Sector | default('Unknown') }}</td>
+  <td>{{ "{:,}".format(((r.Gross_num | default(r.Gross)) | default(0)) | int) }}</td>
+  <td>{{ ((r.PctGrossVsIssuedPct_num | default(r.PctGrossVsIssuedPct) | default(0)) | float) | round(3) }}%</td>
   <td>
     {% if r.FLAG_big_qty %}<span class="pill flag">Q</span>{% endif %}
     {% if r.FLAG_big_pct %}<span class="pill flag">%</span>{% endif %}
@@ -55,39 +76,127 @@
 <div class="grid">
 <div>
 <h3>High % Shorted</h3>
-<table>
-<tr><th>Code</th><th>% Short</th><th>Δ pp</th><th>Flags</th></tr>
+<table class="filterable">
+<tr><th>Code</th><th>Sector</th><th>% Short</th><th>Δ pp</th></tr>
 {% for r in pos_high %}
-<tr>
+<tr data-code="{{ r.Code }}" data-sector="{{ r.Sector | default('Unknown') }}">
   <td>{{ r.Code }}</td>
-  <td>{{ ((r.PctShort_pp_num if r.PctShort_pp_num is defined else r.PctShort_pp or 0) | float) | round(2) }}</td>
-  <td>{{ ((r.Delta_pp_num    if r.Delta_pp_num    is defined else r.Delta_pp or 0)    | float) | round(2) }}</td>
-  <td>
-    {% if r.FLAG_high_pct %}<span class="pill flag">%</span>{% endif %}
-    {% if r.FLAG_delta %}<span class="pill flag">Δ</span>{% endif %}
-  </td>
+  <td>{{ r.Sector | default('Unknown') }}</td>
+  <td>{{ ((r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float) | round(2) }}</td>
+  <td>{{ ((r.Delta_pp_num    | default(r.Delta_pp)    | default(0)) | float) | round(2) }}</td>
 </tr>
 {% endfor %}
 </table></div>
 <div>
 <h3>Big Δ day-over-day</h3>
-<table>
-<tr><th>Code</th><th>% Short</th><th>Δ pp</th><th>Flags</th></tr>
+<table class="filterable">
+<tr><th>Code</th><th>Sector</th><th>% Short</th><th>Δ pp</th></tr>
 {% for r in pos_delta %}
-<tr>
+<tr data-code="{{ r.Code }}" data-sector="{{ r.Sector | default('Unknown') }}">
   <td>{{ r.Code }}</td>
-  <td>{{ ((r.PctShort_pp_num if r.PctShort_pp_num is defined else r.PctShort_pp or 0) | float) | round(2) }}</td>
-  <td>{{ ((r.Delta_pp_num    if r.Delta_pp_num    is defined else r.Delta_pp or 0)    | float) | round(2) }}</td>
-  <td>
-    {% if r.FLAG_high_pct %}<span class="pill flag">%</span>{% endif %}
-    {% if r.FLAG_delta %}<span class="pill flag">Δ</span>{% endif %}
-  </td>
+  <td>{{ r.Sector | default('Unknown') }}</td>
+  <td>{{ ((r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float) | round(2) }}</td>
+  <td>{{ ((r.Delta_pp_num    | default(r.Delta_pp)    | default(0)) | float) | round(2) }}</td>
 </tr>
 {% endfor %}
 </table></div>
 </div>
 
-<footer><p style="margin-top:1rem;color:#666;font-size:.85rem;">
-“% Issued” uses total issued capital (not free float). ASIC table shows outstanding shorts (T+4).
+<h3>Likely covering (largest decreases)</h3>
+<table class="filterable">
+<tr><th>Code</th><th>Sector</th><th>% Short</th><th>Δ pp</th><th>Δ shares</th></tr>
+{% for r in pos_cover %}
+<tr data-code="{{ r.Code }}" data-sector="{{ r.Sector | default('Unknown') }}">
+  <td>{{ r.Code }}</td>
+  <td>{{ r.Sector | default('Unknown') }}</td>
+  <td>{{ ((r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float) | round(2) }}</td>
+  <td>{{ ((r.Delta_pp_num    | default(r.Delta_pp)    | default(0)) | float) | round(2) }}</td>
+  <td>{{ "{:,}".format(((r.DeltaShares_num | default(r.DeltaShares) | default(0)) | int)) }}</td>
+</tr>
+{% endfor %}
+</table>
+
+<h3>High Days-to-Cover (hardest to unwind)</h3>
+<table class="filterable">
+<tr><th>Code</th><th>Sector</th><th>% Short</th><th>DTC (days)</th><th>ADV (shares)</th></tr>
+{% for r in pos_dtc %}
+{% set dtc = ((r.DaysToCover_num | default(r.DaysToCover) | default(0)) | float) %}
+{% set dtcclass = 'dtc-0-1' %}
+{% if dtc >= 5 %}{% set dtcclass = 'dtc-5p' %}
+{% elif dtc >= 3 %}{% set dtcclass = 'dtc-3-5' %}
+{% elif dtc >= 1 %}{% set dtcclass = 'dtc-1-3' %}{% endif %}
+<tr data-code="{{ r.Code }}" data-sector="{{ r.Sector | default('Unknown') }}" class="{{ dtcclass }}">
+  <td>{{ r.Code }}</td>
+  <td>{{ r.Sector | default('Unknown') }}</td>
+  <td>{{ ((r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float) | round(2) }}</td>
+  <td>{{ dtc | round(2) }}</td>
+  <td>{{ "{:,}".format(((r.ADV_num | default(r.ADV) | default(0)) | int)) }}</td>
+</tr>
+{% endfor %}
+</table>
+
+<h3>Covering score (3-day window)</h3>
+<table class="filterable">
+<tr><th>Code</th><th>Neg days</th><th>Σ Δshares↓</th><th>Σ Δpp↓</th><th>Score</th></tr>
+{% for r in cov3 %}
+<tr data-code="{{ r.Code }}">
+  <td>{{ r.Code }}</td>
+  <td>{{ r.NegDays | default(0) }}</td>
+  <td>{{ "{:,}".format((r.CovNegShares | default(0) | float) | int) }}</td>
+  <td>{{ (r.CovNegPP | default(0) | float) | round(2) }}</td>
+  <td>{{ (r.CoverScore | default(0) | float) | round(2) }}</td>
+</tr>
+{% endfor %}
+</table>
+
+<h3>Covering score (5-day window)</h3>
+<table class="filterable">
+<tr><th>Code</th><th>Neg days</th><th>Σ Δshares↓</th><th>Σ Δpp↓</th><th>Score</th></tr>
+{% for r in cov5 %}
+<tr data-code="{{ r.Code }}">
+  <td>{{ r.Code }}</td>
+  <td>{{ r.NegDays | default(0) }}</td>
+  <td>{{ "{:,}".format((r.CovNegShares | default(0) | float) | int) }}</td>
+  <td>{{ (r.CovNegPP | default(0) | float) | round(2) }}</td>
+  <td>{{ (r.CoverScore | default(0) | float) | round(2) }}</td>
+</tr>
+{% endfor %}
+</table>
+
+{% if charts and charts|length > 0 %}
+<h2>History</h2>
+<div class="grid">
+  {% for c in charts %}
+  <div>
+    <img src="{{ c }}" alt="chart" style="max-width:100%;height:auto;border:1px solid #eee;padding:4px;border-radius:8px;">
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<footer><p class="muted" style="margin-top:1rem;">
+“% Issued” uses total issued capital (not free float). ASIC table shows outstanding shorts (T+4). DTC = ShortedShares / ADV over config window. Covering scores use sums of negative Δshares and Δpp over rolling 3/5 days.
 </p></footer>
+
+<script>
+(function(){
+  const sectorSel = document.getElementById('sectorFilter');
+  const codeInp = document.getElementById('codeFilter');
+  function applyFilters(){
+    const sector = (sectorSel.value || 'All').toLowerCase();
+    const code = (codeInp.value || '').toLowerCase().trim();
+    document.querySelectorAll('table.filterable tr[data-code]').forEach(tr => {
+      const rowSector = (tr.getAttribute('data-sector') || 'Unknown').toLowerCase();
+      const rowCode = (tr.getAttribute('data-code') || '').toLowerCase();
+      let ok = true;
+      if (sector !== 'all' && rowSector !== sector) ok = false;
+      if (code && !rowCode.includes(code)) ok = false;
+      tr.classList.toggle('hidden', !ok);
+    });
+  }
+  sectorSel.addEventListener('change', applyFilters);
+  codeInp.addEventListener('input', applyFilters);
+  applyFilters();
+})();
+</script>
 </body></html>

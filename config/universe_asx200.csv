@@ -1,5 +1,21 @@
 Code,Name,Index
-BHP,BHP Group,ASX200
-CBA,Commonwealth Bank of Australia,ASX200
-CSL,CSL,ASX200
-NAB,National Australia Bank,ASX200
+BHP,BHP Group,ASX20
+CBA,Commonwealth Bank of Australia,ASX20
+CSL,CSL,ASX20
+NAB,National Australia Bank,ASX20
+WBC,Westpac Banking Corporation,ASX20
+ANZ,Australia and New Zealand Banking Group,ASX20
+WES,Wesfarmers,ASX20
+WOW,Woolworths Group,ASX20
+TLS,Telstra Group,ASX20
+MQG,Macquarie Group,ASX20
+RIO,Rio Tinto,ASX20
+FMG,Fortescue,ASX20
+GMG,Goodman Group,ASX20
+TCL,Transurban Group,ASX20
+WDS,Woodside Energy,ASX20
+REA,REA Group,ASX20
+RMD,ResMed Inc. CHESS Depositary Interests,ASX20
+XRO,Xero,ASX20
+ALL,Aristocrat Leisure,ASX20
+COL,Coles Group,ASX20

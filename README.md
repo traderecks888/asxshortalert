@@ -1,16 +1,16 @@
-# ASX Shorts Alerts (Serverless)
+# ASX Shorts Alerts – MAX (DTC bands + Sector filters + Covering scores)
 
-**Starter kit** to fetch ASIC Short Positions (T+4) + ASX/Cboe Gross Short Sales (T+1), score signals, publish a static dashboard, and push alerts via Slack/ntfy.
+**What you get**
+- Gross (T+1) with true % Issued.
+- ASIC (T+4) with % short, Δpp, ShortedShares, ΔShares.
+- **Days-to-Cover (DTC)** via Yahoo ADV; color bands in table.
+- **Sector filter** + code search (client-side) across all tables.
+- **Covering score (3d/5d)** from history.
+- JSON API, history CSVs, charts.
+- Notifications (Slack/Telegram/ntfy) are optional; skipped if secrets unset.
 
-- Timezone: AWST (UTC+8). GH Actions cron set to 10:05 AWST.
-- Config thresholds in `config/alerts.yml`.
-- Optional universe lists in `config/universe_asx20.csv` and `config/universe_asx200.csv` (not required to run).
+**Run**
+1) Enable Pages (main/docs). 2) Run the workflow. 3) Extend `config/sectors.csv` as needed.
 
-> Heads-up: ASX20/ASX200 membership changes quarterly. Verify lists each rebalance.
-> This starter includes a **best-effort** ASX20 list as of 2025-09-10.
-> ASX200 file is a scaffold — fill as needed for filtering/panels.
-
-## Quickstart
-1. Enable GitHub Pages to serve from `/docs`.
-2. Add (optional) repo secrets for Slack or ntfy.
-3. Run: `workflow_dispatch` or wait for the cron.
+**Config**
+`config/alerts.yml` tunes thresholds: pct_short_ge, pct_short_change_ge, abs_shares_cover_ge, adv_window_days, dtc_ge, etc.

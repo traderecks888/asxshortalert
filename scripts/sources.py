@@ -42,7 +42,6 @@ def fetch_asic_short_positions(today_utc=None, max_lookback_days=8):
                 "% of Total Product in Issue Reported as Short Positions": "PctShort",  # percent units
             }, inplace=True)
             df["Date"] = d.date()
-            # Coerce numerics
             for c in ("ReportedShort","Issued","PctShort"):
                 if c in df.columns:
                     df[c] = pd.to_numeric(df[c], errors="coerce")
@@ -71,7 +70,6 @@ def fetch_asx_gross_shorts(target_date):
         return df, url
     df["Gross"] = pd.to_numeric(df["Gross"].str.replace(",",""), errors="coerce")
     df["Issued"] = pd.to_numeric(df["Issued"].str.replace(",",""), errors="coerce")
-    # Our own % calc (ignore file's Pct)
     df["PctGrossVsIssuedPct"] = (df["Gross"] / df["Issued"]) * 100.0
     df.drop(columns=[c for c in ["Pct"] if c in df.columns], inplace=True)
     df["Date"] = target_date
@@ -101,7 +99,6 @@ def fetch_cboe_gross_shorts(target_date):
     code_col   = _find_col(df, ["code"])
     gross_col  = _find_col(df, ["reported gross short sales", "gross short"])
     issued_col = _find_col(df, ["issued capital"])
-    # We will ignore vendor % column entirely.
     if not all([code_col, gross_col, issued_col]):
         raise KeyError("Cboe CSV column names changed; could not map")
 

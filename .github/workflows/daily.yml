@@ -3,7 +3,7 @@ name: daily-asx-shorts
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "5 2 * * 1-5"  # 10:05 AWST on weekdays
+    - cron: "5 2 * * 1-5"   # 10:05 AWST weekdays
 
 permissions:
   contents: write
@@ -21,9 +21,11 @@ jobs:
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           NTFY_TOPIC_URL: ${{ secrets.NTFY_TOPIC_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/pipeline.py
       - name: Commit report & site
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: daily refresh"
-          file_pattern: data/*.csv docs/index.html
+          file_pattern: data/*.csv docs/** api/** charts/** docs/api/** docs/charts/**
