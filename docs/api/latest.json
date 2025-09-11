@@ -1,0 +1,6189 @@
+{
+  "meta": {
+    "gross_date": "2025-09-11",
+    "asic_date": "2025-09-05"
+  },
+  "gross": [],
+  "asic": [
+    {
+      "Code": "BOE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 19.5384823,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PDN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 17.46268226,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PLS",
+      "Sector": "Materials",
+      "PctShort_pp_num": 16.83040198,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IEL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 14.34648976,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PNV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 12.12429975,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MIN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 11.57844781,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PWH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 10.89898354,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LOT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 10.35057131,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CTD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 9.94259958,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GYG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 9.79829993,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LIC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 9.57354841,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DMP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 9.46126882,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CTT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 9.31927969,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ILU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 9.15412607,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SLX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 8.85011651,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "FLT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 8.20248372,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DYL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 8.1083839,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NAN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 8.06408092,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MVF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 7.50656717,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NXT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 7.26071108,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CU6",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 6.98487921,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "KAR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 6.75440934,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SGR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 6.66273152,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "VUL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 6.43066573,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CUV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 6.26452234,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LTR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 6.24350252,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BGL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 6.24004861,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MSB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 6.06644528,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IPH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 5.99945707,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BRG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 5.81618134,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TLX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 5.54488451,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RIO",
+      "Sector": "Materials",
+      "PctShort_pp_num": 5.48346307,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GMD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 5.42850109,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CIA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 5.42831574,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AD8",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 5.24198421,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NCK",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 5.03099712,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "STX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.93478269,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DGT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.8911911,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ARB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.84926064,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "VEA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.83256216,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ETPMPD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.79075196,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TWE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.7393777,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NEU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.5685784,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "JBH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.55077823,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RFF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.53158988,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IPX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.5089537,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BMN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.43188292,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ELD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.363095,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PMT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.24534232,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SFR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.23898809,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MFG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.13354296,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PTM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.09785976,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WHC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.09196226,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BOT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.08090337,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PFP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.05194345,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EMR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.03180209,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "HLS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.96358645,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "HCW",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.94277326,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SOL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.86070285,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BPT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.82123276,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CHN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.80187315,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AGL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.68739562,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "APX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.65758409,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "HMC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.57053667,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BRN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.50928233,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IGO",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.50658123,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "JLG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.49935938,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WDS",
+      "Sector": "Energy",
+      "PctShort_pp_num": 3.45239868,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RRL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.40548882,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CIP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.3655825,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NXL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.33018934,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IDX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.28068109,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "A2M",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.24318975,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MGH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.09350615,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "APA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.08315854,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "REA",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 3.0749308,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BVS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.07295957,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "KGN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.07292465,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ALD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.0140322,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ZIP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.99106439,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AOV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.97557211,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NHC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.97343246,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IMU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.96195815,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GDG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.93076119,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "APE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.91956144,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BOQ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.86772667,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RHC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.86548604,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "A4N",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.85891246,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EDV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.84836969,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DRR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.84351222,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ACL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.82142263,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SKC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.81545104,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "JHX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.75922272,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DRO",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.73994986,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RWC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.72473683,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WBT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.71217649,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LOV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.66130093,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "YAL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.64612462,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MAQ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.6420582,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CRN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.62415993,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "HLI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.60371445,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LNW",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.58898872,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WEB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.56922665,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SYR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.5642612,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WGX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.5583264,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MP1",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.51086317,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LYC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.49325003,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BSL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.48408353,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "REH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.46860101,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "OFX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.46601508,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ORA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.43614923,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SHV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.41188019,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ING",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.41089341,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PMV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.39307796,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IMM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.37979693,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EVN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.31994604,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "FBU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.30130333,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SDF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.29926289,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "OBM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.24890309,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "COH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.23989752,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MTS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.22335588,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DTL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.20738951,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SDR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.17927329,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NUF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.17641857,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AX1",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.17389096,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "OBL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.17351021,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SGM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.13122384,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PPT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.11463149,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BEN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.10871287,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SIG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.06544062,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NVX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.04131389,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BAP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.99502375,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "FMG",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.96572149,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "HDN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.9650949,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PNI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.95586778,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CCP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.94213319,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "OPT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.92883824,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "JIN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.92603181,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LLC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.9015731,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NIC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.85654053,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "QAL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.84080707,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "VCX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.83384916,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NSR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.81896532,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ANN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.77088702,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "INR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.76393429,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ONE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.76388784,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SEK",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.74374494,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "KLS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.73897377,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CKF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.72969768,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WTC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.72656669,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RMS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.68588706,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CXO",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.66672745,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "XVGHAF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.66488889,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CAR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.66475056,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PXA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.61439073,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SBM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.59699998,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "COF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.57009847,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PME",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.52210528,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "INA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.51923853,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SUL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.50335147,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WAF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.5002103,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ASX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.4994908,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DXS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.48268048,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SYA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.45782368,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SGH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.45469943,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SNL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.44858964,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AIS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.41170301,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CAT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.37504517,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "HUB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.36737418,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GEM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.35613677,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ARU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.32755703,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NWL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.32751069,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TNE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.29435223,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MAC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.28739075,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MMS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.25959349,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RIC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.25168001,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BKW",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.24732213,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AZJ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.24029453,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MAF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.23831759,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MYX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.21638863,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LRV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.17788939,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PEN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.16088674,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "XYZ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.1049198,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "XRO",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 1.09883611,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NWS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.07264541,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "VAU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.07064567,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BHP",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.04602387,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IMD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.02934457,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TPW",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.02881976,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NHF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.02852257,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AEL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.9788421,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ALX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.97378162,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GGP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.96871842,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CHC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.96312727,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EL8",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.96299967,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ASB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.95564689,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WOW",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 0.95496861,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SVL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.94905796,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TLC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.94655476,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "JDO",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.92212538,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WA1",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.90512719,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CNU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.89973711,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SLC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.89950365,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SIQ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.8984001,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SRL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.89834703,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SRG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.89623076,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "HVN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.89423985,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "A1N",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.87163896,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SX2",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.87125419,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CXL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.85627629,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AGE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.85289497,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BGA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.85264718,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ABY",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.84724091,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "HSN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.84095397,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CLW",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.79707534,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CNQ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.7882473,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ORG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.78109344,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EML",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.78079211,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "VNT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.76575983,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BWP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.7648379,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SHL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.75134416,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "FCL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.72538873,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DVP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.72486858,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DUG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.70225817,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AMP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.69875916,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LLL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.67947269,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SWM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.67763437,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "HUM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.6765796,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RDX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.65916062,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MYR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.65025997,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TER",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.64867466,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NAB",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.64618021,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SMR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.64427556,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AMC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.62919927,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BXB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.62689408,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "FFM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.61618106,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CWY",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.61348308,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ALQ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.61289851,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CBA",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.61092447,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SXL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.60934856,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SXE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.60819164,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MQG",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.60712248,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "QUB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.59772219,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CSC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.59742859,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EVT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.59587224,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BC8",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.59455552,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IPD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.58425208,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IAG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.58294002,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MAD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.57683814,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IFT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.56873792,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ANZ",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.56863343,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AIA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.56423119,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BLX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.55443927,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MGX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.5502649,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AEF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.54455848,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ASM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.53185783,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NEC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.52137959,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CMM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.51515479,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GDI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.51478997,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LKE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.51302222,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SUN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.51183426,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DOW",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.51075453,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WJL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.50384434,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "S32",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.49698516,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SRV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.49330594,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SGP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.49199165,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WBC",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.49146715,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AUB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.48069417,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WES",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 0.47919621,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DNL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.47568054,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AUC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.4694754,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GTK",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.46666186,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WC8",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.46018229,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CPU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.45862557,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PNR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.45843925,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "29M",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.45791907,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CQR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.45584808,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IFL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.45510706,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ASL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.45025976,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AEE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.44733614,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TOR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.44225863,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GMG",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.44121737,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MYS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.42975107,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CNI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.42950568,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IPG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.42705343,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MPL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.4243844,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "COL",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 0.42396919,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RSG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.42331694,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NXG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.41427374,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ADH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.41426414,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AAI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.40937123,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TPG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.40639432,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BKT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.40550083,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "QRI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.40345473,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MTH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.39752207,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TYR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.39726232,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "QOR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.39693276,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "FAL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.39270516,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CEH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.39219391,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ALL",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.39133582,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DDR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.3847606,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TCL",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.37358481,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MEI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.36950614,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AGY",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.36921764,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MND",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.36602125,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "STP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.3613019,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SPK",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.35817882,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BBT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.35620558,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "C79",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.34120761,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PIQ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.33821158,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MGR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.33462891,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BET",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.33404247,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NST",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.33336165,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CSL",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.33208618,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DXI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.33022451,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ASK",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.32607004,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WPR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.31726735,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PGC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.31511714,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TUA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.31325907,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "OML",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.31169791,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "VSL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.30551715,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EQR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.29915256,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BBN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.29744449,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AFG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.29725449,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WOR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.29468385,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BRX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.28303018,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RFG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.27963895,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PDI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.27401212,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TLS",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.27108654,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ARF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.26162453,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GOR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.2590109,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "FPR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.25586758,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EQT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.23332119,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ATH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.23013372,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AAC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.22713662,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SMI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.22383805,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NEM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.22375078,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ARR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.22272534,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TAH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.21890307,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BRE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.2170303,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "KPG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.21035691,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CYL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.20841424,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RUL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.20076799,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DTR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.19593745,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EHL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.19337882,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CYC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.19332652,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LKY",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.19144726,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RPL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.18940855,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ORI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.18745196,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CGF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.18635624,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DBI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.17969764,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "STO",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.17036936,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ECF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.16889314,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "QBE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.16784704,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RGN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.16376809,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BIO",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.16325745,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CQE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.16009296,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "360",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.15797059,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CCX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.1565818,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GPT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.15654246,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MEK",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.15495218,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DXB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.15393414,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PYC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.15384945,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CEN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.1512068,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RNU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.15051115,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DUB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.15047714,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RMD",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.14497832,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PAR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.1427225,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GSBU29",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.14170784,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RAS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.1401867,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "COG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.14014556,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TEA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.13427297,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "VEE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.12713253,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GQG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.12432675,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PLY",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.11775292,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ACF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.11460981,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DEV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.11403071,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ELS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.1133043,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ASN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.11279315,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SPL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.1125555,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "JMS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.11203378,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IMR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.11191296,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GLN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.11163522,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MDR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.10939984,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NMT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.10913228,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EBO",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.10863754,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IOZ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.10753398,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "XCLWAY",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.10623317,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IRE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.10539727,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PCL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.10463485,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PEB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.10409012,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ARX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.10304659,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "FEX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.10269176,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EUR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.10196143,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "VTM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.10110382,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GOZ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.09982026,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GSBK39",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.09924074,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RAD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.09763354,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PPK",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.09692058,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NWH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.09657504,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "M7T",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.09626415,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MPW",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.09571598,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ARD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.09196894,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SS1",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.09171426,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EIQ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0914139,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CVN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.09085182,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "QAN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.09045696,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ATC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.08758866,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ENL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.08755787,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ORD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.08755415,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GG8",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0862336,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "OCL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.08542391,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "KNI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.08355307,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DGL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.08288396,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GNC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.08205733,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SCG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.08046057,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ABG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.08019559,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "KNB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.07835575,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RCE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.07815075,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PRU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0777583,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EGR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.07618178,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ALK",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.07266402,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CMW",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.07138057,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GSBI32",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0696,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CPV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.06847156,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TBN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0644012,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RDY",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.05942907,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SUM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.05644865,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IRI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.05427095,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GSBU32",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.05249842,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CRD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.05145958,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ATX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.05081396,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DAVA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0488618,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PAC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.04844819,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "VVLU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.04821931,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "FRS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.04682016,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "FDV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.04646405,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "3DA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.04558541,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CDA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.04508418,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CHL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.04211868,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MEZ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.04181124,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MLX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.04128943,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "QBTC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.03693333,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "XCLWAX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.03590736,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GSBK35",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.03439724,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GSBU28",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.03438106,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AQZ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.03353039,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "UNT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.03192359,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GSBU33",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.03181061,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TMG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.03169591,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "XCLWAS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.03137324,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LIN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.031315,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BTL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.03018932,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LPD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02950522,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DLI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02922235,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GSBK31",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02871296,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DTZ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02859017,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RYZ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02809883,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "HPG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02784878,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PRN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0275773,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GSBI30",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0274878,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TLG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02712087,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RAC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02709941,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BSUB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02637189,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BCB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02613274,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "OCC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0248246,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "HLO",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02436346,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RDM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02425693,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ALC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02401715,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "VTX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02390874,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CAY",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0237665,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MCP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02338395,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WR1",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0227677,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "88E",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02274212,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LAT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02243294,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BTR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02238404,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AMI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02195386,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ADT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02182694,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AVL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02072243,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AVH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0206883,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "KMD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02037848,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GHM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02036638,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "XCLWBO",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02024851,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IEU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02010686,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RAG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01952357,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GLIN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01927201,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "FBM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01917066,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ATG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01872604,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PPE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01843645,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PSQ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01675149,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GSBI28",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01673351,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CTM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01670974,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IFM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01650945,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "HZN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0162809,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GSBW34",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01622857,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GSBK54",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01584158,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RGL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01530998,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CCM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01475584,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DUR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01460639,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AMD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01455888,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "STM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01450795,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "HCH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01437089,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GHY",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0124447,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "REG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01232467,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MAH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01226699,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MTL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0122297,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TTT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01124005,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BWN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01123546,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IMB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01106061,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "POD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01102357,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "KCN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00984707,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "4DX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00959761,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CVV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00951173,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AL3",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00882369,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ABB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00805808,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WHK",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00793742,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BKI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0078443,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "STK",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0076849,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ENR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00759558,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AMA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00747375,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AAR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00744522,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AHI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00714657,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "FPH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00709691,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GCI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00664684,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TVN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00636383,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SVR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00632388,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AIZ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00577525,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "HAS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0056279,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EGL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00553433,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "FND",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00549827,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PWR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0054686,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SNT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00546196,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ALA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00542305,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "URW",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00520147,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SPA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00516873,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GML",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0048312,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "STN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00481763,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GOLD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00454212,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "JNO",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00447817,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ARG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00444115,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GSBQ26",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00435025,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NVU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00409505,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "KKC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00387866,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PXX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00381814,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "COI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00375239,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MKR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00361447,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GWA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00356366,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RMY",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00350894,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AGI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00330588,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NGI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00324233,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MAU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00321948,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BCI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00321207,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SVM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00317758,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CBO",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00315842,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "FFG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0031517,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DACE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00287336,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TOE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00270864,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "KSL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00269566,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LTP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00267856,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MPK",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00237925,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BSX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00227514,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MI6",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00206295,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EXP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00198156,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "TCG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00178072,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DBF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00175491,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AWJ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00174157,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SGI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00167216,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EDU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00158083,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "FWD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00147074,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AXE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0013773,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CNB",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00133544,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PPM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00122757,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "A1M",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00119781,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NTU",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00116062,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ASG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00098796,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "D2O",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00097776,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EXR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00095826,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ART",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00077109,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AW1",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00076594,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "RHI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0007563,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IGL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00066742,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CCV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00064314,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SSM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00060118,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AYA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00058229,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "BDM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00057509,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CWP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00053284,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CVC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00045526,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "AAA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00045273,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "HGO",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00043763,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NZM",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00040234,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PPC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00038256,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MME",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00030947,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "WMG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00030045,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GSBW30",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00029268,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MGL",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00026333,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MVP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00025564,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CDP",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00012086,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PPS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 7.054e-05,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CST",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 5.887e-05,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "CLV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.371e-05,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "SKT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.179e-05,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "VVA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 5.9e-06,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "NGX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.21e-06,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "JNS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.14e-06,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PET",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.08e-06,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "IME",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.86e-06,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "PBH",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.73e-06,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GT1",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.47e-06,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EFE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 7.9e-07,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "OEC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 5.6e-07,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "MCY",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.3e-07,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LSA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.5e-07,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "DXN",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3.3e-07,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "EWC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 2.6e-07,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GRR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.7e-07,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "LIS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.6e-07,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "ODE",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 6e-08,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    },
+    {
+      "Code": "GPR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 3e-08,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-05"
+    }
+  ]
+}

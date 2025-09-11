@@ -1,4 +1,3 @@
-<!-- scripts/template.html -->
 <!doctype html><html><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width">
 <title>ASX Shorts – Daily</title>
@@ -10,698 +9,42 @@
  .flag{background:#000;color:#fff}
  .grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
  h2{margin-top:1.2rem}
+ .controls{display:flex;gap:.5rem;align-items:center;margin:.5rem 0}
+ input[type="search"]{padding:.35rem .5rem;border:1px solid #ddd;border-radius:8px}
+ select{padding:.35rem .5rem;border:1px solid #ddd;border-radius:8px}
+ /* DTC color bands */
+ .dtc-0-1   {background:#f5faff}
+ .dtc-1-3   {background:#eef8ff}
+ .dtc-3-5   {background:#fff6e6}
+ .dtc-5p    {background:#ffe9e9}
+ .muted{color:#666;font-size:.85rem}
+ tr.hidden{display:none}
 </style></head><body>
 <h1>ASX Shorts – Daily Signals</h1>
-<p class="pill">Generated: 2025-09-11 23:15 AWST</p>
+<p class="pill">Generated: 2025-09-12 01:28 AWST</p>
+
+<div class="controls">
+  <label>Sector:</label>
+  <select id="sectorFilter">
+    <option value="All">All</option><option value="Materials">Materials</option><option value="Unknown">Unknown</option>
+  </select>
+  <input id="codeFilter" type="search" placeholder="Filter by code (e.g., PLS)" />
+  <span class="muted">Filters apply to all tables</span>
+</div>
 
 <h2>Gross Short Sales (T+1)</h2>
-<p>Latest date: <b>2025-09-10</b>. (% Issued uses <i>Issued Capital</i>, not free float.)</p>
+<p>Latest date: <b>2025-09-11</b>. “% Issued” = Gross / Issued Capital × 100.</p>
 <div class="grid">
 <div>
 <h3>Top by quantity</h3>
-<table>
-<tr><th>Code</th><th>Gross</th><th>% Issued</th><th>Flags</th></tr>
-
-<tr>
-  <td>SYA</td>
-  <td>48,313,912</td>
-  <td>
-    
-    
-    19.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>PLS</td>
-  <td>24,946,328</td>
-  <td>
-    
-    
-    77.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>VAU</td>
-  <td>8,175,986</td>
-  <td>
-    
-    
-    12.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>TLS</td>
-  <td>5,263,480</td>
-  <td>
-    
-    
-    4.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>LTR</td>
-  <td>4,987,360</td>
-  <td>
-    
-    
-    17.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>SIG</td>
-  <td>4,467,055</td>
-  <td>
-    
-    
-    3.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>NEC</td>
-  <td>4,080,003</td>
-  <td>
-    
-    
-    25.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>S32</td>
-  <td>3,669,081</td>
-  <td>
-    
-    
-    8.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>SGQ</td>
-  <td>3,611,550</td>
-  <td>
-    
-    
-    12.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>CXO</td>
-  <td>3,461,811</td>
-  <td>
-    
-    
-    14.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>VCX</td>
-  <td>2,599,931</td>
-  <td>
-    
-    
-    5.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>LKY</td>
-  <td>2,463,902</td>
-  <td>
-    
-    
-    97.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>ILU</td>
-  <td>2,415,545</td>
-  <td>
-    
-    
-    56.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>RSG</td>
-  <td>2,382,651</td>
-  <td>
-    
-    
-    11.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>TWE</td>
-  <td>2,151,847</td>
-  <td>
-    
-    
-    26.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>BGL</td>
-  <td>2,136,523</td>
-  <td>
-    
-    
-    14.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>FMG</td>
-  <td>1,980,255</td>
-  <td>
-    
-    
-    6.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>IGO</td>
-  <td>1,907,184</td>
-  <td>
-    
-    
-    25.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>BRN</td>
-  <td>1,886,899</td>
-  <td>
-    
-    
-    9.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>BOE</td>
-  <td>1,873,256</td>
-  <td>
-    
-    
-    45.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>WHC</td>
-  <td>1,812,665</td>
-  <td>
-    
-    
-    21.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>DTR</td>
-  <td>1,744,403</td>
-  <td>
-    
-    
-    5.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>DRO</td>
-  <td>1,682,586</td>
-  <td>
-    
-    
-    19.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>MPL</td>
-  <td>1,653,391</td>
-  <td>
-    
-    
-    6.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>INR</td>
-  <td>1,613,533</td>
-  <td>
-    
-    
-    6.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
+<table class="filterable">
+<tr><th>Code</th><th>Sector</th><th>Gross</th><th>% Issued</th><th>Flags</th></tr>
 
 </table></div>
 <div>
 <h3>Top by % issued</h3>
-<table>
-<tr><th>Code</th><th>Gross</th><th>% Issued</th><th>Flags</th></tr>
-
-<tr>
-  <td>LKY</td>
-  <td>2,463,902</td>
-  <td>
-    
-    97.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>MNRS</td>
-  <td>114,442</td>
-  <td>
-    
-    96.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>PLS</td>
-  <td>24,946,328</td>
-  <td>
-    
-    77.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>GCQF</td>
-  <td>256,617</td>
-  <td>
-    
-    73.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>QBTC</td>
-  <td>5,447</td>
-  <td>
-    
-    72.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>LEND</td>
-  <td>65,260</td>
-  <td>
-    
-    65.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>MQSD</td>
-  <td>22,115</td>
-  <td>
-    
-    64.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>GAME</td>
-  <td>10,557</td>
-  <td>
-    
-    63.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>SNAS</td>
-  <td>19,912</td>
-  <td>
-    
-    60.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>ILU</td>
-  <td>2,415,545</td>
-  <td>
-    
-    56.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>BSUB</td>
-  <td>77,132</td>
-  <td>
-    
-    55.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>JEGA</td>
-  <td>1,395</td>
-  <td>
-    
-    49.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>MIN</td>
-  <td>914,578</td>
-  <td>
-    
-    46.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>XMET</td>
-  <td>13,682</td>
-  <td>
-    
-    46.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>VDAL</td>
-  <td>10,355</td>
-  <td>
-    
-    46.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>BOE</td>
-  <td>1,873,256</td>
-  <td>
-    
-    45.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>BBOZ</td>
-  <td>47,200</td>
-  <td>
-    
-    42.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>JEPI</td>
-  <td>11,253</td>
-  <td>
-    
-    37.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>GXAI</td>
-  <td>36,192</td>
-  <td>
-    
-    36.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>FLT</td>
-  <td>770,583</td>
-  <td>
-    
-    35.0%
-  </td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>LNAS</td>
-  <td>20,974</td>
-  <td>
-    
-    34.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>FANG</td>
-  <td>138,006</td>
-  <td>
-    
-    33.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>EMKT</td>
-  <td>35,395</td>
-  <td>
-    
-    33.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>BTXX</td>
-  <td>4,844</td>
-  <td>
-    
-    31.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr>
-  <td>MQYM</td>
-  <td>817</td>
-  <td>
-    
-    30.0%
-  </td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
+<table class="filterable">
+<tr><th>Code</th><th>Sector</th><th>Gross</th><th>% Issued</th><th>Flags</th></tr>
 
 </table></div>
 </div>
@@ -711,269 +54,1301 @@
 <div class="grid">
 <div>
 <h3>High % Shorted</h3>
-<table>
-<tr><th>Code</th><th>% Short</th><th>Δ pp</th><th>Flags</th></tr>
+<table class="filterable">
+<tr><th>Code</th><th>Sector</th><th>% Short</th><th>Δ pp</th></tr>
 
-<tr>
-  <td>AEL</td>
-  <td>97.88</td>
+<tr data-code="BOE" data-sector="Unknown">
+  <td>BOE</td>
+  <td>Unknown</td>
+  <td>19.54</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>ALX</td>
-  <td>97.38</td>
+<tr data-code="PDN" data-sector="Unknown">
+  <td>PDN</td>
+  <td>Unknown</td>
+  <td>17.46</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>GGP</td>
-  <td>96.87</td>
+<tr data-code="PLS" data-sector="Materials">
+  <td>PLS</td>
+  <td>Materials</td>
+  <td>16.83</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>CHC</td>
-  <td>96.31</td>
+<tr data-code="IEL" data-sector="Unknown">
+  <td>IEL</td>
+  <td>Unknown</td>
+  <td>14.35</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>EL8</td>
-  <td>96.3</td>
+<tr data-code="PNV" data-sector="Unknown">
+  <td>PNV</td>
+  <td>Unknown</td>
+  <td>12.12</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>ASB</td>
-  <td>95.56</td>
+<tr data-code="MIN" data-sector="Unknown">
+  <td>MIN</td>
+  <td>Unknown</td>
+  <td>11.58</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>WOW</td>
-  <td>95.5</td>
+<tr data-code="PWH" data-sector="Unknown">
+  <td>PWH</td>
+  <td>Unknown</td>
+  <td>10.9</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>SVL</td>
-  <td>94.91</td>
+<tr data-code="LOT" data-sector="Unknown">
+  <td>LOT</td>
+  <td>Unknown</td>
+  <td>10.35</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>TLC</td>
-  <td>94.66</td>
+<tr data-code="CTD" data-sector="Unknown">
+  <td>CTD</td>
+  <td>Unknown</td>
+  <td>9.94</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>JDO</td>
-  <td>92.21</td>
+<tr data-code="GYG" data-sector="Unknown">
+  <td>GYG</td>
+  <td>Unknown</td>
+  <td>9.8</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>WA1</td>
-  <td>90.51</td>
+<tr data-code="LIC" data-sector="Unknown">
+  <td>LIC</td>
+  <td>Unknown</td>
+  <td>9.57</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>CNU</td>
-  <td>89.97</td>
+<tr data-code="DMP" data-sector="Unknown">
+  <td>DMP</td>
+  <td>Unknown</td>
+  <td>9.46</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>SLC</td>
-  <td>89.95</td>
+<tr data-code="CTT" data-sector="Unknown">
+  <td>CTT</td>
+  <td>Unknown</td>
+  <td>9.32</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>SIQ</td>
-  <td>89.84</td>
+<tr data-code="ILU" data-sector="Unknown">
+  <td>ILU</td>
+  <td>Unknown</td>
+  <td>9.15</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>SRL</td>
-  <td>89.83</td>
+<tr data-code="SLX" data-sector="Unknown">
+  <td>SLX</td>
+  <td>Unknown</td>
+  <td>8.85</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>SRG</td>
-  <td>89.62</td>
+<tr data-code="FLT" data-sector="Unknown">
+  <td>FLT</td>
+  <td>Unknown</td>
+  <td>8.2</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>HVN</td>
-  <td>89.42</td>
+<tr data-code="DYL" data-sector="Unknown">
+  <td>DYL</td>
+  <td>Unknown</td>
+  <td>8.11</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>A1N</td>
-  <td>87.16</td>
+<tr data-code="NAN" data-sector="Unknown">
+  <td>NAN</td>
+  <td>Unknown</td>
+  <td>8.06</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>SX2</td>
-  <td>87.13</td>
+<tr data-code="MVF" data-sector="Unknown">
+  <td>MVF</td>
+  <td>Unknown</td>
+  <td>7.51</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>CXL</td>
-  <td>85.63</td>
+<tr data-code="NXT" data-sector="Unknown">
+  <td>NXT</td>
+  <td>Unknown</td>
+  <td>7.26</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>AGE</td>
-  <td>85.29</td>
+<tr data-code="CU6" data-sector="Unknown">
+  <td>CU6</td>
+  <td>Unknown</td>
+  <td>6.98</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>BGA</td>
-  <td>85.26</td>
+<tr data-code="KAR" data-sector="Unknown">
+  <td>KAR</td>
+  <td>Unknown</td>
+  <td>6.75</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>ABY</td>
-  <td>84.72</td>
+<tr data-code="SGR" data-sector="Unknown">
+  <td>SGR</td>
+  <td>Unknown</td>
+  <td>6.66</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>HSN</td>
-  <td>84.1</td>
+<tr data-code="VUL" data-sector="Unknown">
+  <td>VUL</td>
+  <td>Unknown</td>
+  <td>6.43</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
-<tr>
-  <td>CLW</td>
-  <td>79.71</td>
+<tr data-code="CUV" data-sector="Unknown">
+  <td>CUV</td>
+  <td>Unknown</td>
+  <td>6.26</td>
   <td>0.0</td>
-  <td>
-    <span class="pill flag">%</span>
-    
-  </td>
 </tr>
 
 </table></div>
 <div>
 <h3>Big Δ day-over-day</h3>
-<table>
-<tr><th>Code</th><th>% Short</th><th>Δ pp</th><th>Flags</th></tr>
+<table class="filterable">
+<tr><th>Code</th><th>Sector</th><th>% Short</th><th>Δ pp</th></tr>
+
+<tr data-code="BOE" data-sector="Unknown">
+  <td>BOE</td>
+  <td>Unknown</td>
+  <td>19.54</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="GNC" data-sector="Unknown">
+  <td>GNC</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ATC" data-sector="Unknown">
+  <td>ATC</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ENL" data-sector="Unknown">
+  <td>ENL</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ORD" data-sector="Unknown">
+  <td>ORD</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="GG8" data-sector="Unknown">
+  <td>GG8</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="OCL" data-sector="Unknown">
+  <td>OCL</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="KNI" data-sector="Unknown">
+  <td>KNI</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="DGL" data-sector="Unknown">
+  <td>DGL</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="SCG" data-sector="Unknown">
+  <td>SCG</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="CPV" data-sector="Unknown">
+  <td>CPV</td>
+  <td>Unknown</td>
+  <td>0.07</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ABG" data-sector="Unknown">
+  <td>ABG</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="KNB" data-sector="Unknown">
+  <td>KNB</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="RCE" data-sector="Unknown">
+  <td>RCE</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="PRU" data-sector="Unknown">
+  <td>PRU</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="EGR" data-sector="Unknown">
+  <td>EGR</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ALK" data-sector="Unknown">
+  <td>ALK</td>
+  <td>Unknown</td>
+  <td>0.07</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="CMW" data-sector="Unknown">
+  <td>CMW</td>
+  <td>Unknown</td>
+  <td>0.07</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="QAN" data-sector="Unknown">
+  <td>QAN</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="CVN" data-sector="Unknown">
+  <td>CVN</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="EIQ" data-sector="Unknown">
+  <td>EIQ</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="SS1" data-sector="Unknown">
+  <td>SS1</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="IRE" data-sector="Unknown">
+  <td>IRE</td>
+  <td>Unknown</td>
+  <td>0.11</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="PCL" data-sector="Unknown">
+  <td>PCL</td>
+  <td>Unknown</td>
+  <td>0.1</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="PEB" data-sector="Unknown">
+  <td>PEB</td>
+  <td>Unknown</td>
+  <td>0.1</td>
+  <td>0.0</td>
+</tr>
 
 </table></div>
 </div>
 
-<footer><p style="margin-top:1rem;color:#666;font-size:.85rem;">
-“% Issued” = Gross short sales / Issued Capital × 100. ASIC short positions are outstanding shorts (T+4 lag), not daily flow.
+<h3>Likely covering (largest decreases)</h3>
+<table class="filterable">
+<tr><th>Code</th><th>Sector</th><th>% Short</th><th>Δ pp</th><th>Δ shares</th></tr>
+
+<tr data-code="BOE" data-sector="Unknown">
+  <td>BOE</td>
+  <td>Unknown</td>
+  <td>19.54</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="ATC" data-sector="Unknown">
+  <td>ATC</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="ENL" data-sector="Unknown">
+  <td>ENL</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="ORD" data-sector="Unknown">
+  <td>ORD</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="GG8" data-sector="Unknown">
+  <td>GG8</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="OCL" data-sector="Unknown">
+  <td>OCL</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="KNI" data-sector="Unknown">
+  <td>KNI</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="DGL" data-sector="Unknown">
+  <td>DGL</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="GNC" data-sector="Unknown">
+  <td>GNC</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="SCG" data-sector="Unknown">
+  <td>SCG</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="ABG" data-sector="Unknown">
+  <td>ABG</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="KNB" data-sector="Unknown">
+  <td>KNB</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="RCE" data-sector="Unknown">
+  <td>RCE</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="PRU" data-sector="Unknown">
+  <td>PRU</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="EGR" data-sector="Unknown">
+  <td>EGR</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="ALK" data-sector="Unknown">
+  <td>ALK</td>
+  <td>Unknown</td>
+  <td>0.07</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="QAN" data-sector="Unknown">
+  <td>QAN</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="CMW" data-sector="Unknown">
+  <td>CMW</td>
+  <td>Unknown</td>
+  <td>0.07</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="CVN" data-sector="Unknown">
+  <td>CVN</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="SS1" data-sector="Unknown">
+  <td>SS1</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="IRE" data-sector="Unknown">
+  <td>IRE</td>
+  <td>Unknown</td>
+  <td>0.11</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="PCL" data-sector="Unknown">
+  <td>PCL</td>
+  <td>Unknown</td>
+  <td>0.1</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="PEB" data-sector="Unknown">
+  <td>PEB</td>
+  <td>Unknown</td>
+  <td>0.1</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="ARX" data-sector="Unknown">
+  <td>ARX</td>
+  <td>Unknown</td>
+  <td>0.1</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+<tr data-code="FEX" data-sector="Unknown">
+  <td>FEX</td>
+  <td>Unknown</td>
+  <td>0.1</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+</table>
+
+<h3>High Days-to-Cover (hardest to unwind)</h3>
+<table class="filterable">
+<tr><th>Code</th><th>Sector</th><th>% Short</th><th>DTC (days)</th><th>ADV (shares)</th></tr>
+
+
+
+
+<tr data-code="BOE" data-sector="Unknown" class="dtc-0-1">
+  <td>BOE</td>
+  <td>Unknown</td>
+  <td>19.54</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="GNC" data-sector="Unknown" class="dtc-0-1">
+  <td>GNC</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="ATC" data-sector="Unknown" class="dtc-0-1">
+  <td>ATC</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="ENL" data-sector="Unknown" class="dtc-0-1">
+  <td>ENL</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="ORD" data-sector="Unknown" class="dtc-0-1">
+  <td>ORD</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="GG8" data-sector="Unknown" class="dtc-0-1">
+  <td>GG8</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="OCL" data-sector="Unknown" class="dtc-0-1">
+  <td>OCL</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="KNI" data-sector="Unknown" class="dtc-0-1">
+  <td>KNI</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="DGL" data-sector="Unknown" class="dtc-0-1">
+  <td>DGL</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="SCG" data-sector="Unknown" class="dtc-0-1">
+  <td>SCG</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="CPV" data-sector="Unknown" class="dtc-0-1">
+  <td>CPV</td>
+  <td>Unknown</td>
+  <td>0.07</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="ABG" data-sector="Unknown" class="dtc-0-1">
+  <td>ABG</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="KNB" data-sector="Unknown" class="dtc-0-1">
+  <td>KNB</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="RCE" data-sector="Unknown" class="dtc-0-1">
+  <td>RCE</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="PRU" data-sector="Unknown" class="dtc-0-1">
+  <td>PRU</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="EGR" data-sector="Unknown" class="dtc-0-1">
+  <td>EGR</td>
+  <td>Unknown</td>
+  <td>0.08</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="ALK" data-sector="Unknown" class="dtc-0-1">
+  <td>ALK</td>
+  <td>Unknown</td>
+  <td>0.07</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="CMW" data-sector="Unknown" class="dtc-0-1">
+  <td>CMW</td>
+  <td>Unknown</td>
+  <td>0.07</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="QAN" data-sector="Unknown" class="dtc-0-1">
+  <td>QAN</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="CVN" data-sector="Unknown" class="dtc-0-1">
+  <td>CVN</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="EIQ" data-sector="Unknown" class="dtc-0-1">
+  <td>EIQ</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="SS1" data-sector="Unknown" class="dtc-0-1">
+  <td>SS1</td>
+  <td>Unknown</td>
+  <td>0.09</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="IRE" data-sector="Unknown" class="dtc-0-1">
+  <td>IRE</td>
+  <td>Unknown</td>
+  <td>0.11</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="PCL" data-sector="Unknown" class="dtc-0-1">
+  <td>PCL</td>
+  <td>Unknown</td>
+  <td>0.1</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+
+
+
+<tr data-code="PEB" data-sector="Unknown" class="dtc-0-1">
+  <td>PEB</td>
+  <td>Unknown</td>
+  <td>0.1</td>
+  <td>0.0</td>
+  <td>0</td>
+</tr>
+
+</table>
+
+<h3>Covering score (3-day window)</h3>
+<table class="filterable">
+<tr><th>Code</th><th>Neg days</th><th>Σ Δshares↓</th><th>Σ Δpp↓</th><th>Score</th></tr>
+
+<tr data-code="29M">
+  <td>29M</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="360">
+  <td>360</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="3DA">
+  <td>3DA</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="4DX">
+  <td>4DX</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="88E">
+  <td>88E</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="A1M">
+  <td>A1M</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="A1N">
+  <td>A1N</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="A2M">
+  <td>A2M</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="A4N">
+  <td>A4N</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AAA">
+  <td>AAA</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AAC">
+  <td>AAC</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AAI">
+  <td>AAI</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AAR">
+  <td>AAR</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ABB">
+  <td>ABB</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ABG">
+  <td>ABG</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ABY">
+  <td>ABY</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ACF">
+  <td>ACF</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ACL">
+  <td>ACL</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AD8">
+  <td>AD8</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ADH">
+  <td>ADH</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ADT">
+  <td>ADT</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AEE">
+  <td>AEE</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AEF">
+  <td>AEF</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AEL">
+  <td>AEL</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AFG">
+  <td>AFG</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+</table>
+
+<h3>Covering score (5-day window)</h3>
+<table class="filterable">
+<tr><th>Code</th><th>Neg days</th><th>Σ Δshares↓</th><th>Σ Δpp↓</th><th>Score</th></tr>
+
+<tr data-code="29M">
+  <td>29M</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="360">
+  <td>360</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="3DA">
+  <td>3DA</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="4DX">
+  <td>4DX</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="88E">
+  <td>88E</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="A1M">
+  <td>A1M</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="A1N">
+  <td>A1N</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="A2M">
+  <td>A2M</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="A4N">
+  <td>A4N</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AAA">
+  <td>AAA</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AAC">
+  <td>AAC</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AAI">
+  <td>AAI</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AAR">
+  <td>AAR</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ABB">
+  <td>ABB</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ABG">
+  <td>ABG</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ABY">
+  <td>ABY</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ACF">
+  <td>ACF</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ACL">
+  <td>ACL</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AD8">
+  <td>AD8</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ADH">
+  <td>ADH</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="ADT">
+  <td>ADT</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AEE">
+  <td>AEE</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AEF">
+  <td>AEF</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AEL">
+  <td>AEL</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+<tr data-code="AFG">
+  <td>AFG</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0.0</td>
+  <td>0.0</td>
+</tr>
+
+</table>
+
+
+<h2>History</h2>
+<div class="grid">
+  
+  <div>
+    <img src="charts/asic_pctshort_top5_60d.png" alt="chart" style="max-width:100%;height:auto;border:1px solid #eee;padding:4px;border-radius:8px;">
+  </div>
+  
+</div>
+
+
+<footer><p class="muted" style="margin-top:1rem;">
+“% Issued” uses total issued capital (not free float). ASIC table shows outstanding shorts (T+4). DTC = ShortedShares / ADV over config window. Covering scores use sums of negative Δshares and Δpp over rolling 3/5 days.
 </p></footer>
+
+<script>
+(function(){
+  const sectorSel = document.getElementById('sectorFilter');
+  const codeInp = document.getElementById('codeFilter');
+  function applyFilters(){
+    const sector = (sectorSel.value || 'All').toLowerCase();
+    const code = (codeInp.value || '').toLowerCase().trim();
+    document.querySelectorAll('table.filterable tr[data-code]').forEach(tr => {
+      const rowSector = (tr.getAttribute('data-sector') || 'Unknown').toLowerCase();
+      const rowCode = (tr.getAttribute('data-code') || '').toLowerCase();
+      let ok = true;
+      if (sector !== 'all' && rowSector !== sector) ok = false;
+      if (code && !rowCode.includes(code)) ok = false;
+      tr.classList.toggle('hidden', !ok);
+    });
+  }
+  sectorSel.addEventListener('change', applyFilters);
+  codeInp.addEventListener('input', applyFilters);
+  applyFilters();
+})();
+</script>
 </body></html>
