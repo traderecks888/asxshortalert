@@ -1,4 +1,5 @@
-# scripts/pipeline.py
+# scripts/pipeline.py (static sectors variant)
+
 import os
 from datetime import datetime, timedelta, timezone
 import pandas as pd
@@ -10,7 +11,7 @@ from render import render_dashboard
 from history import update_history_and_charts
 from adv import fetch_adv
 from scoring import covering_scores
-from sectors import resolve_sectors, attach_sectors
+from sectors_static import load_static_map, attach_sectors_static
 
 UTC = timezone.utc
 AWST_OFFSET_HOURS = 8  # Perth is UTC+8 (no DST)
@@ -91,36 +92,20 @@ if __name__ == "__main__":
             pos_sig["ADV"] = 0.0
             pos_sig["DaysToCover"] = 0.0
 
-    # 4) Sector resolution (CSV overrides -> cache -> Yahoo) for ALL codes observed today
-    code_set = set()
-    if not gross_sig.empty and "Code" in gross_sig.columns:
-        code_set.update(gross_sig["Code"].dropna().astype(str).str.upper().tolist())
-    if not pos_sig.empty and "Code" in pos_sig.columns:
-        code_set.update(pos_sig["Code"].dropna().astype(str).str.upper().tolist())
-
-    if code_set:
-        sec_df = resolve_sectors(sorted(code_set))
-        # Optionally: write a human-readable snapshot
-        try:
-            os.makedirs("data", exist_ok=True)
-            sec_df.to_csv("data/sectors_resolved_today.csv", index=False)
-        except Exception:
-            pass
-        gross_sig = attach_sectors(gross_sig, sec_df)
-        pos_sig   = attach_sectors(pos_sig, sec_df)
-    else:
-        if not gross_sig.empty: gross_sig["Sector"] = "Unknown"
-        if not pos_sig.empty:   pos_sig["Sector"]   = "Unknown"
+    # 4) Attach static sectors; log unknowns for quarterly upkeep
+    smap = load_static_map()
+    gross_sig = attach_sectors_static(gross_sig, smap, log_path="data/sectors_unknown_today.csv")
+    pos_sig   = attach_sectors_static(pos_sig,   smap, log_path="data/sectors_unknown_today.csv")
 
     # 5) Prep panels
-    gross_top_qty = _safe_top(gross_sig, "Gross_num", cfg.get("gross_shorts", {}).get("top_n", 25))
-    gross_top_pct = _safe_top(gross_sig, "PctGrossVsIssuedPct_num", cfg.get("gross_shorts", {}).get("top_n", 25))
-
     if not pos_sig.empty:
         pos_sig["PctShort_pp_num"] = pd.to_numeric(pos_sig.get("PctShort_pp"), errors="coerce").fillna(0.0)
         pos_sig["Delta_pp_num"]    = pd.to_numeric(pos_sig.get("Delta_pp"),    errors="coerce").fillna(0.0)
         pos_sig["DeltaShares_num"] = pd.to_numeric(pos_sig.get("DeltaShares"), errors="coerce").fillna(0.0)
         pos_sig["DaysToCover_num"] = pd.to_numeric(pos_sig.get("DaysToCover"), errors="coerce").fillna(0.0)
+
+    gross_top_qty = _safe_top(gross_sig, "Gross_num", cfg.get("gross_shorts", {}).get("top_n", 25))
+    gross_top_pct = _safe_top(gross_sig, "PctGrossVsIssuedPct_num", cfg.get("gross_shorts", {}).get("top_n", 25))
 
     pos_high  = pos_sig.sort_values("PctShort_pp_num", ascending=False).head(top_n_pos).to_dict(orient="records") if not pos_sig.empty else []
     pos_delta = pos_sig.sort_values("Delta_pp_num",    ascending=False).head(top_n_pos).to_dict(orient="records") if not pos_sig.empty else []
@@ -130,7 +115,7 @@ if __name__ == "__main__":
     # 6) API, history & charts
     charts = update_history_and_charts(gross_sig, pos_sig, yday_awst, asic_date)
 
-    # 7) 3/5-day covering scores from history
+    # 7) Scores
     cov3 = covering_scores(3); cov5 = covering_scores(5)
     cov3_list = cov3.head(top_n_pos).to_dict(orient="records") if not cov3.empty else []
     cov5_list = cov5.head(top_n_pos).to_dict(orient="records") if not cov5.empty else []
