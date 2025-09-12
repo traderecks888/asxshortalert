@@ -1,24 +1,1995 @@
 Code,Sector
-BHP,Materials
-CBA,Financials
-CSL,Health Care
-NAB,Financials
-WBC,Financials
+14D,Industrials
+29M,Materials
+T3D,Industrials
+TGP,Financial Services
+TCF,Not Applic
+TOT,Equity Real Estate Investment Trusts (REITs)
+TDO,Energy
+3PL,Consumer Discretionary
+4DX,Health Care
+4DS,Information Technology
+5EA,Materials
+5GN,Information Technology
+88E,Energy
+8CO,Information Technology
+8IH,Financial Services
+ABG,Equity Real Estate Investment Trusts (REITs)
+ASK,Equity Real Estate Investment Trusts (REITs)
+ABX,Materials
+AKG,Consumer Discretionary
+AX8,Materials
+AX1,Consumer Discretionary Distribution & Retail
+ACS,Materials
+ADC,Materials
+ACQ,Not Applic
+ACF,Industrials
+ACR,Health Care
+ACW,Health Care
+ATV,Information Technology
+AIV,Materials
+ACU,Real Estate Management & Development
+ACE,Information Technology
+ADH,Consumer Discretionary Distribution & Retail
+1AD,Health Care
+ADD,Energy
+ADG,Materials
+ADR,Health Care
+AI1,Information Technology
+ADY,Materials
+AD1,Communication Services
+ABY,Consumer Discretionary Distribution & Retail
+AHL,Consumer Discretionary
+ADS,Information Technology
+AVM,Materials
+ANO,Materials
+ABV,Consumer Discretionary
+AHI,Information Technology
+AV1,Information Technology
+ADX,Energy
+AER,Communication Services
+AEI,Industrials
+AIS,Materials
+AMX,Industrials
+AFL,Industrials
+AF3,Not Applic
+AFT,Not Applic
+AF4,Not Applic
+AF5,Not Applic
+A1G,Materials
+AFP,Health Care
+AGL,Utilities
+AMN,Materials
+AGR,Materials
+AIM,Industrials
+A1M,Materials
+APW,Equity Real Estate Investment Trusts (REITs)
+AGI,Consumer Discretionary
+AIZ,Industrials
+ART,Communication Services
+AJL,Industrials
+AKO,Materials
+AUQ,Materials
+ALB,Materials
+ALY,Materials
+ALC,Health Care
+AAI,Materials
+ARN,Materials
+AJX,Materials
+AAL,Industrials
+1AI,Health Care
+AQI,Materials
+AQX,Materials
+ALK,Materials
+AQZ,Industrials
+AXN,Materials
+AGE,Energy
+ALM,Energy
+AII,Materials
+A4N,Materials
+ALQ,Industrials
+ALR,Materials
+AZI,Materials
+ATC,Materials
+ATH,Health Care
+AIQ,Not Applic
+AGH,Health Care
+ATT,Materials
+ALV,Materials
+AMA,Industrials
+3DA,Industrials
+AMO,Information Technology
+AMH,Not Applic
+AMC,Materials
+ARR,Materials
+AMU,Materials
+AW1,Materials
+AL3,Industrials
+AOV,Consumer Discretionary
+AMP,Financial Services
+ATX,Health Care
+AEL,Energy
+ALD,Energy
+AN1,Health Care
+ANR,Health Care
+ANX,Materials
+ASL,Materials
+ADN,Materials
+ATM,Materials
+AF2,Not Applic
+ANN,Health Care
+ASN,Materials
+AM5,Materials
+ADO,Health Care
+AVR,Health Care
+AAU,Materials
+AZY,Materials
 ANZ,Financials
-WES,Consumer Staples
-WOW,Consumer Staples
-TLS,Communication Services
-MQG,Financials
-RIO,Materials
-FMG,Materials
-GMG,Real Estate
-TCL,Industrials
-WDS,Energy
-REA,Communication Services
-RMD,Health Care
-XRO,Information Technology
+APA,Utilities
+AP2,Not Applic
+APC,Materials
+AHX,Health Care
+AON,Materials
+AO2,Not Applic
+AO3,Not Applic
+APX,Information Technology
+AQN,Industrials
+ARU,Materials
+ARB,Consumer Discretionary
+ARC,Financial Services
+AM7,Materials
+AXE,Information Technology
+AR9,Information Technology
+ARL,Materials
+ADV,Materials
+ARF,Equity Real Estate Investment Trusts (REITs)
+AGN,Health Care
+RGT,Health Care
+ARD,Materials
+ALI,Not Applic
+ARG,Not Applic
+AGY,Materials
+ARA,Industrials
+AA2,Materials
+ARI,Materials
 ALL,Consumer Discretionary
-COL,Consumer Staples
-PLS,Materials
+AZL,Materials
+AHK,Materials
+A1N,Communication Services
+ARX,Health Care
+ALA,Health Care
+AMD,Materials
+ARV,Materials
+ATG,Consumer Discretionary Distribution & Retail
+AYA,Health Care
+AAJ,Materials
+AS1,Materials
+AFA,Financial Services
+ASH,Industrials
+AZ9,Materials
+ATB,Not Applic
+AS2,Materials
+APZ,Equity Real Estate Investment Trusts (REITs)
+ASP,Communication Services
+AKM,Materials
+ASR,Materials
+ASV,Industrials
+AOH,Financial Services
+AO1,Information Technology
+APL,Financial Services
+AAR,Materials
+ATR,Materials
+ASE,Materials
+ASX,Financial Services
+AHN,Materials
+A11,Materials
+ALX,Industrials
+ATP,Consumer Discretionary
+AT1,Health Care
+AMS,Consumer Discretionary
+ATA,Information Technology
+AUB,Financials
+AIA,Industrials
+CYB,Information Technology
+ACP,Materials
+AUA,Consumer Discretionary
+AD8,Information Technology
+AKP,Consumer Discretionary
+AUG,Materials
+AKN,Materials
+AUK,Consumer Discretionary Distribution & Retail
+AAM,Materials
+AEE,Energy
+AUV,Materials
+AKA,Materials
+AMI,Materials
+AWJ,Materials
+AUR,Materials
+AZJ,Industrials
+1AE,Materials
+A3D,Industrials
+AUE,Materials
+AUN,Materials
+AUC,Materials
+AOA,Materials
+ANV,Not Applic
+AQD,Materials
+ABB,Communication Services
+ASB,Industrials
+AUH,Energy
+AHC,Health Care
+ANG,Industrials
+AYT,Materials
+AGD,Materials
+AR1,Materials
+A8G,Materials
+AN3,Not Applic
+AYM,Materials
+AAC,"Food, Beverage & Tobacco"
+AAP,"Food, Beverage & Tobacco"
+ABE,Financial Services
+ACL,Health Care
+XCL,Not Applic
+ACM,Materials
+AHF,"Food, Beverage & Tobacco"
+AEF,Financial Services
+AFG,Financial Services
+AFI,Not Applic
+AGC,Materials
+AUZ,Materials
+AOK,Energy
+AQC,Materials
+AR3,Materials
+ASQ,Materials
+ASM,Materials
+AUI,Not Applic
+AYU,Not Applic
+AOF,Equity Real Estate Investment Trusts (REITs)
+AVL,Materials
+AVG,"Food, Beverage & Tobacco"
+ATS,Energy
+ASG,Consumer Discretionary Distribution & Retail
+AVA,Information Technology
+AVD,Industrials
+AVE,Health Care
+AEV,Materials
+AVW,Materials
+AVH,Health Care
+AXL,Materials
+AXI,Real Estate Management & Development
+AXP,Energy
+BBN,Consumer Discretionary Distribution & Retail
+BPP,Industrials
+BTI,Financial Services
+BM1,Materials
+BMR,Materials
+B01,Not Applic
+BOQ,Financials
+BMN,Energy
+BAP,Consumer Discretionary Distribution & Retail
+BGD,Materials
+BSN,Energy
+BAS,Energy
+BMO,Materials
+BRL,Materials
+BM8,Materials
+BMH,Industrials
+BMM,Materials
+BDX,Health Care
+BCI,Materials
+BPT,Energy
+BLX,Consumer Discretionary Distribution & Retail
+BCN,Materials
+BCC,Information Technology
+BMT,Health Care
+BTL,Energy
+B4P,Financial Services
+BGA,"Food, Beverage & Tobacco"
+BRX,Materials
+BFG,Financial Services
+BVR,Materials
+BGL,Materials
+BEN,Financials
+BHD,Not Applic
+BEL,Not Applic
+BNZ,Materials
+BEO,Information Technology
+BKY,Energy
+BEZ,Materials
+BET,Consumer Discretionary
+BBT,Consumer Discretionary
+BWN,Industrials
+BHP,Materials
+BRI,Materials
+BIM,Materials
+BGT,Materials
+BIO,Consumer Staples
+BIT,Health Care
+BXN,Consumer Staples
+BIS,Materials
+BKI,Not Applic
+BCA,Materials
+BC8,Materials
+BDG,Materials
+BPG,Class Pend
+BKT,Materials
+BSX,Materials
+BWF,Financial Services
+BLZ,Energy
+BB1,Health Care
+XYZ,Financial Services
+BLU,Energy
+BNL,Energy
+BSL,Materials
+BS1,Not Applic
+BLG,Information Technology
+BMG,Materials
+BBC,Financials
+BOA,Materials
+BML,Materials
+BOD,Consumer Discretionary Distribution & Retail
+BOL,Industrials
+BOE,Energy
+BTE,Energy
+BOT,Health Care
+BOC,Materials
+BUY,Energy
+BCB,Materials
+BP1,Not Applic
+BPH,Financial Services
+BP8,Health Care
+BPM,Materials
+BRN,Information Technology
+BXB,Industrials
+BVS,Information Technology
+BCM,Materials
+BRE,Materials
+BTM,Energy
+BRG,Consumer Discretionary
+BKW,Materials
+BGE,Information Technology
+BTR,Materials
+BBL,Communication Services
+BGP,Consumer Discretionary Distribution & Retail
+BCK,Materials
+BHM,Materials
+BRK,Energy
+BYH,Materials
+BSA,Industrials
+BFL,Financials
+BTC,Not Applic
+BUS,Materials
+BUB,"Food, Beverage & Tobacco"
+BNR,Materials
+BDM,Materials
+BUR,Materials
+BRU,Energy
+BTN,Financial Services
+BUX,Materials
+BWE,Industrials
+BWP,Equity Real Estate Investment Trusts (REITs)
+C29,Materials
+CDM,Not Applic
+CDO,Not Applic
+CCM,Materials
+DXA,Not Applic
+CXL,Materials
+CMB,Health Care
+CHL,Industrials
+CP8,Materials
+CAN,Health Care
+CAE,Materials
+CBY,Materials
+CAY,Materials
+CAA,Materials
+CRS,Materials
+CMM,Materials
+CSC,Materials
+CAQ,Real Estate Management & Development
+CAR,Communication Services
+CVV,Materials
+CWX,Materials
+CRB,Materials
+CG1,Materials
+CDX,Health Care
+CTQ,Health Care
+CDP,Equity Real Estate Investment Trusts (REITs)
+CIN,Not Applic
+CNB,Materials
+CVN,Energy
+CAV,Materials
+CCE,Utilities
+CCV,Financial Services
+CPN,Materials
+CMD,Materials
+CST,Materials
+CDT,Materials
+CTN,Materials
+CYL,Materials
+CAT,Information Technology
+CXU,Energy
+CVR,Materials
+CAZ,Materials
+CD1,Not Applic
+CD2,Not Applic
+CD3,Not Applic
+CWP,Real Estate Management & Development
+CLA,Materials
+CTM,Materials
+CTP,Energy
+CAF,Financial Services
+CNI,Equity Real Estate Investment Trusts (REITs)
+C2F,Not Applic
+CIP,Equity Real Estate Investment Trusts (REITs)
+COF,Equity Real Estate Investment Trusts (REITs)
+CTT,Consumer Discretionary Distribution & Retail
+CGR,Materials
+CHN,Materials
+CEL,Materials
+CIM,Not Applic
+CGF,Financial Services
+CIA,Materials
+CCA,Financial Services
+CHR,Materials
+CC9,Materials
+CHC,Equity Real Estate Investment Trusts (REITs)
+CLW,Equity Real Estate Investment Trusts (REITs)
+CQR,Equity Real Estate Investment Trusts (REITs)
+CQE,Equity Real Estate Investment Trusts (REITs)
+CMX,Materials
+CHW,Materials
+CHM,Health Care
+CNU,Communication Services
+C79,Industrials
+CTO,Materials
+CCX,Consumer Discretionary Distribution & Retail
+CVL,Industrials
+CL8,Industrials
+C7A,Materials
+CU6,Health Care
+CLZ,Materials
+CNQ,Industrials
+CWY,Industrials
+CSX,Health Care
+CVW,Financials
+CPV,Industrials
+COV,Health Care
+CC5,Health Care
+CAM,Not Applic
+CIW,Financial Services
+CUV,Health Care
+CLG,Industrials
+CLV,Materials
+CLU,Consumer Discretionary
+CEH,Consumer Discretionary
+COB,Materials
+CBO,"Food, Beverage & Tobacco"
+CBE,Materials
+COH,Health Care
+COD,Materials
+CDA,Information Technology
+CDE,Industrials
+CDR,Materials
+COG,Financial Services
+CGS,Health Care
+CKA,Materials
+COL,Consumer Staples Distribution & Retail
+CKF,Consumer Discretionary
+COI,Energy
+CBA,Financials
+CCG,Communication Services
+CF1,Information Technology
+CMP,Health Care
+CPU,Industrials
+CND,Energy
+CNJ,Materials
+CML,Information Technology
+CXZ,Information Technology
+CRD,Energy
+CR1,Materials
+CT1,Information Technology
+CEN,Utilities
+CBL,Health Care
+CPM,Materials
+COY,Materials
+CZN,Materials
+CR3,Materials
+CXO,Materials
+CR9,Materials
+CRN,Materials
+CTD,Consumer Discretionary
+CMO,Materials
+C1X,Materials
+COS,Information Technology
+CUP,Industrials
+CYG,Industrials
+CGO,Information Technology
+CCR,Information Technology
+CCP,Financial Services
+CI1,Industrials
+CRI,Materials
+CMG,Materials
+CRR,Materials
+CMW,Equity Real Estate Investment Trusts (REITs)
+CTE,Health Care
+CPL,Not Applic
+CSL,Health Care
+CLX,Industrials
+CUE,Energy
+CUF,Materials
+CUL,Materials
+CPO,Materials
+CVB,Health Care
+CCL,Financial Services
+CVC,Financial Services
+CYQ,Consumer Discretionary
+CLE,Materials
+CYC,Health Care
+CY5,Materials
+CYP,Health Care
+CYM,Materials
+CZR,Materials
+D3E,Energy
+DAL,Materials
+DBI,Industrials
+DTM,Materials
+DTL,Information Technology
+DDT,Consumer Discretionary
+DWG,Information Technology
+DTR,Materials
+DEM,Utilities
+DAI,"Food, Beverage & Tobacco"
+DYL,Energy
+DEL,Utilities
+DLI,Materials
+DGH,Real Estate Management & Development
+DM1,Materials
+DES,Materials
+DRR,Materials
+DVP,Materials
+DEV,Energy
+DXS,Equity Real Estate Investment Trusts (REITs)
+DXC,Equity Real Estate Investment Trusts (REITs)
+DXI,Equity Real Estate Investment Trusts (REITs)
+DGL,Materials
+DGR,Materials
+DBO,Materials
+DRX,Materials
+DDR,Information Technology
+DGT,Class Pend
+DCC,Information Technology
+DXB,Health Care
+DAF,Materials
+DUI,Not Applic
+DJW,Not Applic
+DMM,Materials
+DOC,Health Care
+DME,Materials
+DN1,Not Applic
+DMP,Consumer Discretionary
+DVL,Health Care
+DTZ,Information Technology
+DOW,Industrials
+DMG,Materials
+DRE,Materials
+DA8,Not Applic
+DAM,Not Applic
+DA9,Not Applic
+DAT,Not Applic
+D10,Not Applic
+DRO,Industrials
+DTI,Information Technology
+DUB,Information Technology
+DUG,Information Technology
+DKM,Materials
+DUN,Materials
+DPM,Class Pend
+DUR,Industrials
+DSK,Consumer Discretionary Distribution & Retail
+DBF,"Food, Beverage & Tobacco"
+D2O,Utilities
+DXN,Information Technology
+DY6,Class Pend
+DYM,Materials
+DNL,Materials
+E79,Materials
+APE,Consumer Discretionary Distribution & Retail
+EM2,Materials
+EPY,Financial Services
+EE1,Materials
+EMS,Materials
+EFE,Materials
+EBO,Health Care
+EBR,Health Care
+ECH,Energy
+EIQ,Information Technology
+EPM,Energy
+EGR,Materials
+ECP,Not Applic
+ECS,Health Care
+EDE,Energy
+EDU,Consumer Discretionary
+EDC,Financial Services
+ECF,Equity Real Estate Investment Trusts (REITs)
+ENN,Consumer Discretionary
+ELD,"Food, Beverage & Tobacco"
+EOS,Industrials
+E25,Materials
+ELT,Materials
+EL8,Energy
+EXL,Consumer Staples
+EXR,Energy
+ELS,Information Technology
+EVO,Consumer Discretionary
+EMB,Industrials
+EHL,Industrials
+EMR,Materials
+EMT,Not Applic
+EMI,Not Applic
+EML,Financial Services
+ERM,Materials
+EMP,Energy
+ERL,Materials
+EMU,Materials
+EMV,Health Care
+EMD,Health Care
+ENR,Materials
+EDV,Consumer Staples Distribution & Retail
+ERG,"Food, Beverage & Tobacco"
+ENX,Materials
+EAX,Industrials
+EME,Energy
+EOL,Information Technology
+ERA,Energy
+EGY,Industrials
+ETM,Materials
+EWC,Utilities
+EGG,Communication Services
+ENL,Health Care
+ENV,Materials
+EEL,Materials
+ENT,Materials
+EAT,Communication Services
+ECT,Industrials
+EGL,Industrials
+EPN,Health Care
+EPX,Information Technology
+EQR,Materials
+EQT,Financial Services
+EQX,Materials
+EQN,Materials
+EQS,Financial Services
+ERD,Information Technology
+ESR,Materials
+ESK,Information Technology
+EGH,Real Estate Management & Development
+EMN,Materials
+EUR,Materials
+EMH,Materials
+EZL,Financial Services
+EVR,Materials
+EVE,Financial Services
+EMC,Materials
+EG1,Materials
+EV8,Materials
+EVG,Materials
+EV1,Materials
+EVN,Materials
+EVT,Communication Services
+EVZ,Industrials
+ECL,Industrials
+EXT,Information Technology
+EXP,Consumer Discretionary
+EZZ,Consumer Discretionary Distribution & Retail
+FAL,Materials
+FEG,Materials
+FAR,Energy
+FNR,Materials
+FRM,"Food, Beverage & Tobacco"
+FPC,Not Applic
+FFG,Financial Services
+FBR,Industrials
+FXG,Materials
+FLX,Information Technology
+FEX,Materials
+FFI,"Food, Beverage & Tobacco"
+FID,Financial Services
+FIN,Materials
+FRI,Real Estate Management & Development
+FDR,Energy
+FND,Information Technology
+FCL,Information Technology
+FNX,Financial Services
+FRB,Materials
+FRE,Health Care
+FFM,Materials
+FAU,Materials
+FGR,Materials
+FL1,Materials
+FM3,Not Applic
+FM2,Not Applic
+FM5,Not Applic
+FM4,Not Applic
+FM1,Not Applic
+FCT,Information Technology
+FPH,Health Care
+FZR,Energy
+FSI,Not Applic
+FLG,Materials
+FPR,Financial Services
+FWD,Consumer Discretionary
+FBU,Industrials
+FRX,Communication Services
+FLT,Consumer Discretionary
+FLC,Utilities
+FG1,Materials
+FMR,Communication Services
+FML,Materials
+FGH,Materials
+FRS,Materials
+FMG,Materials
+FTI,Communication Services
+FUN,Materials
+FOS,Industrials
+FCG,Health Care
+FHS,Materials
+FLN,Industrials
+FRW,Industrials
+FDV,Communication Services
+FHE,Materials
+FSA,Financial Services
+FUL,Materials
+FBM,Materials
+FGX,Not Applic
+FGG,Not Applic
+FME,Energy
+G11,Materials
+G50,Materials
+GEM,Consumer Discretionary
+GLN,Materials
+GAP,Consumer Discretionary
+GLL,Energy
+GAL,Materials
+GDF,Equity Real Estate Investment Trusts (REITs)
+GML,Materials
+GTH,Information Technology
+GBZ,Materials
+GDI,Equity Real Estate Investment Trusts (REITs)
+GLF,Real Estate Management & Development
+GDG,Financials
+GNE,Utilities
+GMD,Materials
+GES,Materials
+GSS,Health Care
+GTG,Health Care
+GEN,Materials
+GTK,Information Technology
+GNP,Industrials
+GPR,Materials
+GIB,Materials
+GLA,Materials
+GC1,Not Applic
+GLE,Consumer Discretionary
+GLH,Health Care
+GL1,Materials
+GFL,Not Applic
+GUE,Materials
+GLB,Consumer Discretionary
+GBE,Materials
+GRL,Materials
+GHY,Energy
+GMN,Materials
+GOR,Materials
+GCR,Materials
+GED,Materials
+GGR,Materials
+GHM,Materials
+G88,Materials
+GSM,Materials
+GMG,Equity Real Estate Investment Trusts (REITs)
+GG8,Materials
+GOW,Financial Services
+GPT,Equity Real Estate Investment Trusts (REITs)
+GQG,Financial Services
+GNG,Materials
+GNC,Consumer Staples Distribution & Retail
+GGE,Energy
+GRR,Materials
+GTI,Information Technology
+GBR,Materials
+GR8,Materials
+GDM,Materials
+GNM,Materials
+GSN,Materials
+GTE,Materials
+GGP,Materials
+GG1,Materials
+GCM,Materials
+GT1,Materials
+GT3,Materials
+H2G,Industrials
+GRE,Materials
+GRV,Energy
+GW1,Materials
+GRX,Materials
+G6M,Materials
+GOZ,Equity Real Estate Investment Trusts (REITs)
+GCI,Not Applic
+GTN,Communication Services
+GUL,Materials
+GUM,Communication Services
+GYG,Consumer Discretionary
+GWA,Industrials
+GWR,Materials
+HCF,Not Applic
+HAL,Financial Services
+HMG,Materials
+HMX,Materials
+HNG,Industrials
+HSN,Information Technology
+HAR,Materials
+HMY,Financial Services
+HT8,Industrials
+HHR,Energy
+HTG,Information Technology
+HVN,Consumer Discretionary Distribution & Retail
+HAS,Materials
+HAV,Materials
+HWK,Materials
+HIO,Materials
+HAW,Materials
+HZR,Materials
+HLS,Health Care
+HCW,Equity Real Estate Investment Trusts (REITs)
+HGH,Financials
+HM1,Not Applic
+HVY,Materials
+HRE,Materials
+HLI,Financial Services
+HE8,Energy
+HLX,Materials
+HLO,Consumer Discretionary
+HMD,Health Care
+HXL,Health Care
+HPR,Energy
+HTM,Materials
+HCL,Industrials
+HFR,Materials
+HGO,Materials
+HPG,Communication Services
+HMI,Industrials
+HIT,Industrials
+HIQ,Health Care
+HMC,Equity Real Estate Investment Trusts (REITs)
+HCT,Consumer Staples
+HDN,Equity Real Estate Investment Trusts (REITs)
+HRN,Materials
+HRZ,Materials
+HZN,Energy
+HOR,Materials
+HCH,Materials
+HUB,Financial Services
+HFY,Communication Services
+HUM,Financial Services
+HYD,Information Technology
+HCD,Energy
+HYT,Energy
+IS3,Information Technology
+IF1,Not Applic
+ICI,Communication Services
+ICL,Materials
+ICE,Information Technology
+ICN,Energy
+ID8,Information Technology
+IEL,Consumer Discretionary
+IDT,Health Care
+IGN,Industrials
+IGO,Materials
+IKE,Information Technology
+ILT,Materials
+ILU,Materials
+IMA,Materials
+IBX,Health Care
+IMD,Materials
+IME,Health Care
+IMC,Health Care
+IMM,Health Care
+IPT,Materials
+IPD,Health Care
+IPC,Financial Services
+IMR,Health Care
+IMU,Health Care
+IAM,Financial Services
+IDA,Materials
+IBK,Not Applic
+IND,Materials
+I88,Materials
+INF,Materials
+IMI,Materials
+IFG,Information Technology
+IFM,Information Technology
+IFN,Industrials
+IFT,Industrials
+INA,Equity Real Estate Investment Trusts (REITs)
+ING,"Food, Beverage & Tobacco"
+IRX,Health Care
+IIQ,Health Care
+IFL,Financial Services
+IAG,Financials
+IDX,Health Care
+IRI,Information Technology
+ICR,Health Care
+IMB,Industrials
+IEQ,Real Estate Management & Development
+IFX,Not Applic
+IG6,Industrials
+IVG,Health Care
+IVR,Materials
+ICU,Financial Services
+INV,Financial Services
+IXC,Health Care
+IVZ,Energy
+IVX,Health Care
+IOD,Information Technology
+ION,Materials
+INR,Materials
+IXR,Materials
+IPB,Energy
+IPG,Industrials
+IPX,Materials
+IPH,Industrials
+IRE,Information Technology
+IR1,Materials
+IRD,Materials
+IBC,Not Applic
+ILA,Health Care
+ITM,Materials
+IGL,Communication Services
+JGH,Materials
+JBY,Materials
+JHX,Materials
+JAL,Materials
+JAN,Information Technology
+JNS,Utilities
+JAT,Consumer Discretionary Distribution & Retail
+JAV,Materials
+JAY,Industrials
+JBH,Consumer Discretionary Distribution & Retail
+JCS,Information Technology
+JLL,Materials
+JLG,Industrials
+JYC,Consumer Discretionary Distribution & Retail
+JDO,Financials
+JIN,Consumer Discretionary
+JNO,Materials
+JPR,Energy
+JMS,Materials
+KSC,Industrials
+KAM,Financial Services
+KLR,Energy
+KAI,Materials
+KAU,Materials
+KZR,Materials
+KAL,Materials
+KM1,Materials
+KPO,Utilities
+KAR,Energy
+KAT,Not Applic
+KPG,Industrials
+KLS,Industrials
+KEY,Energy
+KBC,Financial Services
+KFW,Not Applic
+KGL,Materials
+KLI,Materials
+KSL,Financials
+KYP,Information Technology
+KCC,Materials
+KKO,Energy
+KRR,Materials
+KFM,Materials
+KIG,Not Applic
+KI1,Not Applic
+KCN,Materials
+KNG,Materials
+KRM,Materials
+KSN,Materials
+KME,Consumer Discretionary
+KKC,Not Applic
+KMD,Consumer Discretionary Distribution & Retail
+KNM,Communication Services
+KNO,Information Technology
+KOB,Materials
+KGN,Consumer Discretionary Distribution & Retail
+KNB,Materials
+KOR,Materials
+KP2,Materials
+KOV,Industrials
+KTA,Materials
+KGD,Materials
+KNI,Materials
+LSF,Not Applic
+LT8,Not Applic
+LT9,Not Applic
+LR1,Not Applic
+LR4,Not Applic
+LR3,Not Applic
+LR5,Not Applic
+LR6,Not Applic
+LF1,Class Pend
+LSA,Materials
+LKE,Materials
+LKO,Energy
+LAM,Energy
+LRK,"Food, Beverage & Tobacco"
+LRV,Materials
+LBL,Industrials
+LAT,Materials
+LCN,Not Applic
+LFS,Financial Services
+LMG,Materials
+LCL,Materials
+LM1,Materials
+LEX,Materials
+LCY,Materials
+LGM,Materials
+LEG,Materials
+LLC,Real Estate Management & Development
+LLL,Materials
+LGI,Utilities
+LIS,Industrials
+LFG,Financial Services
+LP1,Not Applic
+LI9,Not Applic
+360,Information Technology
+LIC,Real Estate Management & Development
+LNW,Consumer Discretionary
+L1M,Materials
+LML,Materials
+LIN,Materials
+LAU,Industrials
+LNU,Information Technology
+LNQ,Materials
+LIO,Energy
+LRM,Materials
+LSX,Not Applic
+LI8,Not Applic
+LN1,Not Applic
+LN2,Not Applic
+LN3,Not Applic
 LTR,Materials
+LMS,Materials
+LEL,Materials
+LPM,Materials
+LU7,Materials
+LGP,Health Care
+LIT,Materials
+LO1,Not Applic
+LPE,Utilities
+LOC,Information Technology
+LKY,Materials
+LDR,Materials
+LSR,Materials
+LCE,Financial Services
+LRD,Materials
+LOT,Materials
+LVE,Information Technology
+LOV,Consumer Discretionary Distribution & Retail
+LRT,Not Applic
+LLM,Materials
+LTP,Health Care
+LDX,Health Care
+LM8,Materials
+LYL,Industrials
+LYC,Materials
+LGL,"Food, Beverage & Tobacco"
+M3M,Materials
+MA1,Not Applic
+MAF,Financial Services
+MGH,Industrials
+MAC,Materials
+MIO,Materials
+M7T,Health Care
+MAH,Materials
+MBL,Not Applic
+MQG,Financial Services
+MAQ,Information Technology
+M4M,Materials
+MPA,Consumer Discretionary
+MAD,Industrials
+MFG,Financial Services
+MBH,"Food, Beverage & Tobacco"
+MAG,Materials
+MAU,Materials
+MGT,Materials
+MGU,Materials
+MGL,Materials
+M24,Materials
+M79,Materials
+MAN,Materials
+MHC,Energy
+MTL,Materials
+MKR,Materials
+MPK,Materials
+MC2,Materials
+MEU,Energy
+MMA,Materials
+MQR,Materials
+MVL,Materials
+MYE,Materials
+MCE,Energy
+MAT,Materials
+MXI,Industrials
+MFD,Consumer Discretionary
+MYG,Industrials
+MYX,Health Care
+MCM,Energy
+MML,Materials
+MMS,Industrials
+MCP,Consumer Staples
+MSG,Industrials
+MMR,Energy
+MDR,Health Care
+MM8,Materials
+MZF,Not Applic
+MZT,Not Applic
+MZ1,Not Applic
+MZ2,Not Applic
+MPL,Financials
+MVP,Health Care
+MEK,Materials
+MEG,Materials
+MP1,Information Technology
+MAY,Energy
+MEM,Health Care
+MCY,Utilities
+MEZ,Utilities
+MNC,Consumer Discretionary
+MSB,Health Care
+MBK,Materials
+MHK,Materials
+MPW,Industrials
+MTM,Materials
+MLS,Materials
+MLX,Materials
+MGA,Materials
+MTC,Materials
+MTS,Consumer Staples Distribution & Retail
+MEI,Materials
+MEL,Energy
+MOT,Not Applic
+MXT,Not Applic
+MRE,Not Applic
+MF1,Not Applic
+MF2,Not Applic
+MF3,Not Applic
+MF5,Not Applic
+MF4,Not Applic
+MMI,Materials
+MPP,Industrials
+MFF,Not Applic
+MHJ,Consumer Discretionary Distribution & Retail
+MX1,Health Care
+MAP,Health Care
+MAM,Financial Services
+MM1,Materials
+MDI,Materials
+MNB,Materials
+MDX,Materials
+MRC,Materials
+MIN,Materials
+MI6,Materials
+MRR,Materials
+M2R,Materials
+MIR,Not Applic
+MGR,Equity Real Estate Investment Trusts (REITs)
+MSV,Materials
+MTH,Materials
+MLG,Materials
+MM2,Not Applic
+MOM,Materials
+MOH,Materials
+MND,Industrials
+MVF,Health Care
+MME,Financial Services
+MRZ,Materials
+1MC,Materials
+MEC,Financial Services
+MXO,Communication Services
+MTO,Consumer Discretionary Distribution & Retail
+MTB,Materials
+MGX,Materials
+MHM,Materials
+MRD,Materials
+MOV,Industrials
+MPR,Financial Services
+MRQ,Materials
+M2M,Materials
+MSI,Industrials
+MCA,"Food, Beverage & Tobacco"
+MPX,Real Estate Management & Development
+MBX,Consumer Staples Distribution & Retail
+MRI,Industrials
+MCO,Materials
+MYR,Consumer Discretionary Distribution & Retail
+MYS,Financials
+N1H,Financial Services
+NAG,Materials
+NC6,Health Care
+NAN,Health Care
+NVU,Information Technology
+NCC,Not Applic
+NAC,Not Applic
+NSC,Not Applic
+NYM,Materials
+NAB,Financials
+NRM,Not Applic
+NRO,Not Applic
+NRP,Not Applic
+RM1,Not Applic
+NSR,Equity Real Estate Investment Trusts (REITs)
+NBS,Not Applic
+NMR,Materials
+NGI,Financial Services
+NES,Materials
+NMT,Materials
+NET,Information Technology
+NWL,Financial Services
+NEU,Health Care
+NRZ,Materials
+NUZ,Health Care
+NSB,Health Care
+NTI,Health Care
+NAE,Energy
+NFM,Materials
+NHC,Energy
+NMG,Materials
+XNC,Not Applic
+NZS,"Food, Beverage & Tobacco"
+NZK,"Food, Beverage & Tobacco"
+NWF,Materials
+NEM,Materials
+NPM,Materials
+NWS,Communication Services
+NME,Materials
+NXG,Energy
+NNG,Information Technology
+NXN,Class Pend
+NXS,Health Care
+NXT,Information Technology
+NXD,Consumer Discretionary
+NXM,Materials
+NGE,Not Applic
+NGX,Materials
+NH3,Materials
+NHF,Financials
+NCK,Consumer Discretionary Distribution & Retail
+NIC,Materials
+NC1,Materials
+NDO,Consumer Discretionary
+NIM,Materials
+NEC,Communication Services
+NHE,Energy
+NOL,Financials
+NNL,Materials
+NFL,Materials
+NRX,Materials
+NSM,Materials
+NTU,Materials
+NST,Materials
+NWM,Materials
+NOR,Information Technology
+NOU,"Food, Beverage & Tobacco"
+EYE,Health Care
+NVA,Materials
+NOV,Information Technology
+NVQ,Information Technology
+NVO,Materials
+NVX,Information Technology
+NW1,Not Applic
+NOX,Health Care
+NWH,Industrials
+NSX,Financial Services
+NTM,Materials
+NTD,Consumer Discretionary Distribution & Retail
+NUC,"Food, Beverage & Tobacco"
+NGY,Energy
+NFN,Not Applic
+NUF,Materials
+NXL,Information Technology
+NGS,Consumer Staples
+NYR,Health Care
+NZM,Communication Services
+OKJ,Materials
+OAK,Information Technology
+OCL,Information Technology
+OCN,Materials
+OCA,Health Care
+OCT,Materials
+OD6,Materials
+ODE,Materials
+ODY,Materials
+OFX,Financial Services
+OLH,Industrials
+OLI,Consumer Discretionary
+OLY,Industrials
+OYS,Not Applic
+OY1,Not Applic
+OMH,Materials
+OMA,Energy
+OMG,"Food, Beverage & Tobacco"
+OBL,Financial Services
+OM1,Materials
+OSL,Health Care
+1CG,Industrials
+ONE,Health Care
+OML,Communication Services
+OLL,Information Technology
+OPN,Industrials
+OPH,Not Applic
+OPT,Health Care
+OIL,Health Care
+OBM,Materials
+OMX,Materials
+OEC,Industrials
+OB1,Materials
+ODA,Information Technology
+OR2,Not Applic
+ORD,Materials
+ZOR,Not Applic
+ORE,Materials
+ORI,Materials
+ORG,Utilities
+OEQ,Financial Services
+ORN,Materials
+ORA,Materials
+ORP,Materials
+OCC,Health Care
+OSM,Materials
+OSX,Health Care
+OEL,Energy
+OVT,Communication Services
+OZM,Materials
+OZZ,Materials
+PGO,Materials
+PAC,Financial Services
+PEB,Health Care
+PLA,Materials
+PNM,Materials
+PSQ,Health Care
+PCK,Health Care
+PDN,Energy
+PCL,Energy
+PA1,Not Applic
+PA3,Not Applic
+PA2,Not Applic
+PA4,Not Applic
+PA5,Not Applic
+PFE,Materials
+PNT,Materials
+PNR,Materials
+PPY,Materials
+PBL,Materials
+PAR,Health Care
+PGC,Health Care
+PKD,Industrials
+PWN,Materials
+PL3,Materials
+PSL,Materials
+PKY,Information Technology
+PMT,Materials
+PAT,Materials
+PTN,Materials
+PAB,Health Care
+PC2,Class Pend
+PEK,Materials
+PKO,Materials
+PLG,Materials
+PEX,Materials
+PPC,Real Estate Management & Development
+PCG,Financial Services
+PCX,Not Applic
+PIA,Not Applic
+PE1,Not Applic
+PEN,Energy
+5GG,Communication Services
+PPE,Industrials
+PPM,Financial Services
+PP1,Not Applic
+PEA,Not Applic
+PEP,Not Applic
+PR4,Not Applic
+PEV,Not Applic
+PE5,Not Applic
+PU6,Not Applic
+PU8,Not Applic
+PU9,Not Applic
+PIL,Information Technology
+PER,Health Care
+PGD,Materials
+PRN,Materials
+PCI,Not Applic
+PIC,Not Applic
+PPT,Financial Services
+PEC,Materials
+PRU,Materials
+PWR,Consumer Discretionary Distribution & Retail
+PTR,Materials
+PXA,Real Estate Management & Development
+PHX,Information Technology
+PHO,Materials
+PET,Industrials
+PR2,Not Applic
+PLS,Materials
+PGY,Energy
+PNI,Financial Services
+PIM,Materials
+PNC,Financial Services
+PLN,Materials
+PVT,Materials
+PFM,Information Technology
+PGM,Materials
+PTM,Financial Services
+PMC,Not Applic
+PL8,Not Applic
+PLY,Communication Services
+PLT,Financial Services
+PGF,Not Applic
+PVE,Energy
+POD,Materials
+3DP,Information Technology
+PBH,Consumer Discretionary
+PXX,Materials
+POL,Materials
+PNV,Health Care
+PNN,Materials
+PVL,Financial Services
+PPK,Materials
+PPS,Information Technology
+PDI,Materials
+PMV,Consumer Discretionary Distribution & Retail
+PLC,Materials
+PTX,Health Care
+PTL,Consumer Staples
+PFG,Financial Services
+PRG,Materials
+PME,Health Care
+PPG,Materials
+PRX,Materials
+POT,Not Applic
+POA,Not Applic
+POB,Not Applic
+POC,Not Applic
+POF,Not Applic
+POE,Not Applic
+POH,Not Applic
+POG,Not Applic
+PGS,Not Applic
+PRM,Energy
+PFP,Consumer Discretionary
+PRO,Information Technology
+PRS,Materials
+PSC,Materials
+PIQ,Health Care
+PV1,Energy
+PUT,Not Applic
+PUU,Not Applic
+PS2,Not Applic
+PFT,"Food, Beverage & Tobacco"
+PH2,Energy
+PR1,Materials
+PPL,Communication Services
+PUR,Materials
+PVW,Materials
+PWH,Consumer Discretionary
+PYC,Health Care
+QAN,Industrials
+QBE,Financials
+QEM,Materials
+QML,Materials
+QNB,Not Applic
+QOR,Information Technology
+QPM,Materials
+QAL,Real Estate Management & Development
+QRI,Financial Services
+QGL,Materials
+QUB,Industrials
+XQL,Not Applic
+QUE,Financial Services
+QFE,Financial Services
+QXR,Materials
+RAC,Health Care
+RAD,Health Care
+RAG,Materials
+RAS,Materials
+RDN,Materials
+RZI,Financial Services
+REP,Equity Real Estate Investment Trusts (REITs)
+RMS,Materials
+RHC,Health Care
+RND,Materials
+RAN,Materials
+RCM,Materials
+RPG,Real Estate Management & Development
+REE,Materials
+RTH,Industrials
+RBR,Materials
+REA,Communication Services
+RR1,Materials
+RCL,Information Technology
+RDY,Information Technology
+RCE,Health Care
+REC,Materials
+RKN,Information Technology
+RFT,Industrials
+RHI,Materials
+RDM,Materials
+RMX,Materials
+ROG,Energy
+RC1,Materials
+RIL,Materials
+RDX,Industrials
+RDS,Materials
+REH,Industrials
+RLC,Materials
+RCT,Consumer Discretionary
+RG8,Not Applic
+RF1,Not Applic
+RPL,Financial Services
+R8R,Materials
+RGN,Equity Real Estate Investment Trusts (REITs)
+REG,Health Care
+RRL,Materials
+RWC,Industrials
+REM,Industrials
+RNU,Materials
+RNX,Materials
+RLT,Energy
+RNV,Health Care
+RNT,Communication Services
+RMC,Financial Services
+RA2,Not Applic
+RA3,Not Applic
+RMD,Health Care
+RSG,Materials
+RML,Materials
+RHT,Health Care
+RBX,Materials
+RMI,Materials
+REZ,Materials
+RAU,Materials
+RBD,Consumer Discretionary
+RFG,Consumer Discretionary
+REV,Class Pend
+RRR,Materials
+RWD,Materials
+RXH,Communication Services
+RHY,Health Care
+SGL,"Food, Beverage & Tobacco"
+RVT,Materials
+RIC,"Food, Beverage & Tobacco"
+RIE,Materials
+RIM,Materials
+RCR,Materials
+RIO,Materials
+RGL,Materials
+RLF,Materials
+RMY,Communication Services
+RXR,Materials
+ROC,Information Technology
+RKT,Information Technology
+RKB,Materials
+RON,Materials
+RLG,Communication Services
+RXL,Materials
+RPM,Consumer Discretionary
+RUL,Information Technology
+RTG,Materials
+RWL,Information Technology
+RB6,Materials
+RTR,Materials
+RFF,Equity Real Estate Investment Trusts (REITs)
+RYD,Not Applic
+RYM,Health Care
+RYZ,Materials
+S2R,Materials
+SBR,Materials
+SRH,Industrials
+SAN,Energy
+SB2,Not Applic
+SFR,Materials
+SNC,Not Applic
+SFM,Materials
+SMI,Materials
+SFV,Not Applic
 STO,Energy
+SP4,Not Applic
+SP5,Not Applic
+SP6,Not Applic
+SRR,Materials
+SGA,Materials
+STN,Materials
+SND,Industrials
+SVG,Materials
+SYA,Materials
+SCP,Financial Services
+SCG,Equity Real Estate Investment Trusts (REITs)
+SCW,Equity Real Estate Investment Trusts (REITs)
+SCA,Not Applic
+SFC,Consumer Discretionary
+SDV,Materials
+SCN,Materials
+SCT,Consumer Discretionary
+SDI,Health Care
+SFG,"Food, Beverage & Tobacco"
+SEK,Communication Services
+SHV,"Food, Beverage & Tobacco"
+SEN,Information Technology
+SNS,Information Technology
+SEQ,Financial Services
+BA2,Not Applic
+WE1,Not Applic
+WB1,Not Applic
+WSE,Not Applic
+WS1,Not Applic
+WS2,Not Applic
+SKO,Information Technology
+SRV,Real Estate Management & Development
+SSM,Industrials
+SWM,Communication Services
+SGH,Industrials
+SHA,Industrials
+SSG,Consumer Discretionary Distribution & Retail
+SFX,Materials
+SHJ,Consumer Discretionary
+SHZ,Not Applic
+SC1,Not Applic
+SHM,Consumer Discretionary
+SNX,Materials
+SSL,Real Estate Management & Development
+SIG,Health Care
+SLX,Industrials
+SVL,Materials
+SIS,Information Technology
+SIO,Consumer Discretionary
+SGM,Materials
+SHG,Health Care
+SNG,Materials
+SDR,Information Technology
+SIV,Industrials
+SKN,Consumer Staples
+SKS,Industrials
+SKY,Materials
+SKT,Communication Services
+SKC,Consumer Discretionary
+SKM,Materials
+SPZ,Industrials
+SIQ,Industrials
+SMP,Financial Services
+SOC,Information Technology
+SLA,Materials
+SLM,Materials
+SLS,Materials
+SVR,Financial Services
+SMM,Materials
+SOM,Health Care
+SHL,Health Care
+SHP,Materials
+S32,Materials
+SXE,Industrials
+SX2,Materials
+SXL,Communication Services
+SUH,Materials
+SPD,Materials
+SVM,Materials
+SPA,Information Technology
+SPN,Materials
+SPK,Communication Services
+SPG,"Food, Beverage & Tobacco"
+STW,Not Applic
+SLF,Not Applic
+SFY,Not Applic
+SP3,Information Technology
+SPX,Information Technology
+SEC,Not Applic
+ST1,Information Technology
+SEG,Communication Services
+SHO,Communication Services
+SIX,Consumer Discretionary
+SQX,Materials
+SRG,Industrials
+SRJ,Energy
+SSH,Energy
+SBM,Materials
+SGQ,Materials
+SKK,Communication Services
+SMR,Materials
+S66,Consumer Staples
+SMS,Materials
+SPL,Health Care
+GAS,Energy
+GVF,Not Applic
+SVY,Materials
+SDF,Financials
+SGI,Industrials
+SST,Industrials
+SLB,Materials
+SRZ,Materials
+STP,Consumer Discretionary Distribution & Retail
+STH,Information Technology
+SGP,Equity Real Estate Investment Trusts (REITs)
+SHE,Energy
+STG,Communication Services
+SRT,Materials
+SMX,Materials
+SOR,Financial Services
+SER,Materials
+SP8,Communication Services
+STK,Materials
+STX,Energy
+SRK,Materials
+SMN,Information Technology
+SLZ,Materials
+SNZ,Health Care
+SUM,Materials
+SS1,Materials
+SUN,Financials
+SRL,Materials
+SHN,Materials
+STM,Materials
+SUL,Consumer Discretionary Distribution & Retail
+SPQ,Materials
+SLC,Communication Services
+SNL,Consumer Discretionary Distribution & Retail
+SRN,Materials
+SW1,Communication Services
+SWP,Communication Services
+SYL,Industrials
+SOP,Industrials
+SM1,"Food, Beverage & Tobacco"
+SNT,Health Care
+SYR,Materials
+TAH,Consumer Discretionary
+T88,Materials
+TLG,Materials
+TD1,Health Care
+TR2,Materials
+TLM,Materials
+TAL,Information Technology
+TWD,Consumer Discretionary
+TBN,Energy
+TMB,Materials
+TAM,Materials
+TAT,Communication Services
+TAR,Materials
+TFL,"Food, Beverage & Tobacco"
+TAS,Materials
+TEA,Industrials
+TIP,Financial Services
+TG1,Materials
+TNE,Information Technology
+TLX,Health Care
+TLS,Communication Services
+TIO,Class Pend
+TEM,Materials
+TPW,Consumer Discretionary Distribution & Retail
+TMS,Materials
+TM1,Energy
+T92,Energy
+TER,Energy
+TGH,Materials
+TMX,Materials
+TZN,Materials
+TSO,Materials
+TES,Class Pend
+TTX,Health Care
+TG6,Materials
+A2M,"Food, Beverage & Tobacco"
+AU1,Real Estate Management & Development
+WAG,Financial Services
+CCO,Consumer Staples
+HPC,Consumer Staples
+TLC,Consumer Discretionary
+SGR,Consumer Discretionary
+TGM,Materials
+TT1,Not Applic
+TT2,Not Applic
+THR,Materials
+TOP,Not Applic
+TEK,Not Applic
+1TT,Information Technology
+THB,Materials
+TIA,Real Estate Management & Development
+TIG,Materials
+TML,Utilities
+TNY,Communication Services
+TRP,Health Care
+TTM,Materials
+TSL,Materials
+TTT,Materials
+TVN,Materials
+TOU,Energy
+TMK,Energy
+TOK,Materials
+TI1,Materials
+TEE,Energy
+TSI,"Food, Beverage & Tobacco"
+TOE,Energy
+TOR,Materials
+TTZ,Not Applic
+TRE,Materials
+TVL,Financial Services
+THL,Industrials
+TWR,Financials
+TPC,Utilities
+TPG,Communication Services
+TRJ,Health Care
+TKL,Materials
+TCO,Consumer Discretionary
+TA1,Not Applic
+TCL,Industrials
+XVG,Not Applic
+TWE,"Food, Beverage & Tobacco"
+TKM,Materials
+TEG,Energy
+TGF,Not Applic
+TBR,Materials
+TMG,Materials
+TX3,Materials
+TT4,Not Applic
+TT6,Not Applic
+TON,Materials
+TRI,Health Care
+TNC,Materials
+TRM,Materials
+TRU,Health Care
+TYP,Health Care
+TUA,Communication Services
+TGN,Materials
+TCG,Materials
+TRA,Consumer Discretionary Distribution & Retail
+TYX,Materials
+TYR,Financial Services
+TZL,Information Technology
+UWC,Not Applic
+USL,Materials
+UOS,Real Estate Management & Development
+UNT,Communication Services
+UBI,Health Care
+UNI,Consumer Discretionary Distribution & Retail
+UBN,Information Technology
+URF,Equity Real Estate Investment Trusts (REITs)
+UCM,Health Care
+UVA,Materials
+VR8,Materials
+VAR,Materials
+VAU,Materials
+VBX,Materials
+VMG,Industrials
+VR1,Information Technology
+VBS,Health Care
+VEE,Industrials
+VNT,Industrials
+VMC,Materials
+VBC,Industrials
+VRS,Industrials
+VRL,Materials
+VTX,Materials
+VG1,Not Applic
+VHM,Materials
+VCX,Equity Real Estate Investment Trusts (REITs)
+VCD,Not Applic
+VIG,Information Technology
+VTM,Materials
+VKA,Materials
+VEN,Energy
+VNL,Information Technology
+VGN,Industrials
+VMM,Materials
+VFX,Health Care
+VGL,Information Technology
+VLS,Health Care
+VML,Materials
+VHL,Health Care
+VFY,Health Care
+VIT,Health Care
+VEA,Energy
+VVA,Consumer Discretionary
+VMT,Consumer Discretionary
+VPG,Not Applic
+VPR,Utilities
+VRC,Materials
+VSR,Energy
+VN8,Communication Services
+VRX,Materials
+VUL,Materials
+VSL,Materials
+VYS,Materials
+WAK,Materials
+WA1,Materials
+WGN,Materials
+WAA,Not Applic
+WMA,Not Applic
+WAM,Not Applic
+WGB,Not Applic
+WMX,Not Applic
+WLE,Not Applic
+WMI,Not Applic
+WAX,Not Applic
+WAR,Not Applic
+WTM,Materials
+WA8,Materials
+SOL,Financial Services
+WAT,Consumer Discretionary
+W2V,Information Technology
+WPR,Equity Real Estate Investment Trusts (REITs)
+WQG,Not Applic
+WEF,Not Applic
+WEB,Consumer Discretionary
+WJL,Consumer Discretionary
+WBT,Information Technology
+WLD,"Food, Beverage & Tobacco"
+WNX,"Food, Beverage & Tobacco"
+WES,Consumer Discretionary Distribution & Retail
+WAF,Materials
+WCE,Materials
+WC1,Materials
+WWI,Materials
+WSR,Materials
+WGR,Materials
+WMG,Materials
+WYX,Materials
+WEN,Not Applic
+WGX,Materials
+WBC,Financials
+WSI,Materials
+WCN,Materials
+WEC,Energy
+WBE,Energy
+WHI,Not Applic
+WHF,Not Applic
+WHC,Energy
+WHK,Information Technology
+WIA,Materials
+WOA,"Food, Beverage & Tobacco"
+WC8,Materials
+WIN,Materials
+WEL,Energy
+WNR,"Food, Beverage & Tobacco"
+WR1,Materials
+WTN,Real Estate Management & Development
+WTC,Information Technology
+WWG,Industrials
+WZR,Financial Services
+WDS,Energy
+WOW,Consumer Staples Distribution & Retail
+WOR,Industrials
+WOT,Real Estate Management & Development
+WRK,Information Technology
+WTL,Financial Services
+X2M,Information Technology
+XGL,Communication Services
+XRO,Information Technology
+XPN,Information Technology
+XRG,Consumer Discretionary
+XF1,Information Technology
+XRF,Industrials
+XST,Energy
+XTC,Materials
+YAL,Energy
+YRL,Materials
+YAR,Materials
+YOJ,Information Technology
+YOW,"Food, Beverage & Tobacco"
+YUG,Materials
+ZLD,Health Care
+ZNC,Materials
+ZEO,Materials
+ZEU,Energy
+ZGL,Industrials
+ZMM,Information Technology
+ZIM,Materials
+ZMI,Materials
+ZIP,Financial Services
+ZNO,Materials
+ZAG,Materials
