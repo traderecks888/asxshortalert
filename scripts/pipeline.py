@@ -10,6 +10,7 @@ from render import render_dashboard
 from history import update_history_and_charts
 from adv import fetch_adv
 from scoring import covering_scores
+from sectors import resolve_sectors, attach_sectors
 
 UTC = timezone.utc
 AWST_OFFSET_HOURS = 8  # Perth is UTC+8 (no DST)
@@ -35,18 +36,9 @@ def _safe_top(df, col, n):
         return []
     return df2.nlargest(n, col).to_dict(orient="records")
 
-def _load_sectors(path="config/sectors.csv"):
-    if not os.path.exists(path): return {}
-    try:
-        df = pd.read_csv(path)
-        if "Code" in df.columns and "Sector" in df.columns:
-            return {str(r["Code"]).strip().upper(): str(r["Sector"]).strip() for _, r in df.iterrows()}
-    except Exception:
-        pass
-    return {}
-
 if __name__ == "__main__":
     cfg = read_yaml("config/alerts.yml") if os.path.exists("config/alerts.yml") else {}
+    top_n_pos = cfg.get("short_positions", {}).get("top_n", 25)
 
     # 1) Gross shorts (T+1)
     yday_awst = (today_awst() - timedelta(days=1)).date()
@@ -71,16 +63,6 @@ if __name__ == "__main__":
 
     gross_sig = compute_gross_shorts_signals(gross_all, cfg=cfg)
 
-    # Sector mapping
-    sectors = _load_sectors()
-    if sectors and not gross_sig.empty:
-        gross_sig["Sector"] = gross_sig["Code"].map(sectors).fillna("Unknown")
-    else:
-        gross_sig["Sector"] = "Unknown"
-
-    gross_top_qty = _safe_top(gross_sig, "Gross_num", cfg.get("gross_shorts", {}).get("top_n", 25))
-    gross_top_pct = _safe_top(gross_sig, "PctGrossVsIssuedPct_num", cfg.get("gross_shorts", {}).get("top_n", 25))
-
     # 2) Short positions (T+4)
     try:
         asic_df, _, asic_date = fetch_asic_short_positions(); save_csv(asic_df, f"data/asic_{asic_date}.csv")
@@ -96,7 +78,7 @@ if __name__ == "__main__":
 
     pos_sig = compute_short_position_signals(asic_df, df_prev=prev_df, cfg=cfg)
 
-    # ADV & Days-to-Cover
+    # 3) ADV & Days-to-Cover
     adv_days = int(cfg.get("short_positions", {}).get("adv_window_days", 30))
     if not pos_sig.empty:
         codes = sorted(set(pos_sig["Code"].dropna().astype(str).str.upper().tolist()))
@@ -109,35 +91,51 @@ if __name__ == "__main__":
             pos_sig["ADV"] = 0.0
             pos_sig["DaysToCover"] = 0.0
 
-    # Sector on pos
-    if sectors and not pos_sig.empty:
-        pos_sig["Sector"] = pos_sig["Code"].map(sectors).fillna("Unknown")
+    # 4) Sector resolution (CSV overrides -> cache -> Yahoo) for ALL codes observed today
+    code_set = set()
+    if not gross_sig.empty and "Code" in gross_sig.columns:
+        code_set.update(gross_sig["Code"].dropna().astype(str).str.upper().tolist())
+    if not pos_sig.empty and "Code" in pos_sig.columns:
+        code_set.update(pos_sig["Code"].dropna().astype(str).str.upper().tolist())
+
+    if code_set:
+        sec_df = resolve_sectors(sorted(code_set))
+        # Optionally: write a human-readable snapshot
+        try:
+            os.makedirs("data", exist_ok=True)
+            sec_df.to_csv("data/sectors_resolved_today.csv", index=False)
+        except Exception:
+            pass
+        gross_sig = attach_sectors(gross_sig, sec_df)
+        pos_sig   = attach_sectors(pos_sig, sec_df)
     else:
-        pos_sig["Sector"] = "Unknown"
+        if not gross_sig.empty: gross_sig["Sector"] = "Unknown"
+        if not pos_sig.empty:   pos_sig["Sector"]   = "Unknown"
 
-    # Numeric helpers
+    # 5) Prep panels
+    gross_top_qty = _safe_top(gross_sig, "Gross_num", cfg.get("gross_shorts", {}).get("top_n", 25))
+    gross_top_pct = _safe_top(gross_sig, "PctGrossVsIssuedPct_num", cfg.get("gross_shorts", {}).get("top_n", 25))
+
     if not pos_sig.empty:
-        for c in ("PctShort_pp","Delta_pp","DeltaShares","DaysToCover","ADV"):
-            if c in pos_sig.columns:
-                pos_sig[c + ("_num" if not c.endswith("_num") else "")] = pd.to_numeric(pos_sig[c], errors="coerce").fillna(0.0)
+        pos_sig["PctShort_pp_num"] = pd.to_numeric(pos_sig.get("PctShort_pp"), errors="coerce").fillna(0.0)
+        pos_sig["Delta_pp_num"]    = pd.to_numeric(pos_sig.get("Delta_pp"),    errors="coerce").fillna(0.0)
+        pos_sig["DeltaShares_num"] = pd.to_numeric(pos_sig.get("DeltaShares"), errors="coerce").fillna(0.0)
+        pos_sig["DaysToCover_num"] = pd.to_numeric(pos_sig.get("DaysToCover"), errors="coerce").fillna(0.0)
 
-    top_n_pos = cfg.get("short_positions", {}).get("top_n", 25)
-    pos_high  = pos_sig.sort_values("PctShort_pp_num", ascending=False).head(top_n_pos).to_dict(orient="records")
-    pos_delta = pos_sig.sort_values("Delta_pp_num",    ascending=False).head(top_n_pos).to_dict(orient="records")
-    pos_cover = pos_sig.sort_values("DeltaShares_num", ascending=True ).head(top_n_pos).to_dict(orient="records")
-    pos_dtc   = pos_sig.sort_values("DaysToCover_num", ascending=False).head(top_n_pos).to_dict(orient="records")
+    pos_high  = pos_sig.sort_values("PctShort_pp_num", ascending=False).head(top_n_pos).to_dict(orient="records") if not pos_sig.empty else []
+    pos_delta = pos_sig.sort_values("Delta_pp_num",    ascending=False).head(top_n_pos).to_dict(orient="records") if not pos_sig.empty else []
+    pos_cover = pos_sig.sort_values("DeltaShares_num", ascending=True ).head(top_n_pos).to_dict(orient="records") if not pos_sig.empty else []
+    pos_dtc   = pos_sig.sort_values("DaysToCover_num", ascending=False).head(top_n_pos).to_dict(orient="records") if not pos_sig.empty else []
 
-    # API, history & charts (this also appends today's pos to history)
+    # 6) API, history & charts
     charts = update_history_and_charts(gross_sig, pos_sig, yday_awst, asic_date)
 
-    # 3/5-day covering scores from history (now that today is appended)
-    cov3 = covering_scores(3)
-    cov5 = covering_scores(5)
+    # 7) 3/5-day covering scores from history
+    cov3 = covering_scores(3); cov5 = covering_scores(5)
     cov3_list = cov3.head(top_n_pos).to_dict(orient="records") if not cov3.empty else []
     cov5_list = cov5.head(top_n_pos).to_dict(orient="records") if not cov5.empty else []
 
     # Render site
-    # Collect all sectors present for filter
     sectors_on_page = sorted(set([r.get("Sector","Unknown") for r in (gross_top_qty + gross_top_pct + pos_high + pos_delta + pos_cover + pos_dtc) if r.get("Sector")]))
     ctx = {
         "generated_at": today_awst().strftime("%Y-%m-%d %H:%M AWST"),
@@ -156,7 +154,7 @@ if __name__ == "__main__":
     }
     render_dashboard("docs", ctx)
 
-    # Notifications (optional; skipped if no secrets)
+    # Notifications (optional)
     try:
         from notify import maybe_notify
         maybe_notify(ctx, gross_sig, pos_sig)
