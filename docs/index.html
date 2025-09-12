@@ -1,1908 +1,2128 @@
-<!doctype html><html><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<!doctype html><html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ASX Shorts – Daily</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0b0f14">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
 <style>
- body{font:14px/1.4 system-ui,Segoe UI,Roboto,Helvetica,Arial}
- table{border-collapse:collapse;width:100%} th,td{padding:.4rem;border-bottom:1px solid #eee}
- .pill{padding:.15rem .45rem;border-radius:999px;background:#eee;font-size:.8rem}
- .flag{background:#000;color:#fff}
- .grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
- h2{margin-top:1.2rem}
- .controls{display:flex;gap:.5rem;align-items:center;margin:.5rem 0}
- input[type="search"]{padding:.35rem .5rem;border:1px solid #ddd;border-radius:8px}
- select{padding:.35rem .5rem;border:1px solid #ddd;border-radius:8px}
- /* DTC color bands */
- .dtc-0-1   {background:#f5faff}
- .dtc-1-3   {background:#eef8ff}
- .dtc-3-5   {background:#fff6e6}
- .dtc-5p    {background:#ffe9e9}
- .muted{color:#666;font-size:.85rem}
- tr.hidden{display:none}
-</style></head><body>
-<h1>ASX Shorts – Daily Signals</h1>
-<p class="pill">Generated: 2025-09-12 11:34 AWST</p>
+:root{
+  --bg:#f7f9fc; --card:#ffffff; --ink:#0b0f14; --muted:#5b6775; --line:#e8edf3;
+  --pill:#eef1f6; --flag-bg:#111; --flag-ink:#fff; --accent:#0a84ff;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0b0f14; --card:#121822; --ink:#eef3f8; --muted:#9aa7b4; --line:#1b2430; --pill:#1a2230; --flag-bg:#fff; --flag-ink:#111; --accent:#4da3ff; }
+}
+html,body{height:100%}
+body{background:var(--bg); color:var(--ink); font:14px/1.5 system-ui, Segoe UI, Roboto, Helvetica, Arial; padding:0; margin:0}
+a{color:var(--accent); text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1100px; margin:0 auto; padding:1rem}
+.card{background:var(--card); border:1px solid var(--line); border-radius:14px; box-shadow:0 1px 2px rgba(0,0,0,.03)}
+.card + .card{margin-top:1rem}
+.section{padding:1rem 1rem}
+h1{font-size:1.25rem; margin:.25rem 0 .5rem}
+h2{font-size:1.05rem; margin:1rem 0 .5rem}
+h3{font-size:.95rem; margin:.75rem 0 .5rem}
+.mono{font-variant-numeric:tabular-nums}
 
-<div class="controls">
-  <label>Sector:</label>
-  <select id="sectorFilter">
-    <option value="All">All</option><option value="Communication Services">Communication Services</option><option value="Industrials">Industrials</option><option value="Information Technology">Information Technology</option><option value="Materials">Materials</option><option value="Unknown">Unknown</option>
-  </select>
-  <input id="codeFilter" type="search" placeholder="Filter by code (e.g., PLS)" />
-  <span class="muted">Filters apply to all tables</span>
+.topbar{
+  position:sticky; top:0; z-index:50; backdrop-filter:saturate(180%) blur(8px);
+  background:color-mix(in oklab, var(--bg) 85%, transparent);
+  border-bottom:1px solid var(--line);
+}
+.topbar .inner{display:flex; align-items:center; gap:.75rem; padding:.5rem 1rem}
+.topbar nav{display:flex; gap:.75rem; flex-wrap:wrap}
+.badge{display:inline-block; padding:.2rem .5rem; border-radius:999px; background:var(--pill); color:var(--muted); font-size:.8rem}
+.btn{padding:.35rem .6rem; border:1px solid var(--line); background:var(--card); border-radius:10px; cursor:pointer}
+.btn:hover{background:color-mix(in oklab, var(--card) 85%, var(--line))}
+.right{margin-left:auto; display:flex; gap:.5rem}
+
+.controls{display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; margin:.5rem 0}
+select,input[type="search"]{padding:.45rem .6rem; border:1px solid var(--line); border-radius:10px; background:var(--card); color:var(--ink)}
+.muted{color:var(--muted); font-size:.85rem}
+
+.grid{display:grid; grid-template-columns:1fr 1fr; gap:1rem}
+@media (max-width: 860px){ .grid{grid-template-columns:1fr} }
+
+.table-wrap{overflow:auto; border:1px solid var(--line); border-radius:12px}
+table{border-collapse:separate; border-spacing:0; width:100%; min-width:540px}
+th,td{padding:.6rem .7rem; border-bottom:1px solid var(--line)}
+thead th{position:sticky; top:0; background:var(--card); z-index:1; text-align:left; font-weight:600; font-size:.9rem}
+tbody tr:nth-child(even){background:color-mix(in oklab, var(--card) 96%, var(--line))}
+tbody tr:hover{background:color-mix(in oklab, var(--card) 90%, var(--line))}
+.pill{padding:.15rem .45rem; border-radius:999px; background:var(--pill); font-size:.8rem}
+.flag{background:var(--flag-bg); color:var(--flag-ink)}
+
+.dtc-0-1{background:color-mix(in oklab, var(--card) 98%, #bcdcff)}
+.dtc-1-3{background:color-mix(in oklab, var(--card) 96%, #bcdcff)}
+.dtc-3-5{background:color-mix(in oklab, var(--card) 94%, #ffd48a)}
+.dtc-5p {background:color-mix(in oklab, var(--card) 92%, #ffb1b1)}
+
+footer{color:var(--muted); font-size:.85rem; margin:1rem 0}
+
+/* Mobile card-mode for tables */
+@media (max-width:680px){
+  .table-wrap{border:none}
+  table{min-width:0; border:0}
+  thead{display:none}
+  tbody tr{display:block; border:1px solid var(--line); border-radius:12px; margin:.5rem 0; background:var(--card)}
+  tbody td{display:flex; justify-content:space-between; align-items:center; border-bottom:1px dashed var(--line)}
+  tbody td:last-child{border-bottom:0}
+  tbody td::before{content:attr(data-label); font-weight:600; color:var(--muted); margin-right:1rem}
+}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="inner wrap">
+    <strong>ASX Shorts</strong>
+    <nav>
+      <a href="#gross">Gross</a>
+      <a href="#asic">ASIC</a>
+      <a href="#covering">Covering</a>
+      <a href="#dtc">DTC</a>
+      <a href="#scores">Scores</a>
+      <a href="#history">History</a>
+    </nav>
+    <div class="right">
+      <span class="badge">Generated: 2025-09-12 23:46 AWST</span>
+      <button class="btn" id="themeToggle" title="Toggle dark mode">🌓</button>
+    </div>
+  </div>
 </div>
 
-<h2>Gross Short Sales (T+1)</h2>
-<p>Latest date: <b>2025-09-11</b>. “% Issued” = Gross / Issued Capital × 100.</p>
-<div class="grid">
-<div>
-<h3>Top by quantity</h3>
-<table class="filterable">
-<tr><th>Code</th><th>Sector</th><th>Gross</th><th>% Issued</th><th>Flags</th></tr>
+<div class="wrap">
+  <div class="card section">
+    <h1>Daily Signals</h1>
+    <p class="muted">Gross (T+1): <span class="badge">2025-09-11</span> &nbsp; ASIC (T+4): <span class="badge">2025-09-08</span></p>
+    <div class="controls">
+      <label>Sector:</label>
+      <select id="sectorFilter">
+        <option value="All">All</option><option value="Communication Services">Communication Services</option><option value="Industrials">Industrials</option><option value="Information Technology">Information Technology</option><option value="Materials">Materials</option><option value="Unknown">Unknown</option>
+      </select>
+      <input id="codeFilter" type="search" placeholder="Filter by code (e.g., PLS)" />
+      <span class="muted">Filters apply to all tables</span>
+    </div>
+  </div>
+
+  <div id="gross" class="card section">
+    <h2>Gross Short Sales (T+1)</h2>
+    <p class="muted">“% Issued” = Gross / Issued Capital × 100. ASX/Cboe may be missing on some days.</p>
+    <div class="grid">
+      <div>
+        <h3>Top by quantity</h3>
+        <div class="table-wrap">
+          <table class="filterable sortable">
+            <thead><tr>
+              <th data-sort="text">Code</th>
+              <th data-sort="text">Sector</th>
+              <th data-sort="num">Gross</th>
+              <th data-sort="num">% Issued</th>
+              <th>Flags</th>
+            </tr></thead>
+            <tbody>
+            
+              <tr data-code="SYA" data-sector="Unknown">
+                <td data-label="Code">SYA</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="32432883.0">32,432,883</td>
+                <td data-label="% Issued" class="mono" data-value="0.12837004790861803">0.128%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="AMP" data-sector="Unknown">
+                <td data-label="Code">AMP</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="26129146.0">26,129,146</td>
+                <td data-label="% Issued" class="mono" data-value="1.0320628366902276">1.032%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="PLS" data-sector="Materials">
+                <td data-label="Code">PLS</td>
+                <td data-label="Sector">Materials</td>
+                <td data-label="Gross" class="mono" data-value="24375236.0">24,375,236</td>
+                <td data-label="% Issued" class="mono" data-value="0.7572125534712428">0.757%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="TLS" data-sector="Communication Services">
+                <td data-label="Code">TLS</td>
+                <td data-label="Sector">Communication Services</td>
+                <td data-label="Gross" class="mono" data-value="9457434.0">9,457,434</td>
+                <td data-label="% Issued" class="mono" data-value="0.08306903751232407">0.083%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  
+                </td>
+              </tr>
+            
+              <tr data-code="BOE" data-sector="Unknown">
+                <td data-label="Code">BOE</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="4578746.0">4,578,746</td>
+                <td data-label="% Issued" class="mono" data-value="1.1035209982159735">1.104%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="LTR" data-sector="Materials">
+                <td data-label="Code">LTR</td>
+                <td data-label="Sector">Materials</td>
+                <td data-label="Gross" class="mono" data-value="4255400.0">4,255,400</td>
+                <td data-label="% Issued" class="mono" data-value="0.1482420435234745">0.148%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="VAU" data-sector="Unknown">
+                <td data-label="Code">VAU</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="4161321.0">4,161,321</td>
+                <td data-label="% Issued" class="mono" data-value="0.061173646206558574">0.061%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  
+                </td>
+              </tr>
+            
+              <tr data-code="RRL" data-sector="Unknown">
+                <td data-label="Code">RRL</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="3710959.0">3,710,959</td>
+                <td data-label="% Issued" class="mono" data-value="0.49005588955708007">0.49%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="LOT" data-sector="Unknown">
+                <td data-label="Code">LOT</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="3356263.0">3,356,263</td>
+                <td data-label="% Issued" class="mono" data-value="0.1415035977582001">0.142%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="SSM" data-sector="Unknown">
+                <td data-label="Code">SSM</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="3252538.0">3,252,538</td>
+                <td data-label="% Issued" class="mono" data-value="0.5280496245059855">0.528%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="NEC" data-sector="Unknown">
+                <td data-label="Code">NEC</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="3251733.0">3,251,733</td>
+                <td data-label="% Issued" class="mono" data-value="0.20505805712197606">0.205%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="SIG" data-sector="Unknown">
+                <td data-label="Code">SIG</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="3014133.0">3,014,133</td>
+                <td data-label="% Issued" class="mono" data-value="0.026110625358443697">0.026%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  
+                </td>
+              </tr>
+            
+              <tr data-code="S32" data-sector="Unknown">
+                <td data-label="Code">S32</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="2990347.0">2,990,347</td>
+                <td data-label="% Issued" class="mono" data-value="0.06639851852243338">0.066%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  
+                </td>
+              </tr>
+            
+              <tr data-code="CWY" data-sector="Unknown">
+                <td data-label="Code">CWY</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="2895845.0">2,895,845</td>
+                <td data-label="% Issued" class="mono" data-value="0.12969649993837698">0.13%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="ARU" data-sector="Unknown">
+                <td data-label="Code">ARU</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="2708215.0">2,708,215</td>
+                <td data-label="% Issued" class="mono" data-value="0.09556231578839847">0.096%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  
+                </td>
+              </tr>
+            
+              <tr data-code="BGL" data-sector="Unknown">
+                <td data-label="Code">BGL</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="2673992.0">2,673,992</td>
+                <td data-label="% Issued" class="mono" data-value="0.18058375572820698">0.181%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="LIN" data-sector="Unknown">
+                <td data-label="Code">LIN</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="2646599.0">2,646,599</td>
+                <td data-label="% Issued" class="mono" data-value="0.19747635612404074">0.197%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="IEL" data-sector="Unknown">
+                <td data-label="Code">IEL</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="2336139.0">2,336,139</td>
+                <td data-label="% Issued" class="mono" data-value="0.8393226995534547">0.839%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="DBI" data-sector="Unknown">
+                <td data-label="Code">DBI</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="2175652.0">2,175,652</td>
+                <td data-label="% Issued" class="mono" data-value="0.43885038816444033">0.439%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="RSG" data-sector="Unknown">
+                <td data-label="Code">RSG</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="2115258.0">2,115,258</td>
+                <td data-label="% Issued" class="mono" data-value="0.09932206226091103">0.099%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  
+                </td>
+              </tr>
+            
+              <tr data-code="FMG" data-sector="Materials">
+                <td data-label="Code">FMG</td>
+                <td data-label="Sector">Materials</td>
+                <td data-label="Gross" class="mono" data-value="2095796.0">2,095,796</td>
+                <td data-label="% Issued" class="mono" data-value="0.0680682000547562">0.068%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  
+                </td>
+              </tr>
+            
+              <tr data-code="ZIP" data-sector="Unknown">
+                <td data-label="Code">ZIP</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="1957469.0">1,957,469</td>
+                <td data-label="% Issued" class="mono" data-value="0.15164383431230036">0.152%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="GMD" data-sector="Unknown">
+                <td data-label="Code">GMD</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="1899317.0">1,899,317</td>
+                <td data-label="% Issued" class="mono" data-value="0.16796401308295741">0.168%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="NIC" data-sector="Unknown">
+                <td data-label="Code">NIC</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="1845552.0">1,845,552</td>
+                <td data-label="% Issued" class="mono" data-value="0.04251507170674342">0.043%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  
+                </td>
+              </tr>
+            
+              <tr data-code="TCL" data-sector="Industrials">
+                <td data-label="Code">TCL</td>
+                <td data-label="Sector">Industrials</td>
+                <td data-label="Gross" class="mono" data-value="1698320.0">1,698,320</td>
+                <td data-label="% Issued" class="mono" data-value="0.05453493723506281">0.055%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  
+                </td>
+              </tr>
+            
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div>
+        <h3>Top by % issued</h3>
+        <div class="table-wrap">
+          <table class="filterable sortable">
+            <thead><tr>
+              <th data-sort="text">Code</th>
+              <th data-sort="text">Sector</th>
+              <th data-sort="num">Gross</th>
+              <th data-sort="num">% Issued</th>
+              <th>Flags</th>
+            </tr></thead>
+            <tbody>
+            
+              <tr data-code="RMBS" data-sector="Unknown">
+                <td data-label="Code">RMBS</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="16799.0">16,799</td>
+                <td data-label="% Issued" class="mono" data-value="4.419568277186567">4.42%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="ULTB" data-sector="Unknown">
+                <td data-label="Code">ULTB</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="510.0">510</td>
+                <td data-label="% Issued" class="mono" data-value="2.6140440799589952">2.614%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="XGOV" data-sector="Unknown">
+                <td data-label="Code">XGOV</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="160000.0">160,000</td>
+                <td data-label="% Issued" class="mono" data-value="2.563641190856197">2.564%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="HYLD" data-sector="Unknown">
+                <td data-label="Code">HYLD</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="16955.0">16,955</td>
+                <td data-label="% Issued" class="mono" data-value="2.260666666666667">2.261%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="IHWL" data-sector="Unknown">
+                <td data-label="Code">IHWL</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="221569.0">221,569</td>
+                <td data-label="% Issued" class="mono" data-value="1.5850894327275766">1.585%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="SNAS" data-sector="Unknown">
+                <td data-label="Code">SNAS</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="51689.0">51,689</td>
+                <td data-label="% Issued" class="mono" data-value="1.5782091178223527">1.578%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="GAME" data-sector="Unknown">
+                <td data-label="Code">GAME</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="24459.0">24,459</td>
+                <td data-label="% Issued" class="mono" data-value="1.4729288575181159">1.473%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="MQSD" data-sector="Unknown">
+                <td data-label="Code">MQSD</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="43867.0">43,867</td>
+                <td data-label="% Issued" class="mono" data-value="1.2785451743204403">1.279%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="QBTC" data-sector="Unknown">
+                <td data-label="Code">QBTC</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="8928.0">8,928</td>
+                <td data-label="% Issued" class="mono" data-value="1.1904">1.19%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="VDIF" data-sector="Unknown">
+                <td data-label="Code">VDIF</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="4264.0">4,264</td>
+                <td data-label="% Issued" class="mono" data-value="1.1664742604213971">1.166%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="GCQF" data-sector="Unknown">
+                <td data-label="Code">GCQF</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="402474.0">402,474</td>
+                <td data-label="% Issued" class="mono" data-value="1.1516669689332002">1.152%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="BOE" data-sector="Unknown">
+                <td data-label="Code">BOE</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="4578746.0">4,578,746</td>
+                <td data-label="% Issued" class="mono" data-value="1.1035209982159735">1.104%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="GWTH" data-sector="Unknown">
+                <td data-label="Code">GWTH</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="2755.0">2,755</td>
+                <td data-label="% Issued" class="mono" data-value="1.102">1.102%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="AMP" data-sector="Unknown">
+                <td data-label="Code">AMP</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="26129146.0">26,129,146</td>
+                <td data-label="% Issued" class="mono" data-value="1.0320628366902276">1.032%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="FHNG" data-sector="Unknown">
+                <td data-label="Code">FHNG</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="40513.0">40,513</td>
+                <td data-label="% Issued" class="mono" data-value="0.9876199512247922">0.988%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="GARP" data-sector="Unknown">
+                <td data-label="Code">GARP</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="74253.0">74,253</td>
+                <td data-label="% Issued" class="mono" data-value="0.9427549322183416">0.943%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="IEL" data-sector="Unknown">
+                <td data-label="Code">IEL</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="2336139.0">2,336,139</td>
+                <td data-label="% Issued" class="mono" data-value="0.8393226995534547">0.839%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="GXAI" data-sector="Unknown">
+                <td data-label="Code">GXAI</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="78684.0">78,684</td>
+                <td data-label="% Issued" class="mono" data-value="0.8024988388428042">0.802%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="CORE" data-sector="Unknown">
+                <td data-label="Code">CORE</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="6045.0">6,045</td>
+                <td data-label="% Issued" class="mono" data-value="0.7850649350649351">0.785%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="GEAR" data-sector="Unknown">
+                <td data-label="Code">GEAR</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="114326.0">114,326</td>
+                <td data-label="% Issued" class="mono" data-value="0.7767544645750747">0.777%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="PLS" data-sector="Materials">
+                <td data-label="Code">PLS</td>
+                <td data-label="Sector">Materials</td>
+                <td data-label="Gross" class="mono" data-value="24375236.0">24,375,236</td>
+                <td data-label="% Issued" class="mono" data-value="0.7572125534712428">0.757%</td>
+                <td data-label="Flags">
+                  <span class="pill flag">Q</span>
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="MQWS" data-sector="Unknown">
+                <td data-label="Code">MQWS</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="21459.0">21,459</td>
+                <td data-label="% Issued" class="mono" data-value="0.713686592509866">0.714%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="LEND" data-sector="Unknown">
+                <td data-label="Code">LEND</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="63177.0">63,177</td>
+                <td data-label="% Issued" class="mono" data-value="0.6325958538872498">0.633%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="JREG" data-sector="Unknown">
+                <td data-label="Code">JREG</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="3171.0">3,171</td>
+                <td data-label="% Issued" class="mono" data-value="0.5510891440130968">0.551%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+              <tr data-code="EX20" data-sector="Unknown">
+                <td data-label="Code">EX20</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="Gross" class="mono" data-value="119410.0">119,410</td>
+                <td data-label="% Issued" class="mono" data-value="0.5313040464269235">0.531%</td>
+                <td data-label="Flags">
+                  
+                  <span class="pill flag">%</span>
+                </td>
+              </tr>
+            
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="asic" class="card section">
+    <h2>Short Positions (T+4)</h2>
+    <div class="grid">
+      <div>
+        <h3>High % Shorted</h3>
+        <div class="table-wrap">
+          <table class="filterable sortable">
+            <thead><tr>
+              <th data-sort="text">Code</th>
+              <th data-sort="text">Sector</th>
+              <th data-sort="num">% Short</th>
+              <th data-sort="num">Δ pp</th>
+            </tr></thead>
+            <tbody>
+            
+              <tr data-code="BOE" data-sector="Unknown">
+                <td data-label="Code">BOE</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="18.9313617">18.93</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.6071205999999982">-0.61</td>
+              </tr>
+            
+              <tr data-code="PDN" data-sector="Unknown">
+                <td data-label="Code">PDN</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="16.8538884">16.85</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.6087938600000022">-0.61</td>
+              </tr>
+            
+              <tr data-code="PLS" data-sector="Materials">
+                <td data-label="Code">PLS</td>
+                <td data-label="Sector">Materials</td>
+                <td data-label="% Short" class="mono" data-value="16.72706487">16.73</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.10333711000000179">-0.1</td>
+              </tr>
+            
+              <tr data-code="IEL" data-sector="Unknown">
+                <td data-label="Code">IEL</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="13.9880549">13.99</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.3584348600000009">-0.36</td>
+              </tr>
+            
+              <tr data-code="PNV" data-sector="Unknown">
+                <td data-label="Code">PNV</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="12.27218907">12.27</td>
+                <td data-label="Δ pp" class="mono" data-value="0.1478893199999991">0.15</td>
+              </tr>
+            
+              <tr data-code="MIN" data-sector="Unknown">
+                <td data-label="Code">MIN</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="11.43572188">11.44</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.142725930000001">-0.14</td>
+              </tr>
+            
+              <tr data-code="PWH" data-sector="Unknown">
+                <td data-label="Code">PWH</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="10.40021508">10.4</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.4987684599999991">-0.5</td>
+              </tr>
+            
+              <tr data-code="CTD" data-sector="Unknown">
+                <td data-label="Code">CTD</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="9.80149659">9.8</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.14110299000000026">-0.14</td>
+              </tr>
+            
+              <tr data-code="GYG" data-sector="Unknown">
+                <td data-label="Code">GYG</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="9.74949502">9.75</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.0488049100000012">-0.05</td>
+              </tr>
+            
+              <tr data-code="DMP" data-sector="Unknown">
+                <td data-label="Code">DMP</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="9.69015736">9.69</td>
+                <td data-label="Δ pp" class="mono" data-value="0.2288885399999998">0.23</td>
+              </tr>
+            
+              <tr data-code="LIC" data-sector="Unknown">
+                <td data-label="Code">LIC</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="9.63505323">9.64</td>
+                <td data-label="Δ pp" class="mono" data-value="0.06150481999999968">0.06</td>
+              </tr>
+            
+              <tr data-code="ILU" data-sector="Unknown">
+                <td data-label="Code">ILU</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="9.12085294">9.12</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.03327312999999954">-0.03</td>
+              </tr>
+            
+              <tr data-code="LOT" data-sector="Unknown">
+                <td data-label="Code">LOT</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="9.06507759">9.07</td>
+                <td data-label="Δ pp" class="mono" data-value="-1.2854937199999998">-1.29</td>
+              </tr>
+            
+              <tr data-code="CUV" data-sector="Unknown">
+                <td data-label="Code">CUV</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="9.04603477">9.05</td>
+                <td data-label="Δ pp" class="mono" data-value="2.7815124300000003">2.78</td>
+              </tr>
+            
+              <tr data-code="SLX" data-sector="Unknown">
+                <td data-label="Code">SLX</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="8.72146814">8.72</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.12864836999999874">-0.13</td>
+              </tr>
+            
+              <tr data-code="CTT" data-sector="Unknown">
+                <td data-label="Code">CTT</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="8.35447427">8.35</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.9648054199999994">-0.96</td>
+              </tr>
+            
+              <tr data-code="FLT" data-sector="Unknown">
+                <td data-label="Code">FLT</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="8.27323491">8.27</td>
+                <td data-label="Δ pp" class="mono" data-value="0.0707511899999993">0.07</td>
+              </tr>
+            
+              <tr data-code="DYL" data-sector="Unknown">
+                <td data-label="Code">DYL</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="8.08152185">8.08</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.02686205000000008">-0.03</td>
+              </tr>
+            
+              <tr data-code="NAN" data-sector="Unknown">
+                <td data-label="Code">NAN</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="8.07145957">8.07</td>
+                <td data-label="Δ pp" class="mono" data-value="0.007378649999999709">0.01</td>
+              </tr>
+            
+              <tr data-code="MVF" data-sector="Unknown">
+                <td data-label="Code">MVF</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="7.47347234">7.47</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.033094830000000464">-0.03</td>
+              </tr>
+            
+              <tr data-code="CU6" data-sector="Unknown">
+                <td data-label="Code">CU6</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="6.98836531">6.99</td>
+                <td data-label="Δ pp" class="mono" data-value="0.0034860999999999365">0.0</td>
+              </tr>
+            
+              <tr data-code="NXT" data-sector="Unknown">
+                <td data-label="Code">NXT</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="6.86539856">6.87</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.39531252000000006">-0.4</td>
+              </tr>
+            
+              <tr data-code="KAR" data-sector="Unknown">
+                <td data-label="Code">KAR</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="6.72152483">6.72</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.0328845099999997">-0.03</td>
+              </tr>
+            
+              <tr data-code="SGR" data-sector="Unknown">
+                <td data-label="Code">SGR</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="6.66927484">6.67</td>
+                <td data-label="Δ pp" class="mono" data-value="0.006543319999999575">0.01</td>
+              </tr>
+            
+              <tr data-code="VUL" data-sector="Unknown">
+                <td data-label="Code">VUL</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="6.30719987">6.31</td>
+                <td data-label="Δ pp" class="mono" data-value="-0.12346586000000048">-0.12</td>
+              </tr>
+            
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div>
+        <h3>Big Δ day-over-day</h3>
+        <div class="table-wrap">
+          <table class="filterable sortable">
+            <thead><tr>
+              <th data-sort="text">Code</th>
+              <th data-sort="text">Sector</th>
+              <th data-sort="num">% Short</th>
+              <th data-sort="num">Δ pp</th>
+            </tr></thead>
+            <tbody>
+            
+              <tr data-code="CUV" data-sector="Unknown">
+                <td data-label="Code">CUV</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="9.04603477">9.05</td>
+                <td data-label="Δ pp" class="mono" data-value="2.7815124300000003">2.78</td>
+              </tr>
+            
+              <tr data-code="AD8" data-sector="Unknown">
+                <td data-label="Code">AD8</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="5.93197594">5.93</td>
+                <td data-label="Δ pp" class="mono" data-value="0.68999173">0.69</td>
+              </tr>
+            
+              <tr data-code="AOV" data-sector="Unknown">
+                <td data-label="Code">AOV</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="3.22937513">3.23</td>
+                <td data-label="Δ pp" class="mono" data-value="0.2538030200000003">0.25</td>
+              </tr>
+            
+              <tr data-code="ING" data-sector="Unknown">
+                <td data-label="Code">ING</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="2.66172127">2.66</td>
+                <td data-label="Δ pp" class="mono" data-value="0.25082786000000024">0.25</td>
+              </tr>
+            
+              <tr data-code="NVX" data-sector="Unknown">
+                <td data-label="Code">NVX</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="2.27958216">2.28</td>
+                <td data-label="Δ pp" class="mono" data-value="0.23826826999999984">0.24</td>
+              </tr>
+            
+              <tr data-code="SEK" data-sector="Unknown">
+                <td data-label="Code">SEK</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="1.97538667">1.98</td>
+                <td data-label="Δ pp" class="mono" data-value="0.23164173">0.23</td>
+              </tr>
+            
+              <tr data-code="DMP" data-sector="Unknown">
+                <td data-label="Code">DMP</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="9.69015736">9.69</td>
+                <td data-label="Δ pp" class="mono" data-value="0.2288885399999998">0.23</td>
+              </tr>
+            
+              <tr data-code="CHN" data-sector="Unknown">
+                <td data-label="Code">CHN</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="4.02132464">4.02</td>
+                <td data-label="Δ pp" class="mono" data-value="0.21945148999999953">0.22</td>
+              </tr>
+            
+              <tr data-code="ALD" data-sector="Unknown">
+                <td data-label="Code">ALD</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="3.22037239">3.22</td>
+                <td data-label="Δ pp" class="mono" data-value="0.20634019000000015">0.21</td>
+              </tr>
+            
+              <tr data-code="IPH" data-sector="Unknown">
+                <td data-label="Code">IPH</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="6.1717474">6.17</td>
+                <td data-label="Δ pp" class="mono" data-value="0.17229033000000005">0.17</td>
+              </tr>
+            
+              <tr data-code="HCW" data-sector="Unknown">
+                <td data-label="Code">HCW</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="4.11499054">4.11</td>
+                <td data-label="Δ pp" class="mono" data-value="0.17221727999999992">0.17</td>
+              </tr>
+            
+              <tr data-code="XRO" data-sector="Information Technology">
+                <td data-label="Code">XRO</td>
+                <td data-label="Sector">Information Technology</td>
+                <td data-label="% Short" class="mono" data-value="1.26391007">1.26</td>
+                <td data-label="Δ pp" class="mono" data-value="0.16507396000000019">0.17</td>
+              </tr>
+            
+              <tr data-code="RIO" data-sector="Materials">
+                <td data-label="Code">RIO</td>
+                <td data-label="Sector">Materials</td>
+                <td data-label="% Short" class="mono" data-value="5.64520681">5.65</td>
+                <td data-label="Δ pp" class="mono" data-value="0.16174374000000036">0.16</td>
+              </tr>
+            
+              <tr data-code="PME" data-sector="Unknown">
+                <td data-label="Code">PME</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="1.68184852">1.68</td>
+                <td data-label="Δ pp" class="mono" data-value="0.15974324000000006">0.16</td>
+              </tr>
+            
+              <tr data-code="DTR" data-sector="Unknown">
+                <td data-label="Code">DTR</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="0.35206864">0.35</td>
+                <td data-label="Δ pp" class="mono" data-value="0.15613118999999998">0.16</td>
+              </tr>
+            
+              <tr data-code="NEC" data-sector="Unknown">
+                <td data-label="Code">NEC</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="0.67579922">0.68</td>
+                <td data-label="Δ pp" class="mono" data-value="0.15441963000000003">0.15</td>
+              </tr>
+            
+              <tr data-code="360" data-sector="Unknown">
+                <td data-label="Code">360</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="0.30903929">0.31</td>
+                <td data-label="Δ pp" class="mono" data-value="0.15106870000000003">0.15</td>
+              </tr>
+            
+              <tr data-code="PNV" data-sector="Unknown">
+                <td data-label="Code">PNV</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="12.27218907">12.27</td>
+                <td data-label="Δ pp" class="mono" data-value="0.1478893199999991">0.15</td>
+              </tr>
+            
+              <tr data-code="MSB" data-sector="Unknown">
+                <td data-label="Code">MSB</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="6.20695419">6.21</td>
+                <td data-label="Δ pp" class="mono" data-value="0.14050891000000032">0.14</td>
+              </tr>
+            
+              <tr data-code="SOL" data-sector="Unknown">
+                <td data-label="Code">SOL</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="3.9894943">3.99</td>
+                <td data-label="Δ pp" class="mono" data-value="0.12879145000000003">0.13</td>
+              </tr>
+            
+              <tr data-code="MTS" data-sector="Unknown">
+                <td data-label="Code">MTS</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="2.35088089">2.35</td>
+                <td data-label="Δ pp" class="mono" data-value="0.12752500999999983">0.13</td>
+              </tr>
+            
+              <tr data-code="RWC" data-sector="Unknown">
+                <td data-label="Code">RWC</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="2.84993512">2.85</td>
+                <td data-label="Δ pp" class="mono" data-value="0.12519829000000016">0.13</td>
+              </tr>
+            
+              <tr data-code="BAP" data-sector="Unknown">
+                <td data-label="Code">BAP</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="2.11295253">2.11</td>
+                <td data-label="Δ pp" class="mono" data-value="0.11792877999999973">0.12</td>
+              </tr>
+            
+              <tr data-code="LKY" data-sector="Unknown">
+                <td data-label="Code">LKY</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="0.30364935">0.3</td>
+                <td data-label="Δ pp" class="mono" data-value="0.11220208999999998">0.11</td>
+              </tr>
+            
+              <tr data-code="WGX" data-sector="Unknown">
+                <td data-label="Code">WGX</td>
+                <td data-label="Sector">Unknown</td>
+                <td data-label="% Short" class="mono" data-value="2.67015324">2.67</td>
+                <td data-label="Δ pp" class="mono" data-value="0.11182683999999998">0.11</td>
+              </tr>
+            
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="covering" class="card section">
+    <h2>Likely covering (largest decreases)</h2>
+    <div class="table-wrap">
+      <table class="filterable sortable">
+        <thead><tr>
+          <th data-sort="text">Code</th>
+          <th data-sort="text">Sector</th>
+          <th data-sort="num">% Short</th>
+          <th data-sort="num">Δ pp</th>
+          <th data-sort="num">Δ shares</th>
+        </tr></thead>
+        <tbody>
+        
+          <tr data-code="LOT" data-sector="Unknown">
+            <td data-label="Code">LOT</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="9.06507759">9.07</td>
+            <td data-label="Δ pp" class="mono" data-value="-1.2854937199999998">-1.29</td>
+            <td data-label="Δ shares" class="mono" data-value="-30490072.8852199">-30,490,072</td>
+          </tr>
+        
+          <tr data-code="BPT" data-sector="Unknown">
+            <td data-label="Code">BPT</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="3.24523534">3.25</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.5759974200000002">-0.58</td>
+            <td data-label="Δ shares" class="mono" data-value="-13140423.000151694">-13,140,423</td>
+          </tr>
+        
+          <tr data-code="VCX" data-sector="Unknown">
+            <td data-label="Code">VCX</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="1.62770029">1.63</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.20614887000000004">-0.21</td>
+            <td data-label="Δ shares" class="mono" data-value="-9406321.894129097">-9,406,321</td>
+          </tr>
+        
+          <tr data-code="SYA" data-sector="Unknown">
+            <td data-label="Code">SYA</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="1.42965932">1.43</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.02816435999999989">-0.03</td>
+            <td data-label="Δ shares" class="mono" data-value="-7115739.866564453">-7,115,739</td>
+          </tr>
+        
+          <tr data-code="SIG" data-sector="Unknown">
+            <td data-label="Code">SIG</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="2.01721375">2.02</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.048226870000000144">-0.05</td>
+            <td data-label="Δ shares" class="mono" data-value="-5567166.559904039">-5,567,166</td>
+          </tr>
+        
+          <tr data-code="LTR" data-sector="Materials">
+            <td data-label="Code">LTR</td>
+            <td data-label="Sector">Materials</td>
+            <td data-label="% Short" class="mono" data-value="6.07315136">6.07</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.17035116000000006">-0.17</td>
+            <td data-label="Δ shares" class="mono" data-value="-4890058.913342029">-4,890,058</td>
+          </tr>
+        
+          <tr data-code="CTT" data-sector="Unknown">
+            <td data-label="Code">CTT</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="8.35447427">8.35</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.9648054199999994">-0.96</td>
+            <td data-label="Δ shares" class="mono" data-value="-3678207.009671524">-3,678,207</td>
+          </tr>
+        
+          <tr data-code="REH" data-sector="Unknown">
+            <td data-label="Code">REH</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="1.95009899">1.95</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.5185020199999999">-0.52</td>
+            <td data-label="Δ shares" class="mono" data-value="-3349441.0273654554">-3,349,441</td>
+          </tr>
+        
+          <tr data-code="PLS" data-sector="Materials">
+            <td data-label="Code">PLS</td>
+            <td data-label="Sector">Materials</td>
+            <td data-label="% Short" class="mono" data-value="16.72706487">16.73</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.10333711000000179">-0.1</td>
+            <td data-label="Δ shares" class="mono" data-value="-3325898.887664199">-3,325,898</td>
+          </tr>
+        
+          <tr data-code="CIP" data-sector="Unknown">
+            <td data-label="Code">CIP</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="2.84323921">2.84</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.5223432899999998">-0.52</td>
+            <td data-label="Δ shares" class="mono" data-value="-3309629.986018978">-3,309,629</td>
+          </tr>
+        
+          <tr data-code="RSG" data-sector="Unknown">
+            <td data-label="Code">RSG</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.2939944">0.29</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.12932253999999999">-0.13</td>
+            <td data-label="Δ shares" class="mono" data-value="-2754176.9782903288">-2,754,176</td>
+          </tr>
+        
+          <tr data-code="NXT" data-sector="Unknown">
+            <td data-label="Code">NXT</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="6.86539856">6.87</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.39531252000000006">-0.4</td>
+            <td data-label="Δ shares" class="mono" data-value="-2531644.9838644713">-2,531,644</td>
+          </tr>
+        
+          <tr data-code="BOE" data-sector="Unknown">
+            <td data-label="Code">BOE</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="18.9313617">18.93</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.6071205999999982">-0.61</td>
+            <td data-label="Δ shares" class="mono" data-value="-2519073.967112258">-2,519,073</td>
+          </tr>
+        
+          <tr data-code="PDN" data-sector="Unknown">
+            <td data-label="Code">PDN</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="16.8538884">16.85</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.6087938600000022">-0.61</td>
+            <td data-label="Δ shares" class="mono" data-value="-2429475.966674134">-2,429,475</td>
+          </tr>
+        
+          <tr data-code="BHP" data-sector="Materials">
+            <td data-label="Code">BHP</td>
+            <td data-label="Sector">Materials</td>
+            <td data-label="% Short" class="mono" data-value="1.00910368">1.01</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.03692019000000002">-0.04</td>
+            <td data-label="Δ shares" class="mono" data-value="-1875144.3941450343">-1,875,144</td>
+          </tr>
+        
+          <tr data-code="AGY" data-sector="Unknown">
+            <td data-label="Code">AGY</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.25125434">0.25</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.1179633">-0.12</td>
+            <td data-label="Δ shares" class="mono" data-value="-1811823.0191372219">-1,811,823</td>
+          </tr>
+        
+          <tr data-code="VEA" data-sector="Unknown">
+            <td data-label="Code">VEA</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="4.73137112">4.73</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.10119103999999979">-0.1</td>
+            <td data-label="Δ shares" class="mono" data-value="-1633988.0053364486">-1,633,988</td>
+          </tr>
+        
+          <tr data-code="AMP" data-sector="Unknown">
+            <td data-label="Code">AMP</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.63494917">0.63</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.0638099900000001">-0.06</td>
+            <td data-label="Δ shares" class="mono" data-value="-1615502.9380919188">-1,615,502</td>
+          </tr>
+        
+          <tr data-code="BMN" data-sector="Unknown">
+            <td data-label="Code">BMN</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="3.67680678">3.68</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.7550761399999995">-0.76</td>
+            <td data-label="Δ shares" class="mono" data-value="-1550951.0070421621">-1,550,951</td>
+          </tr>
+        
+          <tr data-code="BRN" data-sector="Unknown">
+            <td data-label="Code">BRN</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="3.43803768">3.44</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.07124465000000013">-0.07</td>
+            <td data-label="Δ shares" class="mono" data-value="-1450357.07400468">-1,450,357</td>
+          </tr>
+        
+          <tr data-code="DXS" data-sector="Unknown">
+            <td data-label="Code">DXS</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="1.35083567">1.35</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.13184481000000003">-0.13</td>
+            <td data-label="Δ shares" class="mono" data-value="-1418076.9550147317">-1,418,076</td>
+          </tr>
+        
+          <tr data-code="GPT" data-sector="Unknown">
+            <td data-label="Code">GPT</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.08579982">0.09</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.07074264">-0.07</td>
+            <td data-label="Δ shares" class="mono" data-value="-1355130.0452261518">-1,355,130</td>
+          </tr>
+        
+          <tr data-code="BEN" data-sector="Unknown">
+            <td data-label="Code">BEN</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="1.87555447">1.88</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.2331584000000002">-0.23</td>
+            <td data-label="Δ shares" class="mono" data-value="-1324297.023028545">-1,324,297</td>
+          </tr>
+        
+          <tr data-code="LRV" data-sector="Unknown">
+            <td data-label="Code">LRV</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.93919791">0.94</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.23869148000000007">-0.24</td>
+            <td data-label="Δ shares" class="mono" data-value="-1168221.0152679859">-1,168,221</td>
+          </tr>
+        
+          <tr data-code="PGC" data-sector="Unknown">
+            <td data-label="Code">PGC</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.24589306">0.25</td>
+            <td data-label="Δ pp" class="mono" data-value="-0.06922408000000002">-0.07</td>
+            <td data-label="Δ shares" class="mono" data-value="-1145869.9267256712">-1,145,869</td>
+          </tr>
+        
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="dtc" class="card section">
+    <h2>High Days-to-Cover (hardest to unwind)</h2>
+    <div class="table-wrap">
+      <table class="filterable sortable">
+        <thead><tr>
+          <th data-sort="text">Code</th>
+          <th data-sort="text">Sector</th>
+          <th data-sort="num">% Short</th>
+          <th data-sort="num">DTC (days)</th>
+          <th data-sort="num">ADV (shares)</th>
+        </tr></thead>
+        <tbody>
+        
+        
+        
+        
+          <tr data-code="CUV" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">CUV</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="9.04603477">9.05</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="OCL" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">OCL</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.08542391">0.09</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="SRV" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">SRV</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.09116611">0.09</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="ABG" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">ABG</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.08834435">0.09</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="SS1" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">SS1</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.08763702">0.09</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="ENL" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">ENL</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.08755787">0.09</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="JMS" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">JMS</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.08696029">0.09</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="GNC" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">GNC</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.08687153">0.09</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="GPT" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">GPT</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.08579982">0.09</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="ATC" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">ATC</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.0846298">0.08</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="GSBI32" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">GSBI32</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.06960241">0.07</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="ORD" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">ORD</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.08303569">0.08</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="CVN" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">CVN</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.07921829">0.08</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="KNB" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">KNB</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.07835575">0.08</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="PRU" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">PRU</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.07829694">0.08</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="RCE" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">RCE</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.07770051">0.08</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="KNI" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">KNI</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.07734355">0.08</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="GSBK39" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">GSBK39</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.07592593">0.08</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="EIQ" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">EIQ</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.0914139">0.09</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="ELS" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">ELS</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.09236674">0.09</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="RAD" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">RAD</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.09240692">0.09</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="DGL" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">DGL</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.09317127">0.09</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="IRE" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">IRE</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.10683097">0.11</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="XCLWAY" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">XCLWAY</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.10623317">0.11</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        
+        
+        
+          <tr data-code="MDR" data-sector="Unknown" class="dtc-0-1">
+            <td data-label="Code">MDR</td>
+            <td data-label="Sector">Unknown</td>
+            <td data-label="% Short" class="mono" data-value="0.10555149">0.11</td>
+            <td data-label="DTC (days)" class="mono" data-value="0.0">0.0</td>
+            <td data-label="ADV (shares)" class="mono" data-value="0.0">0</td>
+          </tr>
+        
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="scores" class="card section">
+    <h2>Covering scores</h2>
+    <div class="grid">
+      <div>
+        <h3>3-day window</h3>
+        <div class="table-wrap">
+          <table class="filterable sortable">
+            <thead><tr>
+              <th data-sort="text">Code</th>
+              <th data-sort="num">Neg days</th>
+              <th data-sort="num">Σ Δshares↓</th>
+              <th data-sort="num">Σ Δpp↓</th>
+              <th data-sort="num">Score</th>
+            </tr></thead>
+            <tbody>
+            
+              <tr data-code="LOT">
+                <td data-label="Code">LOT</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="30490072.8852199">30,490,072</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="1.2854937199999998">1.29</td>
+                <td data-label="Score" class="mono" data-value="154.0931112860995">154.09</td>
+              </tr>
+            
+              <tr data-code="BPT">
+                <td data-label="Code">BPT</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="13140423.000151694">13,140,423</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.5759974200000002">0.58</td>
+                <td data-label="Score" class="mono" data-value="66.99011371075846">66.99</td>
+              </tr>
+            
+              <tr data-code="VCX">
+                <td data-label="Code">VCX</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="9406321.894129096">9,406,321</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.20614887">0.21</td>
+                <td data-label="Score" class="mono" data-value="48.134683905645474">48.13</td>
+              </tr>
+            
+              <tr data-code="SYA">
+                <td data-label="Code">SYA</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="7115739.866564453">7,115,739</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.0281643599999998">0.03</td>
+                <td data-label="Score" class="mono" data-value="36.59278151282226">36.59</td>
+              </tr>
+            
+              <tr data-code="SIG">
+                <td data-label="Code">SIG</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="5567166.559904039">5,567,166</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.0482268700000001">0.05</td>
+                <td data-label="Score" class="mono" data-value="28.859946234520194">28.86</td>
+              </tr>
+            
+              <tr data-code="LTR">
+                <td data-label="Code">LTR</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="4890058.913342029">4,890,058</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.17035116">0.17</td>
+                <td data-label="Score" class="mono" data-value="25.535470146710146">25.54</td>
+              </tr>
+            
+              <tr data-code="CTT">
+                <td data-label="Code">CTT</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="3678207.009671524">3,678,207</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.9648054199999994">0.96</td>
+                <td data-label="Score" class="mono" data-value="19.87343775835762">19.87</td>
+              </tr>
+            
+              <tr data-code="REH">
+                <td data-label="Code">REH</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="3349441.0273654554">3,349,441</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.5185020199999999">0.52</td>
+                <td data-label="Score" class="mono" data-value="18.006456146827276">18.01</td>
+              </tr>
+            
+              <tr data-code="CIP">
+                <td data-label="Code">CIP</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="3309629.986018978">3,309,629</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.5223432899999998">0.52</td>
+                <td data-label="Score" class="mono" data-value="17.80932157509489">17.81</td>
+              </tr>
+            
+              <tr data-code="PLS">
+                <td data-label="Code">PLS</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="3325898.887664199">3,325,898</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.1033371100000017">0.1</td>
+                <td data-label="Score" class="mono" data-value="17.681162993320996">17.68</td>
+              </tr>
+            
+              <tr data-code="RSG">
+                <td data-label="Code">RSG</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="2754176.9782903288">2,754,176</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.1293225399999999">0.13</td>
+                <td data-label="Score" class="mono" data-value="14.835546161451644">14.84</td>
+              </tr>
+            
+              <tr data-code="BOE">
+                <td data-label="Code">BOE</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="2519073.967112258">2,519,073</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.6071205999999982">0.61</td>
+                <td data-label="Score" class="mono" data-value="13.89893013556129">13.9</td>
+              </tr>
+            
+              <tr data-code="NXT">
+                <td data-label="Code">NXT</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="2531644.983864472">2,531,644</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.39531252">0.4</td>
+                <td data-label="Score" class="mono" data-value="13.85588117932236">13.86</td>
+              </tr>
+            
+              <tr data-code="PDN">
+                <td data-label="Code">PDN</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="2429475.966674134">2,429,475</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.6087938600000022">0.61</td>
+                <td data-label="Score" class="mono" data-value="13.451776763370672">13.45</td>
+              </tr>
+            
+              <tr data-code="BHP">
+                <td data-label="Code">BHP</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1875144.3941450345">1,875,144</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.03692019">0.04</td>
+                <td data-label="Score" class="mono" data-value="10.394182065725172">10.39</td>
+              </tr>
+            
+              <tr data-code="AGY">
+                <td data-label="Code">AGY</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1811823.0191372216">1,811,823</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.1179633">0.12</td>
+                <td data-label="Score" class="mono" data-value="10.118096745686108">10.12</td>
+              </tr>
+            
+              <tr data-code="VEA">
+                <td data-label="Code">VEA</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1633988.0053364486">1,633,988</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.1011910399999997">0.1</td>
+                <td data-label="Score" class="mono" data-value="9.220535546682243">9.22</td>
+              </tr>
+            
+              <tr data-code="BMN">
+                <td data-label="Code">BMN</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1550951.007042162">1,550,951</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.7550761399999995">0.76</td>
+                <td data-label="Score" class="mono" data-value="9.13229310521081">9.13</td>
+              </tr>
+            
+              <tr data-code="AMP">
+                <td data-label="Code">AMP</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1615502.9380919188">1,615,502</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.0638099900000001">0.06</td>
+                <td data-label="Score" class="mono" data-value="9.109419685459594">9.11</td>
+              </tr>
+            
+              <tr data-code="BRN">
+                <td data-label="Code">BRN</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1450357.07400468">1,450,357</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.0712446500000001">0.07</td>
+                <td data-label="Score" class="mono" data-value="8.287407695023399">8.29</td>
+              </tr>
+            
+              <tr data-code="DXS">
+                <td data-label="Code">DXS</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1418076.9550147315">1,418,076</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.13184481">0.13</td>
+                <td data-label="Score" class="mono" data-value="8.156307180073657">8.16</td>
+              </tr>
+            
+              <tr data-code="GPT">
+                <td data-label="Code">GPT</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1355130.0452261518">1,355,130</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.07074264">0.07</td>
+                <td data-label="Score" class="mono" data-value="7.8110215461307595">7.81</td>
+              </tr>
+            
+              <tr data-code="BEN">
+                <td data-label="Code">BEN</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1324297.023028545">1,324,297</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.2331584000000002">0.23</td>
+                <td data-label="Score" class="mono" data-value="7.738064315142726">7.74</td>
+              </tr>
+            
+              <tr data-code="LRV">
+                <td data-label="Code">LRV</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1168221.015267986">1,168,221</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.23869148">0.24</td>
+                <td data-label="Score" class="mono" data-value="6.960450816339931">6.96</td>
+              </tr>
+            
+              <tr data-code="PGC">
+                <td data-label="Code">PGC</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1145869.9267256712">1,145,869</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.06922408">0.07</td>
+                <td data-label="Score" class="mono" data-value="6.763961673628356">6.76</td>
+              </tr>
+            
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <h3>5-day window</h3>
+        <div class="table-wrap">
+          <table class="filterable sortable">
+            <thead><tr>
+              <th data-sort="text">Code</th>
+              <th data-sort="num">Neg days</th>
+              <th data-sort="num">Σ Δshares↓</th>
+              <th data-sort="num">Σ Δpp↓</th>
+              <th data-sort="num">Score</th>
+            </tr></thead>
+            <tbody>
+            
+              <tr data-code="LOT">
+                <td data-label="Code">LOT</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="30490072.8852199">30,490,072</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="1.2854937199999998">1.29</td>
+                <td data-label="Score" class="mono" data-value="154.0931112860995">154.09</td>
+              </tr>
+            
+              <tr data-code="BPT">
+                <td data-label="Code">BPT</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="13140423.000151694">13,140,423</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.5759974200000002">0.58</td>
+                <td data-label="Score" class="mono" data-value="66.99011371075846">66.99</td>
+              </tr>
+            
+              <tr data-code="VCX">
+                <td data-label="Code">VCX</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="9406321.894129096">9,406,321</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.20614887">0.21</td>
+                <td data-label="Score" class="mono" data-value="48.134683905645474">48.13</td>
+              </tr>
+            
+              <tr data-code="SYA">
+                <td data-label="Code">SYA</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="7115739.866564453">7,115,739</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.0281643599999998">0.03</td>
+                <td data-label="Score" class="mono" data-value="36.59278151282226">36.59</td>
+              </tr>
+            
+              <tr data-code="SIG">
+                <td data-label="Code">SIG</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="5567166.559904039">5,567,166</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.0482268700000001">0.05</td>
+                <td data-label="Score" class="mono" data-value="28.859946234520194">28.86</td>
+              </tr>
+            
+              <tr data-code="LTR">
+                <td data-label="Code">LTR</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="4890058.913342029">4,890,058</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.17035116">0.17</td>
+                <td data-label="Score" class="mono" data-value="25.535470146710146">25.54</td>
+              </tr>
+            
+              <tr data-code="CTT">
+                <td data-label="Code">CTT</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="3678207.009671524">3,678,207</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.9648054199999994">0.96</td>
+                <td data-label="Score" class="mono" data-value="19.87343775835762">19.87</td>
+              </tr>
+            
+              <tr data-code="REH">
+                <td data-label="Code">REH</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="3349441.0273654554">3,349,441</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.5185020199999999">0.52</td>
+                <td data-label="Score" class="mono" data-value="18.006456146827276">18.01</td>
+              </tr>
+            
+              <tr data-code="CIP">
+                <td data-label="Code">CIP</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="3309629.986018978">3,309,629</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.5223432899999998">0.52</td>
+                <td data-label="Score" class="mono" data-value="17.80932157509489">17.81</td>
+              </tr>
+            
+              <tr data-code="PLS">
+                <td data-label="Code">PLS</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="3325898.887664199">3,325,898</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.1033371100000017">0.1</td>
+                <td data-label="Score" class="mono" data-value="17.681162993320996">17.68</td>
+              </tr>
+            
+              <tr data-code="RSG">
+                <td data-label="Code">RSG</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="2754176.9782903288">2,754,176</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.1293225399999999">0.13</td>
+                <td data-label="Score" class="mono" data-value="14.835546161451644">14.84</td>
+              </tr>
+            
+              <tr data-code="BOE">
+                <td data-label="Code">BOE</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="2519073.967112258">2,519,073</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.6071205999999982">0.61</td>
+                <td data-label="Score" class="mono" data-value="13.89893013556129">13.9</td>
+              </tr>
+            
+              <tr data-code="NXT">
+                <td data-label="Code">NXT</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="2531644.983864472">2,531,644</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.39531252">0.4</td>
+                <td data-label="Score" class="mono" data-value="13.85588117932236">13.86</td>
+              </tr>
+            
+              <tr data-code="PDN">
+                <td data-label="Code">PDN</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="2429475.966674134">2,429,475</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.6087938600000022">0.61</td>
+                <td data-label="Score" class="mono" data-value="13.451776763370672">13.45</td>
+              </tr>
+            
+              <tr data-code="BHP">
+                <td data-label="Code">BHP</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1875144.3941450345">1,875,144</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.03692019">0.04</td>
+                <td data-label="Score" class="mono" data-value="10.394182065725172">10.39</td>
+              </tr>
+            
+              <tr data-code="AGY">
+                <td data-label="Code">AGY</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1811823.0191372216">1,811,823</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.1179633">0.12</td>
+                <td data-label="Score" class="mono" data-value="10.118096745686108">10.12</td>
+              </tr>
+            
+              <tr data-code="VEA">
+                <td data-label="Code">VEA</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1633988.0053364486">1,633,988</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.1011910399999997">0.1</td>
+                <td data-label="Score" class="mono" data-value="9.220535546682243">9.22</td>
+              </tr>
+            
+              <tr data-code="BMN">
+                <td data-label="Code">BMN</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1550951.007042162">1,550,951</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.7550761399999995">0.76</td>
+                <td data-label="Score" class="mono" data-value="9.13229310521081">9.13</td>
+              </tr>
+            
+              <tr data-code="AMP">
+                <td data-label="Code">AMP</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1615502.9380919188">1,615,502</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.0638099900000001">0.06</td>
+                <td data-label="Score" class="mono" data-value="9.109419685459594">9.11</td>
+              </tr>
+            
+              <tr data-code="BRN">
+                <td data-label="Code">BRN</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1450357.07400468">1,450,357</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.0712446500000001">0.07</td>
+                <td data-label="Score" class="mono" data-value="8.287407695023399">8.29</td>
+              </tr>
+            
+              <tr data-code="DXS">
+                <td data-label="Code">DXS</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1418076.9550147315">1,418,076</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.13184481">0.13</td>
+                <td data-label="Score" class="mono" data-value="8.156307180073657">8.16</td>
+              </tr>
+            
+              <tr data-code="GPT">
+                <td data-label="Code">GPT</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1355130.0452261518">1,355,130</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.07074264">0.07</td>
+                <td data-label="Score" class="mono" data-value="7.8110215461307595">7.81</td>
+              </tr>
+            
+              <tr data-code="BEN">
+                <td data-label="Code">BEN</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1324297.023028545">1,324,297</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.2331584000000002">0.23</td>
+                <td data-label="Score" class="mono" data-value="7.738064315142726">7.74</td>
+              </tr>
+            
+              <tr data-code="LRV">
+                <td data-label="Code">LRV</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1168221.015267986">1,168,221</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.23869148">0.24</td>
+                <td data-label="Score" class="mono" data-value="6.960450816339931">6.96</td>
+              </tr>
+            
+              <tr data-code="PGC">
+                <td data-label="Code">PGC</td>
+                <td data-label="Neg days" class="mono" data-value="1">1</td>
+                <td data-label="Σ Δshares↓" class="mono" data-value="1145869.9267256712">1,145,869</td>
+                <td data-label="Σ Δpp↓" class="mono" data-value="0.06922408">0.07</td>
+                <td data-label="Score" class="mono" data-value="6.763961673628356">6.76</td>
+              </tr>
+            
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<tr data-code="SYA" data-sector="Unknown">
-  <td>SYA</td>
-  <td>Unknown</td>
-  <td>32,432,883</td>
-  <td>0.128%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="AMP" data-sector="Unknown">
-  <td>AMP</td>
-  <td>Unknown</td>
-  <td>26,129,146</td>
-  <td>1.032%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="PLS" data-sector="Materials">
-  <td>PLS</td>
-  <td>Materials</td>
-  <td>24,375,236</td>
-  <td>0.757%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="TLS" data-sector="Communication Services">
-  <td>TLS</td>
-  <td>Communication Services</td>
-  <td>9,457,434</td>
-  <td>0.083%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    
-  </td>
-</tr>
-
-<tr data-code="BOE" data-sector="Unknown">
-  <td>BOE</td>
-  <td>Unknown</td>
-  <td>4,578,746</td>
-  <td>1.104%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="LTR" data-sector="Materials">
-  <td>LTR</td>
-  <td>Materials</td>
-  <td>4,255,400</td>
-  <td>0.148%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="VAU" data-sector="Unknown">
-  <td>VAU</td>
-  <td>Unknown</td>
-  <td>4,161,321</td>
-  <td>0.061%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    
-  </td>
-</tr>
-
-<tr data-code="RRL" data-sector="Unknown">
-  <td>RRL</td>
-  <td>Unknown</td>
-  <td>3,710,959</td>
-  <td>0.49%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="LOT" data-sector="Unknown">
-  <td>LOT</td>
-  <td>Unknown</td>
-  <td>3,356,263</td>
-  <td>0.142%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="SSM" data-sector="Unknown">
-  <td>SSM</td>
-  <td>Unknown</td>
-  <td>3,252,538</td>
-  <td>0.528%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="NEC" data-sector="Unknown">
-  <td>NEC</td>
-  <td>Unknown</td>
-  <td>3,251,733</td>
-  <td>0.205%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="SIG" data-sector="Unknown">
-  <td>SIG</td>
-  <td>Unknown</td>
-  <td>3,014,133</td>
-  <td>0.026%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    
-  </td>
-</tr>
-
-<tr data-code="S32" data-sector="Unknown">
-  <td>S32</td>
-  <td>Unknown</td>
-  <td>2,990,347</td>
-  <td>0.066%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    
-  </td>
-</tr>
-
-<tr data-code="CWY" data-sector="Unknown">
-  <td>CWY</td>
-  <td>Unknown</td>
-  <td>2,895,845</td>
-  <td>0.13%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="ARU" data-sector="Unknown">
-  <td>ARU</td>
-  <td>Unknown</td>
-  <td>2,708,215</td>
-  <td>0.096%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    
-  </td>
-</tr>
-
-<tr data-code="BGL" data-sector="Unknown">
-  <td>BGL</td>
-  <td>Unknown</td>
-  <td>2,673,992</td>
-  <td>0.181%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="LIN" data-sector="Unknown">
-  <td>LIN</td>
-  <td>Unknown</td>
-  <td>2,646,599</td>
-  <td>0.197%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="IEL" data-sector="Unknown">
-  <td>IEL</td>
-  <td>Unknown</td>
-  <td>2,336,139</td>
-  <td>0.839%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="DBI" data-sector="Unknown">
-  <td>DBI</td>
-  <td>Unknown</td>
-  <td>2,175,652</td>
-  <td>0.439%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="RSG" data-sector="Unknown">
-  <td>RSG</td>
-  <td>Unknown</td>
-  <td>2,115,258</td>
-  <td>0.099%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    
-  </td>
-</tr>
-
-<tr data-code="FMG" data-sector="Materials">
-  <td>FMG</td>
-  <td>Materials</td>
-  <td>2,095,796</td>
-  <td>0.068%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    
-  </td>
-</tr>
-
-<tr data-code="ZIP" data-sector="Unknown">
-  <td>ZIP</td>
-  <td>Unknown</td>
-  <td>1,957,469</td>
-  <td>0.152%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="GMD" data-sector="Unknown">
-  <td>GMD</td>
-  <td>Unknown</td>
-  <td>1,899,317</td>
-  <td>0.168%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="NIC" data-sector="Unknown">
-  <td>NIC</td>
-  <td>Unknown</td>
-  <td>1,845,552</td>
-  <td>0.043%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    
-  </td>
-</tr>
-
-<tr data-code="TCL" data-sector="Industrials">
-  <td>TCL</td>
-  <td>Industrials</td>
-  <td>1,698,320</td>
-  <td>0.055%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    
-  </td>
-</tr>
-
-</table></div>
-<div>
-<h3>Top by % issued</h3>
-<table class="filterable">
-<tr><th>Code</th><th>Sector</th><th>Gross</th><th>% Issued</th><th>Flags</th></tr>
-
-<tr data-code="RMBS" data-sector="Unknown">
-  <td>RMBS</td>
-  <td>Unknown</td>
-  <td>16,799</td>
-  <td>4.42%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="ULTB" data-sector="Unknown">
-  <td>ULTB</td>
-  <td>Unknown</td>
-  <td>510</td>
-  <td>2.614%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="XGOV" data-sector="Unknown">
-  <td>XGOV</td>
-  <td>Unknown</td>
-  <td>160,000</td>
-  <td>2.564%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="HYLD" data-sector="Unknown">
-  <td>HYLD</td>
-  <td>Unknown</td>
-  <td>16,955</td>
-  <td>2.261%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="IHWL" data-sector="Unknown">
-  <td>IHWL</td>
-  <td>Unknown</td>
-  <td>221,569</td>
-  <td>1.585%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="SNAS" data-sector="Unknown">
-  <td>SNAS</td>
-  <td>Unknown</td>
-  <td>51,689</td>
-  <td>1.578%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="GAME" data-sector="Unknown">
-  <td>GAME</td>
-  <td>Unknown</td>
-  <td>24,459</td>
-  <td>1.473%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="MQSD" data-sector="Unknown">
-  <td>MQSD</td>
-  <td>Unknown</td>
-  <td>43,867</td>
-  <td>1.279%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="QBTC" data-sector="Unknown">
-  <td>QBTC</td>
-  <td>Unknown</td>
-  <td>8,928</td>
-  <td>1.19%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="VDIF" data-sector="Unknown">
-  <td>VDIF</td>
-  <td>Unknown</td>
-  <td>4,264</td>
-  <td>1.166%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="GCQF" data-sector="Unknown">
-  <td>GCQF</td>
-  <td>Unknown</td>
-  <td>402,474</td>
-  <td>1.152%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="BOE" data-sector="Unknown">
-  <td>BOE</td>
-  <td>Unknown</td>
-  <td>4,578,746</td>
-  <td>1.104%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="GWTH" data-sector="Unknown">
-  <td>GWTH</td>
-  <td>Unknown</td>
-  <td>2,755</td>
-  <td>1.102%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="AMP" data-sector="Unknown">
-  <td>AMP</td>
-  <td>Unknown</td>
-  <td>26,129,146</td>
-  <td>1.032%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="FHNG" data-sector="Unknown">
-  <td>FHNG</td>
-  <td>Unknown</td>
-  <td>40,513</td>
-  <td>0.988%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="GARP" data-sector="Unknown">
-  <td>GARP</td>
-  <td>Unknown</td>
-  <td>74,253</td>
-  <td>0.943%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="IEL" data-sector="Unknown">
-  <td>IEL</td>
-  <td>Unknown</td>
-  <td>2,336,139</td>
-  <td>0.839%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="GXAI" data-sector="Unknown">
-  <td>GXAI</td>
-  <td>Unknown</td>
-  <td>78,684</td>
-  <td>0.802%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="CORE" data-sector="Unknown">
-  <td>CORE</td>
-  <td>Unknown</td>
-  <td>6,045</td>
-  <td>0.785%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="GEAR" data-sector="Unknown">
-  <td>GEAR</td>
-  <td>Unknown</td>
-  <td>114,326</td>
-  <td>0.777%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="PLS" data-sector="Materials">
-  <td>PLS</td>
-  <td>Materials</td>
-  <td>24,375,236</td>
-  <td>0.757%</td>
-  <td>
-    <span class="pill flag">Q</span>
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="MQWS" data-sector="Unknown">
-  <td>MQWS</td>
-  <td>Unknown</td>
-  <td>21,459</td>
-  <td>0.714%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="LEND" data-sector="Unknown">
-  <td>LEND</td>
-  <td>Unknown</td>
-  <td>63,177</td>
-  <td>0.633%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="JREG" data-sector="Unknown">
-  <td>JREG</td>
-  <td>Unknown</td>
-  <td>3,171</td>
-  <td>0.551%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-<tr data-code="EX20" data-sector="Unknown">
-  <td>EX20</td>
-  <td>Unknown</td>
-  <td>119,410</td>
-  <td>0.531%</td>
-  <td>
-    
-    <span class="pill flag">%</span>
-  </td>
-</tr>
-
-</table></div>
-</div>
-
-<h2>Short Positions (T+4)</h2>
-<p>Latest ASIC date: <b>2025-09-08</b>.</p>
-<div class="grid">
-<div>
-<h3>High % Shorted</h3>
-<table class="filterable">
-<tr><th>Code</th><th>Sector</th><th>% Short</th><th>Δ pp</th></tr>
-
-<tr data-code="BOE" data-sector="Unknown">
-  <td>BOE</td>
-  <td>Unknown</td>
-  <td>18.93</td>
-  <td>-0.61</td>
-</tr>
-
-<tr data-code="PDN" data-sector="Unknown">
-  <td>PDN</td>
-  <td>Unknown</td>
-  <td>16.85</td>
-  <td>-0.61</td>
-</tr>
-
-<tr data-code="PLS" data-sector="Materials">
-  <td>PLS</td>
-  <td>Materials</td>
-  <td>16.73</td>
-  <td>-0.1</td>
-</tr>
-
-<tr data-code="IEL" data-sector="Unknown">
-  <td>IEL</td>
-  <td>Unknown</td>
-  <td>13.99</td>
-  <td>-0.36</td>
-</tr>
-
-<tr data-code="PNV" data-sector="Unknown">
-  <td>PNV</td>
-  <td>Unknown</td>
-  <td>12.27</td>
-  <td>0.15</td>
-</tr>
-
-<tr data-code="MIN" data-sector="Unknown">
-  <td>MIN</td>
-  <td>Unknown</td>
-  <td>11.44</td>
-  <td>-0.14</td>
-</tr>
-
-<tr data-code="PWH" data-sector="Unknown">
-  <td>PWH</td>
-  <td>Unknown</td>
-  <td>10.4</td>
-  <td>-0.5</td>
-</tr>
-
-<tr data-code="CTD" data-sector="Unknown">
-  <td>CTD</td>
-  <td>Unknown</td>
-  <td>9.8</td>
-  <td>-0.14</td>
-</tr>
-
-<tr data-code="GYG" data-sector="Unknown">
-  <td>GYG</td>
-  <td>Unknown</td>
-  <td>9.75</td>
-  <td>-0.05</td>
-</tr>
-
-<tr data-code="DMP" data-sector="Unknown">
-  <td>DMP</td>
-  <td>Unknown</td>
-  <td>9.69</td>
-  <td>0.23</td>
-</tr>
-
-<tr data-code="LIC" data-sector="Unknown">
-  <td>LIC</td>
-  <td>Unknown</td>
-  <td>9.64</td>
-  <td>0.06</td>
-</tr>
-
-<tr data-code="ILU" data-sector="Unknown">
-  <td>ILU</td>
-  <td>Unknown</td>
-  <td>9.12</td>
-  <td>-0.03</td>
-</tr>
-
-<tr data-code="LOT" data-sector="Unknown">
-  <td>LOT</td>
-  <td>Unknown</td>
-  <td>9.07</td>
-  <td>-1.29</td>
-</tr>
-
-<tr data-code="CUV" data-sector="Unknown">
-  <td>CUV</td>
-  <td>Unknown</td>
-  <td>9.05</td>
-  <td>2.78</td>
-</tr>
-
-<tr data-code="SLX" data-sector="Unknown">
-  <td>SLX</td>
-  <td>Unknown</td>
-  <td>8.72</td>
-  <td>-0.13</td>
-</tr>
-
-<tr data-code="CTT" data-sector="Unknown">
-  <td>CTT</td>
-  <td>Unknown</td>
-  <td>8.35</td>
-  <td>-0.96</td>
-</tr>
-
-<tr data-code="FLT" data-sector="Unknown">
-  <td>FLT</td>
-  <td>Unknown</td>
-  <td>8.27</td>
-  <td>0.07</td>
-</tr>
-
-<tr data-code="DYL" data-sector="Unknown">
-  <td>DYL</td>
-  <td>Unknown</td>
-  <td>8.08</td>
-  <td>-0.03</td>
-</tr>
-
-<tr data-code="NAN" data-sector="Unknown">
-  <td>NAN</td>
-  <td>Unknown</td>
-  <td>8.07</td>
-  <td>0.01</td>
-</tr>
-
-<tr data-code="MVF" data-sector="Unknown">
-  <td>MVF</td>
-  <td>Unknown</td>
-  <td>7.47</td>
-  <td>-0.03</td>
-</tr>
-
-<tr data-code="CU6" data-sector="Unknown">
-  <td>CU6</td>
-  <td>Unknown</td>
-  <td>6.99</td>
-  <td>0.0</td>
-</tr>
-
-<tr data-code="NXT" data-sector="Unknown">
-  <td>NXT</td>
-  <td>Unknown</td>
-  <td>6.87</td>
-  <td>-0.4</td>
-</tr>
-
-<tr data-code="KAR" data-sector="Unknown">
-  <td>KAR</td>
-  <td>Unknown</td>
-  <td>6.72</td>
-  <td>-0.03</td>
-</tr>
-
-<tr data-code="SGR" data-sector="Unknown">
-  <td>SGR</td>
-  <td>Unknown</td>
-  <td>6.67</td>
-  <td>0.01</td>
-</tr>
-
-<tr data-code="VUL" data-sector="Unknown">
-  <td>VUL</td>
-  <td>Unknown</td>
-  <td>6.31</td>
-  <td>-0.12</td>
-</tr>
-
-</table></div>
-<div>
-<h3>Big Δ day-over-day</h3>
-<table class="filterable">
-<tr><th>Code</th><th>Sector</th><th>% Short</th><th>Δ pp</th></tr>
-
-<tr data-code="CUV" data-sector="Unknown">
-  <td>CUV</td>
-  <td>Unknown</td>
-  <td>9.05</td>
-  <td>2.78</td>
-</tr>
-
-<tr data-code="AD8" data-sector="Unknown">
-  <td>AD8</td>
-  <td>Unknown</td>
-  <td>5.93</td>
-  <td>0.69</td>
-</tr>
-
-<tr data-code="AOV" data-sector="Unknown">
-  <td>AOV</td>
-  <td>Unknown</td>
-  <td>3.23</td>
-  <td>0.25</td>
-</tr>
-
-<tr data-code="ING" data-sector="Unknown">
-  <td>ING</td>
-  <td>Unknown</td>
-  <td>2.66</td>
-  <td>0.25</td>
-</tr>
-
-<tr data-code="NVX" data-sector="Unknown">
-  <td>NVX</td>
-  <td>Unknown</td>
-  <td>2.28</td>
-  <td>0.24</td>
-</tr>
-
-<tr data-code="SEK" data-sector="Unknown">
-  <td>SEK</td>
-  <td>Unknown</td>
-  <td>1.98</td>
-  <td>0.23</td>
-</tr>
-
-<tr data-code="DMP" data-sector="Unknown">
-  <td>DMP</td>
-  <td>Unknown</td>
-  <td>9.69</td>
-  <td>0.23</td>
-</tr>
-
-<tr data-code="CHN" data-sector="Unknown">
-  <td>CHN</td>
-  <td>Unknown</td>
-  <td>4.02</td>
-  <td>0.22</td>
-</tr>
-
-<tr data-code="ALD" data-sector="Unknown">
-  <td>ALD</td>
-  <td>Unknown</td>
-  <td>3.22</td>
-  <td>0.21</td>
-</tr>
-
-<tr data-code="IPH" data-sector="Unknown">
-  <td>IPH</td>
-  <td>Unknown</td>
-  <td>6.17</td>
-  <td>0.17</td>
-</tr>
-
-<tr data-code="HCW" data-sector="Unknown">
-  <td>HCW</td>
-  <td>Unknown</td>
-  <td>4.11</td>
-  <td>0.17</td>
-</tr>
-
-<tr data-code="XRO" data-sector="Information Technology">
-  <td>XRO</td>
-  <td>Information Technology</td>
-  <td>1.26</td>
-  <td>0.17</td>
-</tr>
-
-<tr data-code="RIO" data-sector="Materials">
-  <td>RIO</td>
-  <td>Materials</td>
-  <td>5.65</td>
-  <td>0.16</td>
-</tr>
-
-<tr data-code="PME" data-sector="Unknown">
-  <td>PME</td>
-  <td>Unknown</td>
-  <td>1.68</td>
-  <td>0.16</td>
-</tr>
-
-<tr data-code="DTR" data-sector="Unknown">
-  <td>DTR</td>
-  <td>Unknown</td>
-  <td>0.35</td>
-  <td>0.16</td>
-</tr>
-
-<tr data-code="NEC" data-sector="Unknown">
-  <td>NEC</td>
-  <td>Unknown</td>
-  <td>0.68</td>
-  <td>0.15</td>
-</tr>
-
-<tr data-code="360" data-sector="Unknown">
-  <td>360</td>
-  <td>Unknown</td>
-  <td>0.31</td>
-  <td>0.15</td>
-</tr>
-
-<tr data-code="PNV" data-sector="Unknown">
-  <td>PNV</td>
-  <td>Unknown</td>
-  <td>12.27</td>
-  <td>0.15</td>
-</tr>
-
-<tr data-code="MSB" data-sector="Unknown">
-  <td>MSB</td>
-  <td>Unknown</td>
-  <td>6.21</td>
-  <td>0.14</td>
-</tr>
-
-<tr data-code="SOL" data-sector="Unknown">
-  <td>SOL</td>
-  <td>Unknown</td>
-  <td>3.99</td>
-  <td>0.13</td>
-</tr>
-
-<tr data-code="MTS" data-sector="Unknown">
-  <td>MTS</td>
-  <td>Unknown</td>
-  <td>2.35</td>
-  <td>0.13</td>
-</tr>
-
-<tr data-code="RWC" data-sector="Unknown">
-  <td>RWC</td>
-  <td>Unknown</td>
-  <td>2.85</td>
-  <td>0.13</td>
-</tr>
-
-<tr data-code="BAP" data-sector="Unknown">
-  <td>BAP</td>
-  <td>Unknown</td>
-  <td>2.11</td>
-  <td>0.12</td>
-</tr>
-
-<tr data-code="LKY" data-sector="Unknown">
-  <td>LKY</td>
-  <td>Unknown</td>
-  <td>0.3</td>
-  <td>0.11</td>
-</tr>
-
-<tr data-code="WGX" data-sector="Unknown">
-  <td>WGX</td>
-  <td>Unknown</td>
-  <td>2.67</td>
-  <td>0.11</td>
-</tr>
-
-</table></div>
-</div>
-
-<h3>Likely covering (largest decreases)</h3>
-<table class="filterable">
-<tr><th>Code</th><th>Sector</th><th>% Short</th><th>Δ pp</th><th>Δ shares</th></tr>
-
-<tr data-code="LOT" data-sector="Unknown">
-  <td>LOT</td>
-  <td>Unknown</td>
-  <td>9.07</td>
-  <td>-1.29</td>
-  <td>-30,490,072</td>
-</tr>
-
-<tr data-code="BPT" data-sector="Unknown">
-  <td>BPT</td>
-  <td>Unknown</td>
-  <td>3.25</td>
-  <td>-0.58</td>
-  <td>-13,140,423</td>
-</tr>
-
-<tr data-code="VCX" data-sector="Unknown">
-  <td>VCX</td>
-  <td>Unknown</td>
-  <td>1.63</td>
-  <td>-0.21</td>
-  <td>-9,406,321</td>
-</tr>
-
-<tr data-code="SYA" data-sector="Unknown">
-  <td>SYA</td>
-  <td>Unknown</td>
-  <td>1.43</td>
-  <td>-0.03</td>
-  <td>-7,115,739</td>
-</tr>
-
-<tr data-code="SIG" data-sector="Unknown">
-  <td>SIG</td>
-  <td>Unknown</td>
-  <td>2.02</td>
-  <td>-0.05</td>
-  <td>-5,567,166</td>
-</tr>
-
-<tr data-code="LTR" data-sector="Materials">
-  <td>LTR</td>
-  <td>Materials</td>
-  <td>6.07</td>
-  <td>-0.17</td>
-  <td>-4,890,058</td>
-</tr>
-
-<tr data-code="CTT" data-sector="Unknown">
-  <td>CTT</td>
-  <td>Unknown</td>
-  <td>8.35</td>
-  <td>-0.96</td>
-  <td>-3,678,207</td>
-</tr>
-
-<tr data-code="REH" data-sector="Unknown">
-  <td>REH</td>
-  <td>Unknown</td>
-  <td>1.95</td>
-  <td>-0.52</td>
-  <td>-3,349,441</td>
-</tr>
-
-<tr data-code="PLS" data-sector="Materials">
-  <td>PLS</td>
-  <td>Materials</td>
-  <td>16.73</td>
-  <td>-0.1</td>
-  <td>-3,325,898</td>
-</tr>
-
-<tr data-code="CIP" data-sector="Unknown">
-  <td>CIP</td>
-  <td>Unknown</td>
-  <td>2.84</td>
-  <td>-0.52</td>
-  <td>-3,309,629</td>
-</tr>
-
-<tr data-code="RSG" data-sector="Unknown">
-  <td>RSG</td>
-  <td>Unknown</td>
-  <td>0.29</td>
-  <td>-0.13</td>
-  <td>-2,754,176</td>
-</tr>
-
-<tr data-code="NXT" data-sector="Unknown">
-  <td>NXT</td>
-  <td>Unknown</td>
-  <td>6.87</td>
-  <td>-0.4</td>
-  <td>-2,531,644</td>
-</tr>
-
-<tr data-code="BOE" data-sector="Unknown">
-  <td>BOE</td>
-  <td>Unknown</td>
-  <td>18.93</td>
-  <td>-0.61</td>
-  <td>-2,519,073</td>
-</tr>
-
-<tr data-code="PDN" data-sector="Unknown">
-  <td>PDN</td>
-  <td>Unknown</td>
-  <td>16.85</td>
-  <td>-0.61</td>
-  <td>-2,429,475</td>
-</tr>
-
-<tr data-code="BHP" data-sector="Materials">
-  <td>BHP</td>
-  <td>Materials</td>
-  <td>1.01</td>
-  <td>-0.04</td>
-  <td>-1,875,144</td>
-</tr>
-
-<tr data-code="AGY" data-sector="Unknown">
-  <td>AGY</td>
-  <td>Unknown</td>
-  <td>0.25</td>
-  <td>-0.12</td>
-  <td>-1,811,823</td>
-</tr>
-
-<tr data-code="VEA" data-sector="Unknown">
-  <td>VEA</td>
-  <td>Unknown</td>
-  <td>4.73</td>
-  <td>-0.1</td>
-  <td>-1,633,988</td>
-</tr>
-
-<tr data-code="AMP" data-sector="Unknown">
-  <td>AMP</td>
-  <td>Unknown</td>
-  <td>0.63</td>
-  <td>-0.06</td>
-  <td>-1,615,502</td>
-</tr>
-
-<tr data-code="BMN" data-sector="Unknown">
-  <td>BMN</td>
-  <td>Unknown</td>
-  <td>3.68</td>
-  <td>-0.76</td>
-  <td>-1,550,951</td>
-</tr>
-
-<tr data-code="BRN" data-sector="Unknown">
-  <td>BRN</td>
-  <td>Unknown</td>
-  <td>3.44</td>
-  <td>-0.07</td>
-  <td>-1,450,357</td>
-</tr>
-
-<tr data-code="DXS" data-sector="Unknown">
-  <td>DXS</td>
-  <td>Unknown</td>
-  <td>1.35</td>
-  <td>-0.13</td>
-  <td>-1,418,076</td>
-</tr>
-
-<tr data-code="GPT" data-sector="Unknown">
-  <td>GPT</td>
-  <td>Unknown</td>
-  <td>0.09</td>
-  <td>-0.07</td>
-  <td>-1,355,130</td>
-</tr>
-
-<tr data-code="BEN" data-sector="Unknown">
-  <td>BEN</td>
-  <td>Unknown</td>
-  <td>1.88</td>
-  <td>-0.23</td>
-  <td>-1,324,297</td>
-</tr>
-
-<tr data-code="LRV" data-sector="Unknown">
-  <td>LRV</td>
-  <td>Unknown</td>
-  <td>0.94</td>
-  <td>-0.24</td>
-  <td>-1,168,221</td>
-</tr>
-
-<tr data-code="PGC" data-sector="Unknown">
-  <td>PGC</td>
-  <td>Unknown</td>
-  <td>0.25</td>
-  <td>-0.07</td>
-  <td>-1,145,869</td>
-</tr>
-
-</table>
-
-<h3>High Days-to-Cover (hardest to unwind)</h3>
-<table class="filterable">
-<tr><th>Code</th><th>Sector</th><th>% Short</th><th>DTC (days)</th><th>ADV (shares)</th></tr>
-
-
-
-
-<tr data-code="CUV" data-sector="Unknown" class="dtc-0-1">
-  <td>CUV</td>
-  <td>Unknown</td>
-  <td>9.05</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="OCL" data-sector="Unknown" class="dtc-0-1">
-  <td>OCL</td>
-  <td>Unknown</td>
-  <td>0.09</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="SRV" data-sector="Unknown" class="dtc-0-1">
-  <td>SRV</td>
-  <td>Unknown</td>
-  <td>0.09</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="ABG" data-sector="Unknown" class="dtc-0-1">
-  <td>ABG</td>
-  <td>Unknown</td>
-  <td>0.09</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="SS1" data-sector="Unknown" class="dtc-0-1">
-  <td>SS1</td>
-  <td>Unknown</td>
-  <td>0.09</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="ENL" data-sector="Unknown" class="dtc-0-1">
-  <td>ENL</td>
-  <td>Unknown</td>
-  <td>0.09</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="JMS" data-sector="Unknown" class="dtc-0-1">
-  <td>JMS</td>
-  <td>Unknown</td>
-  <td>0.09</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="GNC" data-sector="Unknown" class="dtc-0-1">
-  <td>GNC</td>
-  <td>Unknown</td>
-  <td>0.09</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="GPT" data-sector="Unknown" class="dtc-0-1">
-  <td>GPT</td>
-  <td>Unknown</td>
-  <td>0.09</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="ATC" data-sector="Unknown" class="dtc-0-1">
-  <td>ATC</td>
-  <td>Unknown</td>
-  <td>0.08</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="GSBI32" data-sector="Unknown" class="dtc-0-1">
-  <td>GSBI32</td>
-  <td>Unknown</td>
-  <td>0.07</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="ORD" data-sector="Unknown" class="dtc-0-1">
-  <td>ORD</td>
-  <td>Unknown</td>
-  <td>0.08</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="CVN" data-sector="Unknown" class="dtc-0-1">
-  <td>CVN</td>
-  <td>Unknown</td>
-  <td>0.08</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="KNB" data-sector="Unknown" class="dtc-0-1">
-  <td>KNB</td>
-  <td>Unknown</td>
-  <td>0.08</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="PRU" data-sector="Unknown" class="dtc-0-1">
-  <td>PRU</td>
-  <td>Unknown</td>
-  <td>0.08</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="RCE" data-sector="Unknown" class="dtc-0-1">
-  <td>RCE</td>
-  <td>Unknown</td>
-  <td>0.08</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="KNI" data-sector="Unknown" class="dtc-0-1">
-  <td>KNI</td>
-  <td>Unknown</td>
-  <td>0.08</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="GSBK39" data-sector="Unknown" class="dtc-0-1">
-  <td>GSBK39</td>
-  <td>Unknown</td>
-  <td>0.08</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="EIQ" data-sector="Unknown" class="dtc-0-1">
-  <td>EIQ</td>
-  <td>Unknown</td>
-  <td>0.09</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="ELS" data-sector="Unknown" class="dtc-0-1">
-  <td>ELS</td>
-  <td>Unknown</td>
-  <td>0.09</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="RAD" data-sector="Unknown" class="dtc-0-1">
-  <td>RAD</td>
-  <td>Unknown</td>
-  <td>0.09</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="DGL" data-sector="Unknown" class="dtc-0-1">
-  <td>DGL</td>
-  <td>Unknown</td>
-  <td>0.09</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="IRE" data-sector="Unknown" class="dtc-0-1">
-  <td>IRE</td>
-  <td>Unknown</td>
-  <td>0.11</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="XCLWAY" data-sector="Unknown" class="dtc-0-1">
-  <td>XCLWAY</td>
-  <td>Unknown</td>
-  <td>0.11</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-
-
-
-<tr data-code="MDR" data-sector="Unknown" class="dtc-0-1">
-  <td>MDR</td>
-  <td>Unknown</td>
-  <td>0.11</td>
-  <td>0.0</td>
-  <td>0</td>
-</tr>
-
-</table>
-
-<h3>Covering score (3-day window)</h3>
-<table class="filterable">
-<tr><th>Code</th><th>Neg days</th><th>Σ Δshares↓</th><th>Σ Δpp↓</th><th>Score</th></tr>
-
-<tr data-code="LOT">
-  <td>LOT</td>
-  <td>1</td>
-  <td>-30,490,072</td>
-  <td>-1.29</td>
-  <td>154.09</td>
-</tr>
-
-<tr data-code="BPT">
-  <td>BPT</td>
-  <td>1</td>
-  <td>-13,140,423</td>
-  <td>-0.58</td>
-  <td>66.99</td>
-</tr>
-
-<tr data-code="VCX">
-  <td>VCX</td>
-  <td>1</td>
-  <td>-9,406,321</td>
-  <td>-0.21</td>
-  <td>48.13</td>
-</tr>
-
-<tr data-code="SYA">
-  <td>SYA</td>
-  <td>1</td>
-  <td>-7,115,739</td>
-  <td>-0.03</td>
-  <td>36.59</td>
-</tr>
-
-<tr data-code="SIG">
-  <td>SIG</td>
-  <td>1</td>
-  <td>-5,567,166</td>
-  <td>-0.05</td>
-  <td>28.86</td>
-</tr>
-
-<tr data-code="LTR">
-  <td>LTR</td>
-  <td>1</td>
-  <td>-4,890,058</td>
-  <td>-0.17</td>
-  <td>25.54</td>
-</tr>
-
-<tr data-code="CTT">
-  <td>CTT</td>
-  <td>1</td>
-  <td>-3,678,207</td>
-  <td>-0.96</td>
-  <td>19.87</td>
-</tr>
-
-<tr data-code="REH">
-  <td>REH</td>
-  <td>1</td>
-  <td>-3,349,441</td>
-  <td>-0.52</td>
-  <td>18.01</td>
-</tr>
-
-<tr data-code="CIP">
-  <td>CIP</td>
-  <td>1</td>
-  <td>-3,309,629</td>
-  <td>-0.52</td>
-  <td>17.81</td>
-</tr>
-
-<tr data-code="PLS">
-  <td>PLS</td>
-  <td>1</td>
-  <td>-3,325,898</td>
-  <td>-0.1</td>
-  <td>17.68</td>
-</tr>
-
-<tr data-code="RSG">
-  <td>RSG</td>
-  <td>1</td>
-  <td>-2,754,176</td>
-  <td>-0.13</td>
-  <td>14.84</td>
-</tr>
-
-<tr data-code="BOE">
-  <td>BOE</td>
-  <td>1</td>
-  <td>-2,519,073</td>
-  <td>-0.61</td>
-  <td>13.9</td>
-</tr>
-
-<tr data-code="NXT">
-  <td>NXT</td>
-  <td>1</td>
-  <td>-2,531,644</td>
-  <td>-0.4</td>
-  <td>13.86</td>
-</tr>
-
-<tr data-code="PDN">
-  <td>PDN</td>
-  <td>1</td>
-  <td>-2,429,475</td>
-  <td>-0.61</td>
-  <td>13.45</td>
-</tr>
-
-<tr data-code="BHP">
-  <td>BHP</td>
-  <td>1</td>
-  <td>-1,875,144</td>
-  <td>-0.04</td>
-  <td>10.39</td>
-</tr>
-
-<tr data-code="AGY">
-  <td>AGY</td>
-  <td>1</td>
-  <td>-1,811,823</td>
-  <td>-0.12</td>
-  <td>10.12</td>
-</tr>
-
-<tr data-code="VEA">
-  <td>VEA</td>
-  <td>1</td>
-  <td>-1,633,988</td>
-  <td>-0.1</td>
-  <td>9.22</td>
-</tr>
-
-<tr data-code="BMN">
-  <td>BMN</td>
-  <td>1</td>
-  <td>-1,550,951</td>
-  <td>-0.76</td>
-  <td>9.13</td>
-</tr>
-
-<tr data-code="AMP">
-  <td>AMP</td>
-  <td>1</td>
-  <td>-1,615,502</td>
-  <td>-0.06</td>
-  <td>9.11</td>
-</tr>
-
-<tr data-code="BRN">
-  <td>BRN</td>
-  <td>1</td>
-  <td>-1,450,357</td>
-  <td>-0.07</td>
-  <td>8.29</td>
-</tr>
-
-<tr data-code="DXS">
-  <td>DXS</td>
-  <td>1</td>
-  <td>-1,418,076</td>
-  <td>-0.13</td>
-  <td>8.16</td>
-</tr>
-
-<tr data-code="GPT">
-  <td>GPT</td>
-  <td>1</td>
-  <td>-1,355,130</td>
-  <td>-0.07</td>
-  <td>7.81</td>
-</tr>
-
-<tr data-code="BEN">
-  <td>BEN</td>
-  <td>1</td>
-  <td>-1,324,297</td>
-  <td>-0.23</td>
-  <td>7.74</td>
-</tr>
-
-<tr data-code="LRV">
-  <td>LRV</td>
-  <td>1</td>
-  <td>-1,168,221</td>
-  <td>-0.24</td>
-  <td>6.96</td>
-</tr>
-
-<tr data-code="PGC">
-  <td>PGC</td>
-  <td>1</td>
-  <td>-1,145,869</td>
-  <td>-0.07</td>
-  <td>6.76</td>
-</tr>
-
-</table>
-
-<h3>Covering score (5-day window)</h3>
-<table class="filterable">
-<tr><th>Code</th><th>Neg days</th><th>Σ Δshares↓</th><th>Σ Δpp↓</th><th>Score</th></tr>
-
-<tr data-code="LOT">
-  <td>LOT</td>
-  <td>1</td>
-  <td>-30,490,072</td>
-  <td>-1.29</td>
-  <td>154.09</td>
-</tr>
-
-<tr data-code="BPT">
-  <td>BPT</td>
-  <td>1</td>
-  <td>-13,140,423</td>
-  <td>-0.58</td>
-  <td>66.99</td>
-</tr>
-
-<tr data-code="VCX">
-  <td>VCX</td>
-  <td>1</td>
-  <td>-9,406,321</td>
-  <td>-0.21</td>
-  <td>48.13</td>
-</tr>
-
-<tr data-code="SYA">
-  <td>SYA</td>
-  <td>1</td>
-  <td>-7,115,739</td>
-  <td>-0.03</td>
-  <td>36.59</td>
-</tr>
-
-<tr data-code="SIG">
-  <td>SIG</td>
-  <td>1</td>
-  <td>-5,567,166</td>
-  <td>-0.05</td>
-  <td>28.86</td>
-</tr>
-
-<tr data-code="LTR">
-  <td>LTR</td>
-  <td>1</td>
-  <td>-4,890,058</td>
-  <td>-0.17</td>
-  <td>25.54</td>
-</tr>
-
-<tr data-code="CTT">
-  <td>CTT</td>
-  <td>1</td>
-  <td>-3,678,207</td>
-  <td>-0.96</td>
-  <td>19.87</td>
-</tr>
-
-<tr data-code="REH">
-  <td>REH</td>
-  <td>1</td>
-  <td>-3,349,441</td>
-  <td>-0.52</td>
-  <td>18.01</td>
-</tr>
-
-<tr data-code="CIP">
-  <td>CIP</td>
-  <td>1</td>
-  <td>-3,309,629</td>
-  <td>-0.52</td>
-  <td>17.81</td>
-</tr>
-
-<tr data-code="PLS">
-  <td>PLS</td>
-  <td>1</td>
-  <td>-3,325,898</td>
-  <td>-0.1</td>
-  <td>17.68</td>
-</tr>
-
-<tr data-code="RSG">
-  <td>RSG</td>
-  <td>1</td>
-  <td>-2,754,176</td>
-  <td>-0.13</td>
-  <td>14.84</td>
-</tr>
-
-<tr data-code="BOE">
-  <td>BOE</td>
-  <td>1</td>
-  <td>-2,519,073</td>
-  <td>-0.61</td>
-  <td>13.9</td>
-</tr>
-
-<tr data-code="NXT">
-  <td>NXT</td>
-  <td>1</td>
-  <td>-2,531,644</td>
-  <td>-0.4</td>
-  <td>13.86</td>
-</tr>
-
-<tr data-code="PDN">
-  <td>PDN</td>
-  <td>1</td>
-  <td>-2,429,475</td>
-  <td>-0.61</td>
-  <td>13.45</td>
-</tr>
-
-<tr data-code="BHP">
-  <td>BHP</td>
-  <td>1</td>
-  <td>-1,875,144</td>
-  <td>-0.04</td>
-  <td>10.39</td>
-</tr>
-
-<tr data-code="AGY">
-  <td>AGY</td>
-  <td>1</td>
-  <td>-1,811,823</td>
-  <td>-0.12</td>
-  <td>10.12</td>
-</tr>
-
-<tr data-code="VEA">
-  <td>VEA</td>
-  <td>1</td>
-  <td>-1,633,988</td>
-  <td>-0.1</td>
-  <td>9.22</td>
-</tr>
-
-<tr data-code="BMN">
-  <td>BMN</td>
-  <td>1</td>
-  <td>-1,550,951</td>
-  <td>-0.76</td>
-  <td>9.13</td>
-</tr>
-
-<tr data-code="AMP">
-  <td>AMP</td>
-  <td>1</td>
-  <td>-1,615,502</td>
-  <td>-0.06</td>
-  <td>9.11</td>
-</tr>
-
-<tr data-code="BRN">
-  <td>BRN</td>
-  <td>1</td>
-  <td>-1,450,357</td>
-  <td>-0.07</td>
-  <td>8.29</td>
-</tr>
-
-<tr data-code="DXS">
-  <td>DXS</td>
-  <td>1</td>
-  <td>-1,418,076</td>
-  <td>-0.13</td>
-  <td>8.16</td>
-</tr>
-
-<tr data-code="GPT">
-  <td>GPT</td>
-  <td>1</td>
-  <td>-1,355,130</td>
-  <td>-0.07</td>
-  <td>7.81</td>
-</tr>
-
-<tr data-code="BEN">
-  <td>BEN</td>
-  <td>1</td>
-  <td>-1,324,297</td>
-  <td>-0.23</td>
-  <td>7.74</td>
-</tr>
-
-<tr data-code="LRV">
-  <td>LRV</td>
-  <td>1</td>
-  <td>-1,168,221</td>
-  <td>-0.24</td>
-  <td>6.96</td>
-</tr>
-
-<tr data-code="PGC">
-  <td>PGC</td>
-  <td>1</td>
-  <td>-1,145,869</td>
-  <td>-0.07</td>
-  <td>6.76</td>
-</tr>
-
-</table>
-
-
-<h2>History</h2>
-<div class="grid">
   
-  <div>
-    <img src="charts/gross_top5_30d.png" alt="chart" style="max-width:100%;height:auto;border:1px solid #eee;padding:4px;border-radius:8px;">
+  <div id="history" class="card section">
+    <h2>History</h2>
+    <div class="grid">
+      
+      <div><img src="charts/gross_top5_30d.png" alt="chart" style="max-width:100%;height:auto;border:1px solid var(--line);padding:4px;border-radius:10px;"></div>
+      
+      <div><img src="charts/asic_pctshort_top5_60d.png" alt="chart" style="max-width:100%;height:auto;border:1px solid var(--line);padding:4px;border-radius:10px;"></div>
+      
+    </div>
   </div>
   
-  <div>
-    <img src="charts/asic_pctshort_top5_60d.png" alt="chart" style="max-width:100%;height:auto;border:1px solid #eee;padding:4px;border-radius:8px;">
-  </div>
-  
+
+  <footer class="wrap">
+    <p>“% Issued” uses total issued capital (not free float). ASIC table shows outstanding shorts (T+4).
+    DTC = ShortedShares / ADV over config window. Covering scores use sums of negative Δshares and Δpp over rolling 3/5 days.</p>
+  </footer>
 </div>
-
-
-<footer><p class="muted" style="margin-top:1rem;">
-“% Issued” uses total issued capital (not free float). ASIC table shows outstanding shorts (T+4). DTC = ShortedShares / ADV over config window. Covering scores use sums of negative Δshares and Δpp over rolling 3/5 days.
-</p></footer>
 
 <script>
+// Theme toggle with persistence
+(function(){
+  const key='asx-theme';
+  const btn=document.getElementById('themeToggle');
+  const apply=(mode)=>{ document.documentElement.dataset.theme=mode; document.body.dataset.theme=mode; }
+  const saved=localStorage.getItem(key); if(saved){ apply(saved); }
+  btn.addEventListener('click',()=>{
+    const now=(document.documentElement.dataset.theme==='dark')?'light':'dark';
+    apply(now); localStorage.setItem(key,now);
+  });
+})();
+
+// Filters (sector + code)
 (function(){
   const sectorSel = document.getElementById('sectorFilter');
   const codeInp = document.getElementById('codeFilter');
   function applyFilters(){
-    const sector = (sectorSel.value || 'All').toLowerCase();
-    const code = (codeInp.value || '').toLowerCase().trim();
-    document.querySelectorAll('table.filterable tr[data-code]').forEach(tr => {
-      const rowSector = (tr.getAttribute('data-sector') || 'Unknown').toLowerCase();
-      const rowCode = (tr.getAttribute('data-code') || '').toLowerCase();
-      let ok = true;
-      if (sector !== 'all' && rowSector !== sector) ok = false;
-      if (code && !rowCode.includes(code)) ok = false;
-      tr.classList.toggle('hidden', !ok);
+    const sector = (sectorSel?.value || 'All').toLowerCase();
+    const code = (codeInp?.value || '').toLowerCase().trim();
+    document.querySelectorAll('table.filterable tbody tr').forEach(tr=>{
+      const rowSector=(tr.getAttribute('data-sector')||'unknown').toLowerCase();
+      const rowCode=(tr.getAttribute('data-code')||'').toLowerCase();
+      let ok=true;
+      if(sector!=='all' && rowSector!==sector) ok=false;
+      if(code && !rowCode.includes(code)) ok=false;
+      tr.style.display = ok ? '' : 'none';
     });
   }
-  sectorSel.addEventListener('change', applyFilters);
-  codeInp.addEventListener('input', applyFilters);
+  sectorSel?.addEventListener('change', applyFilters);
+  codeInp?.addEventListener('input', applyFilters);
   applyFilters();
 })();
+
+// Sortable tables
+(function(){
+  function getVal(td){
+    const v = td.getAttribute('data-value');
+    if(v===null) return td.textContent.trim();
+    const num = Number(v);
+    return Number.isNaN(num) ? td.textContent.trim() : num;
+  }
+  document.querySelectorAll('table.sortable').forEach(table=>{
+    table.querySelectorAll('thead th[data-sort]').forEach((th, idx)=>{
+      th.style.cursor='pointer';
+      th.title='Click to sort';
+      let asc = false;
+      th.addEventListener('click', ()=>{
+        const type = th.getAttribute('data-sort');
+        const rows = Array.from(table.querySelectorAll('tbody tr')).filter(r=>r.style.display!=='none');
+        rows.sort((a,b)=>{
+          const A = getVal(a.children[idx]);
+          const B = getVal(b.children[idx]);
+          if(type==='num'){ return asc ? (A-B) : (B-A); }
+          return asc ? String(A).localeCompare(String(B)) : String(B).localeCompare(String(A));
+        });
+        asc = !asc;
+        rows.forEach(r=>table.tBodies[0].appendChild(r));
+      });
+    });
+  });
+})();
+
+// Register service worker if present
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('./sw.js').catch(()=>{});
+}
 </script>
 </body></html>
