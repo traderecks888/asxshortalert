@@ -127,7 +127,7 @@
     },
     {
       "Code": "LIC",
-      "Sector": "Real Estate Management & Development",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 9.63505323,
       "Delta_pp_num": 0.06150481999999968,
       "DeltaShares_num": 74876.00108060241,
@@ -167,7 +167,7 @@
     },
     {
       "Code": "CTT",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 8.35447427,
       "Delta_pp_num": -0.9648054199999994,
       "DeltaShares_num": -3678207.009671524,
@@ -357,7 +357,7 @@
     },
     {
       "Code": "NCK",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 4.93975502,
       "Delta_pp_num": -0.09124210000000055,
       "DeltaShares_num": -78040.00591227878,
@@ -377,7 +377,7 @@
     },
     {
       "Code": "DGT",
-      "Sector": "Class Pend",
+      "Sector": "Unknown",
       "PctShort_pp_num": 4.89008167,
       "Delta_pp_num": -0.001109430000000522,
       "DeltaShares_num": -6114.013802122325,
@@ -397,7 +397,7 @@
     },
     {
       "Code": "TWE",
-      "Sector": "Food, Beverage & Tobacco",
+      "Sector": "Consumer Staples",
       "PctShort_pp_num": 4.75356593,
       "Delta_pp_num": 0.014188229999999358,
       "DeltaShares_num": 115127.05029741675,
@@ -437,7 +437,7 @@
     },
     {
       "Code": "RFF",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 4.54105507,
       "Delta_pp_num": 0.009465189999999346,
       "DeltaShares_num": 36888.0223290436,
@@ -447,7 +447,7 @@
     },
     {
       "Code": "JBH",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 4.4847466,
       "Delta_pp_num": -0.06603162999999945,
       "DeltaShares_num": -72195.00979818963,
@@ -457,7 +457,7 @@
     },
     {
       "Code": "ELD",
-      "Sector": "Food, Beverage & Tobacco",
+      "Sector": "Consumer Staples",
       "PctShort_pp_num": 4.40750401,
       "Delta_pp_num": 0.04440900999999986,
       "DeltaShares_num": 84914.99782049097,
@@ -497,7 +497,7 @@
     },
     {
       "Code": "MFG",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 4.14527449,
       "Delta_pp_num": 0.01173153000000049,
       "DeltaShares_num": 20181.00342355296,
@@ -507,7 +507,7 @@
     },
     {
       "Code": "HCW",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 4.11499054,
       "Delta_pp_num": 0.17221727999999992,
       "DeltaShares_num": 947498.0029168017,
@@ -537,7 +537,7 @@
     },
     {
       "Code": "PTM",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 4.04777122,
       "Delta_pp_num": -0.05008854000000085,
       "DeltaShares_num": -291599.00876451656,
@@ -567,7 +567,7 @@
     },
     {
       "Code": "SOL",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 3.9894943,
       "Delta_pp_num": 0.12879145000000003,
       "DeltaShares_num": 473771.9781145882,
@@ -617,7 +617,7 @@
     },
     {
       "Code": "HMC",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 3.61191488,
       "Delta_pp_num": 0.04137820999999997,
       "DeltaShares_num": 170733.0036662165,
@@ -727,7 +727,7 @@
     },
     {
       "Code": "A2M",
-      "Sector": "Food, Beverage & Tobacco",
+      "Sector": "Consumer Staples",
       "PctShort_pp_num": 3.20085988,
       "Delta_pp_num": -0.0423298700000001,
       "DeltaShares_num": -307071.96486615017,
@@ -737,7 +737,7 @@
     },
     {
       "Code": "KGN",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 3.14930725,
       "Delta_pp_num": 0.07638260000000008,
       "DeltaShares_num": 76093.99827563856,
@@ -787,7 +787,7 @@
     },
     {
       "Code": "ZIP",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 3.02332139,
       "Delta_pp_num": 0.03225699999999998,
       "DeltaShares_num": 416384.074033387,
@@ -817,7 +817,7 @@
     },
     {
       "Code": "APE",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 2.95759315,
       "Delta_pp_num": 0.038031710000000274,
       "DeltaShares_num": 98150.00736884214,
@@ -827,7 +827,7 @@
     },
     {
       "Code": "EDV",
-      "Sector": "Consumer Staples Distribution & Retail",
+      "Sector": "Consumer Staples",
       "PctShort_pp_num": 2.89480388,
       "Delta_pp_num": 0.04643418999999982,
       "DeltaShares_num": 831627.0639558136,
@@ -877,7 +877,7 @@
     },
     {
       "Code": "CIP",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 2.84323921,
       "Delta_pp_num": -0.5223432899999998,
       "DeltaShares_num": -3309629.986018978,
@@ -977,7 +977,7 @@
     },
     {
       "Code": "ING",
-      "Sector": "Food, Beverage & Tobacco",
+      "Sector": "Consumer Staples",
       "PctShort_pp_num": 2.66172127,
       "Delta_pp_num": 0.25082786000000024,
       "DeltaShares_num": 932275.9892448392,
@@ -997,7 +997,7 @@
     },
     {
       "Code": "LOV",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 2.61734596,
       "Delta_pp_num": -0.043954969999999705,
       "DeltaShares_num": -48665.003930273466,
@@ -1007,7 +1007,7 @@
     },
     {
       "Code": "HLI",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 2.60183582,
       "Delta_pp_num": -0.0018786300000002143,
       "DeltaShares_num": -5119.00492533762,
@@ -1067,7 +1067,7 @@
     },
     {
       "Code": "PMV",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 2.48716791,
       "Delta_pp_num": 0.09408995000000031,
       "DeltaShares_num": 150431.01017820183,
@@ -1077,7 +1077,7 @@
     },
     {
       "Code": "OFX",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 2.48333541,
       "Delta_pp_num": 0.017320329999999995,
       "DeltaShares_num": 40530.01265599206,
@@ -1097,7 +1097,7 @@
     },
     {
       "Code": "SHV",
-      "Sector": "Food, Beverage & Tobacco",
+      "Sector": "Consumer Staples",
       "PctShort_pp_num": 2.41962432,
       "Delta_pp_num": 0.007744129999999849,
       "DeltaShares_num": 11005.00030409079,
@@ -1137,7 +1137,7 @@
     },
     {
       "Code": "MTS",
-      "Sector": "Consumer Staples Distribution & Retail",
+      "Sector": "Consumer Staples",
       "PctShort_pp_num": 2.35088089,
       "Delta_pp_num": 0.12752500999999983,
       "DeltaShares_num": 1401486.0310879163,
@@ -1227,7 +1227,7 @@
     },
     {
       "Code": "OBL",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 2.15820404,
       "Delta_pp_num": -0.015306169999999675,
       "DeltaShares_num": -44148.00521393493,
@@ -1247,7 +1247,7 @@
     },
     {
       "Code": "PPT",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 2.14025493,
       "Delta_pp_num": 0.025623440000000386,
       "DeltaShares_num": 29387.997625875287,
@@ -1257,7 +1257,7 @@
     },
     {
       "Code": "BAP",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 2.11295253,
       "Delta_pp_num": 0.11792877999999973,
       "DeltaShares_num": 400265.0204174984,
@@ -1267,7 +1267,7 @@
     },
     {
       "Code": "AX1",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 2.07158845,
       "Delta_pp_num": -0.1023025099999999,
       "DeltaShares_num": -615028.0342624169,
@@ -1287,7 +1287,7 @@
     },
     {
       "Code": "HDN",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 2.00903619,
       "Delta_pp_num": 0.043941290000000244,
       "DeltaShares_num": 916974.9055831954,
@@ -1327,7 +1327,7 @@
     },
     {
       "Code": "CCP",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 1.95920317,
       "Delta_pp_num": 0.01706998000000004,
       "DeltaShares_num": 11618.998705828795,
@@ -1367,7 +1367,7 @@
     },
     {
       "Code": "PNI",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 1.92674108,
       "Delta_pp_num": -0.02912669999999995,
       "DeltaShares_num": -66051.9970305115,
@@ -1377,7 +1377,7 @@
     },
     {
       "Code": "QAL",
-      "Sector": "Real Estate Management & Development",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 1.92423169,
       "Delta_pp_num": 0.08342461999999995,
       "DeltaShares_num": 250419.00882784557,
@@ -1387,7 +1387,7 @@
     },
     {
       "Code": "LLC",
-      "Sector": "Real Estate Management & Development",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 1.90194242,
       "Delta_pp_num": 0.0003693199999998953,
       "DeltaShares_num": 2549.020318562165,
@@ -1417,7 +1417,7 @@
     },
     {
       "Code": "NSR",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 1.82664808,
       "Delta_pp_num": 0.007682760000000011,
       "DeltaShares_num": 107845.02156299725,
@@ -1537,7 +1537,7 @@
     },
     {
       "Code": "PXA",
-      "Sector": "Real Estate Management & Development",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 1.65615043,
       "Delta_pp_num": 0.041759700000000066,
       "DeltaShares_num": 74166.0047656144,
@@ -1547,7 +1547,7 @@
     },
     {
       "Code": "VCX",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 1.62770029,
       "Delta_pp_num": -0.20614887000000004,
       "DeltaShares_num": -9406321.894129097,
@@ -1557,7 +1557,7 @@
     },
     {
       "Code": "COF",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 1.61366684,
       "Delta_pp_num": 0.04356837000000002,
       "DeltaShares_num": 260249.96424472705,
@@ -1577,7 +1577,7 @@
     },
     {
       "Code": "INA",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 1.53679127,
       "Delta_pp_num": 0.017552739999999956,
       "DeltaShares_num": 71542.03061343357,
@@ -1587,7 +1587,7 @@
     },
     {
       "Code": "ASX",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 1.50457419,
       "Delta_pp_num": 0.005083390000000021,
       "DeltaShares_num": 9876.997540507466,
@@ -1607,7 +1607,7 @@
     },
     {
       "Code": "SUL",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 1.46823203,
       "Delta_pp_num": -0.03511943999999989,
       "DeltaShares_num": -79309.0021715993,
@@ -1627,7 +1627,7 @@
     },
     {
       "Code": "SNL",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 1.4611512,
       "Delta_pp_num": 0.012561559999999972,
       "DeltaShares_num": 5459.001991106314,
@@ -1657,7 +1657,7 @@
     },
     {
       "Code": "HUB",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 1.36689934,
       "Delta_pp_num": -0.0004748400000000874,
       "DeltaShares_num": -388.0051544881426,
@@ -1697,7 +1697,7 @@
     },
     {
       "Code": "DXS",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 1.35083567,
       "Delta_pp_num": -0.13184481000000003,
       "DeltaShares_num": -1418076.9550147317,
@@ -1717,7 +1717,7 @@
     },
     {
       "Code": "NWL",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 1.28779143,
       "Delta_pp_num": -0.039719260000000034,
       "DeltaShares_num": -97390.00338542182,
@@ -1747,7 +1747,7 @@
     },
     {
       "Code": "MAF",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 1.26999657,
       "Delta_pp_num": 0.03167897999999991,
       "DeltaShares_num": 61731.99738635449,
@@ -1787,7 +1787,7 @@
     },
     {
       "Code": "RIC",
-      "Sector": "Food, Beverage & Tobacco",
+      "Sector": "Consumer Staples",
       "PctShort_pp_num": 1.24931669,
       "Delta_pp_num": -0.0023633200000001686,
       "DeltaShares_num": -8858.977668457665,
@@ -1807,7 +1807,7 @@
     },
     {
       "Code": "XYZ",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 1.14996461,
       "Delta_pp_num": 0.045044810000000046,
       "DeltaShares_num": 19183.999897366215,
@@ -1847,7 +1847,7 @@
     },
     {
       "Code": "TPW",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 1.07058245,
       "Delta_pp_num": 0.0417626900000001,
       "DeltaShares_num": 50229.99563076231,
@@ -1887,7 +1887,7 @@
     },
     {
       "Code": "WOW",
-      "Sector": "Consumer Staples Distribution & Retail",
+      "Sector": "Consumer Staples",
       "PctShort_pp_num": 1.0092604,
       "Delta_pp_num": 0.05429179000000006,
       "DeltaShares_num": 663225.9728421625,
@@ -1937,7 +1937,7 @@
     },
     {
       "Code": "CHC",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.95841286,
       "Delta_pp_num": -0.004714409999999947,
       "DeltaShares_num": -22299.02724937629,
@@ -2037,7 +2037,7 @@
     },
     {
       "Code": "HVN",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 0.88618403,
       "Delta_pp_num": -0.008055819999999936,
       "DeltaShares_num": -100376.05323426239,
@@ -2077,7 +2077,7 @@
     },
     {
       "Code": "ABY",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 0.84910025,
       "Delta_pp_num": 0.0018593399999999871,
       "DeltaShares_num": 1746.9973384751938,
@@ -2087,7 +2087,7 @@
     },
     {
       "Code": "BGA",
-      "Sector": "Food, Beverage & Tobacco",
+      "Sector": "Consumer Staples",
       "PctShort_pp_num": 0.84367883,
       "Delta_pp_num": -0.008968349999999958,
       "DeltaShares_num": -27370.013836699538,
@@ -2127,7 +2127,7 @@
     },
     {
       "Code": "CLW",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.7946431,
       "Delta_pp_num": -0.0024322399999999744,
       "DeltaShares_num": -17273.060430613346,
@@ -2137,7 +2137,7 @@
     },
     {
       "Code": "EML",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.79288851,
       "Delta_pp_num": 0.012096400000000007,
       "DeltaShares_num": 46464.01512834756,
@@ -2167,7 +2167,7 @@
     },
     {
       "Code": "BWP",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.77098248,
       "Delta_pp_num": 0.006144580000000066,
       "DeltaShares_num": 44510.02184253093,
@@ -2287,7 +2287,7 @@
     },
     {
       "Code": "HUM",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.67026096,
       "Delta_pp_num": -0.006318639999999931,
       "DeltaShares_num": -31119.007551375777,
@@ -2317,7 +2317,7 @@
     },
     {
       "Code": "AMP",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.63494917,
       "Delta_pp_num": -0.0638099900000001,
       "DeltaShares_num": -1615502.9380919188,
@@ -2367,7 +2367,7 @@
     },
     {
       "Code": "MQG",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.60886358,
       "Delta_pp_num": 0.00174109999999994,
       "DeltaShares_num": 6636.00094356481,
@@ -2417,7 +2417,7 @@
     },
     {
       "Code": "MYR",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 0.60366335,
       "Delta_pp_num": -0.04659661999999998,
       "DeltaShares_num": -805216.1643906217,
@@ -2527,7 +2527,7 @@
     },
     {
       "Code": "BLX",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 0.55486699,
       "Delta_pp_num": 0.0004277199999999093,
       "DeltaShares_num": 978.0076998318546,
@@ -2547,7 +2547,7 @@
     },
     {
       "Code": "AEF",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.54455848,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -2577,7 +2577,7 @@
     },
     {
       "Code": "GDI",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.51478997,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -2667,7 +2667,7 @@
     },
     {
       "Code": "IFL",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.49129873,
       "Delta_pp_num": 0.03619167000000001,
       "DeltaShares_num": 242746.99227828812,
@@ -2737,7 +2737,7 @@
     },
     {
       "Code": "WES",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 0.46758828,
       "Delta_pp_num": -0.011607929999999989,
       "DeltaShares_num": -131686.99904891104,
@@ -2747,7 +2747,7 @@
     },
     {
       "Code": "CQR",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.46028127,
       "Delta_pp_num": 0.004433190000000031,
       "DeltaShares_num": 25767.01290322747,
@@ -2767,7 +2767,7 @@
     },
     {
       "Code": "SGP",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.45249507,
       "Delta_pp_num": -0.03949658,
       "DeltaShares_num": -956752.8874671496,
@@ -2777,7 +2777,7 @@
     },
     {
       "Code": "GMG",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.45104721,
       "Delta_pp_num": 0.009829839999999979,
       "DeltaShares_num": 200999.88376994245,
@@ -2817,7 +2817,7 @@
     },
     {
       "Code": "CNI",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.42095747,
       "Delta_pp_num": -0.00854821,
       "DeltaShares_num": -70958.00094204256,
@@ -2857,7 +2857,7 @@
     },
     {
       "Code": "ADH",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 0.41289661,
       "Delta_pp_num": -0.0013675300000000057,
       "DeltaShares_num": -2417.0007888450054,
@@ -2897,7 +2897,7 @@
     },
     {
       "Code": "QRI",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.40333339,
       "Delta_pp_num": -0.0001213399999999698,
       "DeltaShares_num": -739.0002041626722,
@@ -2927,7 +2927,7 @@
     },
     {
       "Code": "COL",
-      "Sector": "Consumer Staples Distribution & Retail",
+      "Sector": "Consumer Staples",
       "PctShort_pp_num": 0.397095,
       "Delta_pp_num": -0.02687419000000002,
       "DeltaShares_num": -360464.98236938566,
@@ -2957,7 +2957,7 @@
     },
     {
       "Code": "TYR",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.38879547,
       "Delta_pp_num": -0.008466850000000026,
       "DeltaShares_num": -44760.977482777555,
@@ -2997,7 +2997,7 @@
     },
     {
       "Code": "STP",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 0.36142168,
       "Delta_pp_num": 0.00011978000000001376,
       "DeltaShares_num": 222.00060055986978,
@@ -3047,7 +3047,7 @@
     },
     {
       "Code": "ASK",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.35016305,
       "Delta_pp_num": 0.02409300999999997,
       "DeltaShares_num": 316606.9580449555,
@@ -3137,7 +3137,7 @@
     },
     {
       "Code": "MGR",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.31785837,
       "Delta_pp_num": -0.01677054,
       "DeltaShares_num": -661742.0660360735,
@@ -3177,7 +3177,7 @@
     },
     {
       "Code": "WPR",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.30745835,
       "Delta_pp_num": -0.009809000000000012,
       "DeltaShares_num": -64676.96188949025,
@@ -3197,7 +3197,7 @@
     },
     {
       "Code": "DXI",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.30109789,
       "Delta_pp_num": -0.029126620000000047,
       "DeltaShares_num": -92410.00135130831,
@@ -3207,7 +3207,7 @@
     },
     {
       "Code": "BBN",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 0.29801372,
       "Delta_pp_num": 0.0005692299999999761,
       "DeltaShares_num": 768.004905384907,
@@ -3217,7 +3217,7 @@
     },
     {
       "Code": "AFG",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.29548676,
       "Delta_pp_num": -0.0017677299999999674,
       "DeltaShares_num": -4803.984161669854,
@@ -3287,7 +3287,7 @@
     },
     {
       "Code": "FPR",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.26565042,
       "Delta_pp_num": 0.009782840000000015,
       "DeltaShares_num": 21695.995836334885,
@@ -3327,7 +3327,7 @@
     },
     {
       "Code": "ARF",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.25766106,
       "Delta_pp_num": -0.0039634700000000245,
       "DeltaShares_num": -15925.004944766639,
@@ -3377,7 +3377,7 @@
     },
     {
       "Code": "EQT",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.23332119,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -3397,7 +3397,7 @@
     },
     {
       "Code": "AAC",
-      "Sector": "Food, Beverage & Tobacco",
+      "Sector": "Consumer Staples",
       "PctShort_pp_num": 0.22709697,
       "Delta_pp_num": -3.9650000000002183e-05,
       "DeltaShares_num": -238.99701518542133,
@@ -3417,7 +3417,7 @@
     },
     {
       "Code": "CGF",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.21535859,
       "Delta_pp_num": 0.029002349999999982,
       "DeltaShares_num": 200520.99818873825,
@@ -3497,7 +3497,7 @@
     },
     {
       "Code": "ECF",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.16889314,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -3517,7 +3517,7 @@
     },
     {
       "Code": "RPL",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.16532243,
       "Delta_pp_num": -0.024086120000000016,
       "DeltaShares_num": -85772.97956599004,
@@ -3557,7 +3557,7 @@
     },
     {
       "Code": "CCX",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 0.15638526,
       "Delta_pp_num": -0.00019653999999999505,
       "DeltaShares_num": -756.9891263621394,
@@ -3627,7 +3627,7 @@
     },
     {
       "Code": "COG",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.14350518,
       "Delta_pp_num": 0.0033596200000000076,
       "DeltaShares_num": 6780.990151562088,
@@ -3647,7 +3647,7 @@
     },
     {
       "Code": "RGN",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.14147291,
       "Delta_pp_num": -0.022295179999999998,
       "DeltaShares_num": -258944.98720772774,
@@ -3727,7 +3727,7 @@
     },
     {
       "Code": "GQG",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.12433805,
       "Delta_pp_num": 1.130000000000575e-05,
       "DeltaShares_num": 333.9478554283269,
@@ -3777,7 +3777,7 @@
     },
     {
       "Code": "CQE",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.11373485,
       "Delta_pp_num": -0.04635811000000001,
       "DeltaShares_num": -172039.00578969275,
@@ -3797,7 +3797,7 @@
     },
     {
       "Code": "SCG",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.11354456,
       "Delta_pp_num": 0.03308399000000001,
       "DeltaShares_num": 1725799.01494434,
@@ -4017,7 +4017,7 @@
     },
     {
       "Code": "GOZ",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.09336966,
       "Delta_pp_num": -0.006450600000000001,
       "DeltaShares_num": -48657.05693284806,
@@ -4067,7 +4067,7 @@
     },
     {
       "Code": "SRV",
-      "Sector": "Real Estate Management & Development",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.09116611,
       "Delta_pp_num": -0.40213983,
       "DeltaShares_num": -399999.9957077904,
@@ -4077,7 +4077,7 @@
     },
     {
       "Code": "ABG",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.08834435,
       "Delta_pp_num": 0.008148760000000005,
       "DeltaShares_num": 72822.01573485078,
@@ -4117,7 +4117,7 @@
     },
     {
       "Code": "GNC",
-      "Sector": "Consumer Staples Distribution & Retail",
+      "Sector": "Consumer Staples",
       "PctShort_pp_num": 0.08687153,
       "Delta_pp_num": 0.004814200000000005,
       "DeltaShares_num": 10701.999480986007,
@@ -4127,7 +4127,7 @@
     },
     {
       "Code": "GPT",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.08579982,
       "Delta_pp_num": -0.07074264,
       "DeltaShares_num": -1355130.0452261518,
@@ -4267,7 +4267,7 @@
     },
     {
       "Code": "CMW",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.06286082,
       "Delta_pp_num": -0.008519750000000006,
       "DeltaShares_num": -223120.89558805246,
@@ -4337,7 +4337,7 @@
     },
     {
       "Code": "PAC",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.04844819,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -4757,7 +4757,7 @@
     },
     {
       "Code": "KMD",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 0.02037848,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -4837,7 +4837,7 @@
     },
     {
       "Code": "ATG",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 0.01872604,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -5037,7 +5037,7 @@
     },
     {
       "Code": "KKC",
-      "Sector": "Not Applic",
+      "Sector": "Unknown",
       "PctShort_pp_num": 0.01073252,
       "Delta_pp_num": 0.006853860000000001,
       "DeltaShares_num": 22106.020656306602,
@@ -5087,7 +5087,7 @@
     },
     {
       "Code": "SCP",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.00907655,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -5107,7 +5107,7 @@
     },
     {
       "Code": "BKI",
-      "Sector": "Not Applic",
+      "Sector": "Unknown",
       "PctShort_pp_num": 0.00856115,
       "Delta_pp_num": 0.0007168499999999998,
       "DeltaShares_num": 5785.941720586488,
@@ -5217,7 +5217,7 @@
     },
     {
       "Code": "SVR",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.00632221,
       "Delta_pp_num": -1.6699999999996232e-06,
       "DeltaShares_num": -0.007847035198210506,
@@ -5237,7 +5237,7 @@
     },
     {
       "Code": "GCI",
-      "Sector": "Not Applic",
+      "Sector": "Unknown",
       "PctShort_pp_num": 0.00603668,
       "Delta_pp_num": -0.0006101600000000002,
       "DeltaShares_num": -3427.973473104801,
@@ -5317,7 +5317,7 @@
     },
     {
       "Code": "ARG",
-      "Sector": "Not Applic",
+      "Sector": "Unknown",
       "PctShort_pp_num": 0.00514969,
       "Delta_pp_num": 0.0007085400000000006,
       "DeltaShares_num": 5391.965125419607,
@@ -5337,7 +5337,7 @@
     },
     {
       "Code": "NGI",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.00481616,
       "Delta_pp_num": 0.00157383,
       "DeltaShares_num": 7713.017061692401,
@@ -5427,7 +5427,7 @@
     },
     {
       "Code": "PWR",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 0.00334734,
       "Delta_pp_num": -0.00212126,
       "DeltaShares_num": -3653.9990680568,
@@ -5447,7 +5447,7 @@
     },
     {
       "Code": "CBO",
-      "Sector": "Food, Beverage & Tobacco",
+      "Sector": "Consumer Staples",
       "PctShort_pp_num": 0.00315842,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -5457,7 +5457,7 @@
     },
     {
       "Code": "FFG",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.0031517,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -5507,7 +5507,7 @@
     },
     {
       "Code": "SSG",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 0.00248297,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -5657,7 +5657,7 @@
     },
     {
       "Code": "PPM",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.00122757,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -5697,7 +5697,7 @@
     },
     {
       "Code": "ASG",
-      "Sector": "Consumer Discretionary Distribution & Retail",
+      "Sector": "Consumer Discretionary",
       "PctShort_pp_num": 0.00098796,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -5757,7 +5757,7 @@
     },
     {
       "Code": "CCV",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.00064314,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -5797,7 +5797,7 @@
     },
     {
       "Code": "CWP",
-      "Sector": "Real Estate Management & Development",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.00053284,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -5827,7 +5827,7 @@
     },
     {
       "Code": "CVC",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.00045526,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -5877,7 +5877,7 @@
     },
     {
       "Code": "PPC",
-      "Sector": "Real Estate Management & Development",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.00036911,
       "Delta_pp_num": -1.3449999999999975e-05,
       "DeltaShares_num": -62.96737958200015,
@@ -5887,7 +5887,7 @@
     },
     {
       "Code": "MME",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 0.00030947,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -5947,7 +5947,7 @@
     },
     {
       "Code": "CDP",
-      "Sector": "Equity Real Estate Investment Trusts (REITs)",
+      "Sector": "Real Estate",
       "PctShort_pp_num": 0.00012086,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
@@ -5977,7 +5977,7 @@
     },
     {
       "Code": "LFG",
-      "Sector": "Financial Services",
+      "Sector": "Financials",
       "PctShort_pp_num": 5.105e-05,
       "Delta_pp_num": 0.0,
       "DeltaShares_num": 0.0,
