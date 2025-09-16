@@ -1,0 +1,6119 @@
+{
+  "meta": {
+    "gross_date": "2025-09-14",
+    "asic_date": "2025-09-09"
+  },
+  "gross": [],
+  "asic": [
+    {
+      "Code": "ELD",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 7.21497878,
+      "Delta_pp_num": 2.80747477,
+      "DeltaShares_num": 5368206.000891006,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BOE",
+      "Sector": "Energy",
+      "PctShort_pp_num": 18.91163797,
+      "Delta_pp_num": -0.01972372999999905,
+      "DeltaShares_num": -81837.99854156375,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PLS",
+      "Sector": "Materials",
+      "PctShort_pp_num": 17.06467126,
+      "Delta_pp_num": 0.33760639000000126,
+      "DeltaShares_num": 10865842.0674752,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PDN",
+      "Sector": "Energy",
+      "PctShort_pp_num": 16.8479495,
+      "Delta_pp_num": -0.005938900000000302,
+      "DeltaShares_num": -23700.00055269897,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IEL",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 13.90003401,
+      "Delta_pp_num": -0.08802088999999924,
+      "DeltaShares_num": -244994.01011446863,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PNV",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 12.55838781,
+      "Delta_pp_num": 0.2861987399999997,
+      "DeltaShares_num": 1977183.935620308,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MIN",
+      "Sector": "Materials",
+      "PctShort_pp_num": 11.25311729,
+      "Delta_pp_num": -0.18260458999999862,
+      "DeltaShares_num": -358851.9911079183,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PWH",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 10.37630137,
+      "Delta_pp_num": -0.02391371000000042,
+      "DeltaShares_num": -24051.00387012586,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DMP",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 9.94212619,
+      "Delta_pp_num": 0.25196882999999914,
+      "DeltaShares_num": 237981.00717449747,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LIC",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 9.81254616,
+      "Delta_pp_num": 0.17749292999999966,
+      "DeltaShares_num": 216079.98882818408,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CTD",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 9.8042268,
+      "Delta_pp_num": 0.0027302100000010654,
+      "DeltaShares_num": 3995.0001498702914,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GYG",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 9.73797649,
+      "Delta_pp_num": -0.011518530000000027,
+      "DeltaShares_num": 7773.999547805637,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ILU",
+      "Sector": "Materials",
+      "PctShort_pp_num": 9.27732662,
+      "Delta_pp_num": 0.1564736799999995,
+      "DeltaShares_num": 672308.0258926451,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LOT",
+      "Sector": "Materials",
+      "PctShort_pp_num": 8.9126555,
+      "Delta_pp_num": -0.15242208999999995,
+      "DeltaShares_num": -3615234.0234050453,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SLX",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 8.73784448,
+      "Delta_pp_num": 0.01637633999999899,
+      "DeltaShares_num": 45344.00631986931,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "FLT",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 8.4828131,
+      "Delta_pp_num": 0.20957819000000022,
+      "DeltaShares_num": 456381.0042238496,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NAN",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 8.0768493,
+      "Delta_pp_num": 0.005389729999999204,
+      "DeltaShares_num": 16364.98498539254,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DYL",
+      "Sector": "Energy",
+      "PctShort_pp_num": 7.92594883,
+      "Delta_pp_num": -0.1555730199999994,
+      "DeltaShares_num": -1497907.9913830608,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MVF",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 7.46240403,
+      "Delta_pp_num": -0.011068309999999748,
+      "DeltaShares_num": -43125.991959203035,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CTT",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 7.36106207,
+      "Delta_pp_num": -0.9934122000000007,
+      "DeltaShares_num": -3787266.98854284,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CU6",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 7.27689948,
+      "Delta_pp_num": 0.28853417000000015,
+      "DeltaShares_num": 1073157.9753662236,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NXT",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 6.7854827,
+      "Delta_pp_num": -0.07991585999999984,
+      "DeltaShares_num": -511794.02590186894,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "KAR",
+      "Sector": "Energy",
+      "PctShort_pp_num": 6.7226123,
+      "Delta_pp_num": 0.0010874699999998683,
+      "DeltaShares_num": 7956.987703956664,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SGR",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 6.71832191,
+      "Delta_pp_num": 0.049047070000000303,
+      "DeltaShares_num": 1407003.9178187847,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MSB",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 6.44620134,
+      "Delta_pp_num": 0.23924714999999974,
+      "DeltaShares_num": 3062285.0158326626,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "VUL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 6.40574733,
+      "Delta_pp_num": 0.09854745999999981,
+      "DeltaShares_num": 231024.00337430276,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CUV",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 6.38816662,
+      "Delta_pp_num": -2.6578681500000005,
+      "DeltaShares_num": -1332219.9973938456,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IPH",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 6.20308359,
+      "Delta_pp_num": 0.03133619000000021,
+      "DeltaShares_num": 81874.98602608033,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BGL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 6.19304949,
+      "Delta_pp_num": -0.054754049999999665,
+      "DeltaShares_num": -810770.0001984537,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LTR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 6.11262909,
+      "Delta_pp_num": 0.039477730000000655,
+      "DeltaShares_num": 1133238.1033684611,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TLX",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 5.69924286,
+      "Delta_pp_num": 0.09444888999999979,
+      "DeltaShares_num": 319649.99740520865,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RIO",
+      "Sector": "Materials",
+      "PctShort_pp_num": 5.64691929,
+      "Delta_pp_num": 0.001712479999999239,
+      "DeltaShares_num": 6357.003421500325,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BRG",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 5.57545413,
+      "Delta_pp_num": -0.024332610000000088,
+      "DeltaShares_num": -35242.00916392822,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GMD",
+      "Sector": "Materials",
+      "PctShort_pp_num": 5.41142857,
+      "Delta_pp_num": -0.009889389999999665,
+      "DeltaShares_num": -111828.04103014618,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CIA",
+      "Sector": "Materials",
+      "PctShort_pp_num": 5.38204897,
+      "Delta_pp_num": 0.01106439999999953,
+      "DeltaShares_num": 59001.02375463769,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AD8",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 5.1310456,
+      "Delta_pp_num": -0.8009303399999999,
+      "DeltaShares_num": -674640.9975610739,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NCK",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 5.06819078,
+      "Delta_pp_num": 0.12843576000000034,
+      "DeltaShares_num": 109852.00329396222,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "HCW",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 4.99282358,
+      "Delta_pp_num": 0.8778330399999996,
+      "DeltaShares_num": 4829625.995105639,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SYA",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.94603371,
+      "Delta_pp_num": 0.51637439,
+      "DeltaShares_num": 130462252.0446375,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ADH",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.99540026,
+      "Delta_pp_num": 0.58250365,
+      "DeltaShares_num": 1029528.9913604457,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ARB",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 4.96900238,
+      "Delta_pp_num": 0.08314500000000002,
+      "DeltaShares_num": 69146.00273040077,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DGT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 4.95218875,
+      "Delta_pp_num": 0.062107080000000536,
+      "DeltaShares_num": 342269.0429584719,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "STX",
+      "Sector": "Energy",
+      "PctShort_pp_num": 4.93959852,
+      "Delta_pp_num": 0.00031722999999939105,
+      "DeltaShares_num": 10461.844186514616,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "VEA",
+      "Sector": "Energy",
+      "PctShort_pp_num": 4.83650108,
+      "Delta_pp_num": 0.1051299599999993,
+      "DeltaShares_num": 1697591.9374037385,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NEU",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 4.82592515,
+      "Delta_pp_num": 0.17085026999999986,
+      "DeltaShares_num": 215765.99615271948,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TWE",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 4.74795125,
+      "Delta_pp_num": -0.005614679999999872,
+      "DeltaShares_num": -45558.99832212925,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IPX",
+      "Sector": "Materials",
+      "PctShort_pp_num": 4.63443541,
+      "Delta_pp_num": 0.08487125999999989,
+      "DeltaShares_num": 284419.01082180254,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RFF",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 4.55297328,
+      "Delta_pp_num": 0.011918210000000151,
+      "DeltaShares_num": 46448.00543911755,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "JBH",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 4.49701543,
+      "Delta_pp_num": 0.012268830000000008,
+      "DeltaShares_num": 13414.00026112236,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WHC",
+      "Sector": "Energy",
+      "PctShort_pp_num": 4.29916741,
+      "Delta_pp_num": 0.12731135000000027,
+      "DeltaShares_num": 1059769.9864130989,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PMT",
+      "Sector": "Materials",
+      "PctShort_pp_num": 4.18550323,
+      "Delta_pp_num": -0.013466269999999447,
+      "DeltaShares_num": -74280.97548964992,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SFR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 4.16993043,
+      "Delta_pp_num": -0.059960440000000226,
+      "DeltaShares_num": -275309.0132291913,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MFG",
+      "Sector": "Financials",
+      "PctShort_pp_num": 4.10050843,
+      "Delta_pp_num": -0.04476606000000061,
+      "DeltaShares_num": -76988.0105839381,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PFP",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 4.09481469,
+      "Delta_pp_num": 0.02378352999999933,
+      "DeltaShares_num": 32814.991121066734,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BOT",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 4.07543442,
+      "Delta_pp_num": -0.001114700000000468,
+      "DeltaShares_num": -21862.90808954835,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PTM",
+      "Sector": "Financials",
+      "PctShort_pp_num": 4.05654774,
+      "Delta_pp_num": 0.00877652000000051,
+      "DeltaShares_num": 51094.013369169086,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SOL",
+      "Sector": "Financials",
+      "PctShort_pp_num": 4.04764281,
+      "Delta_pp_num": 0.0581485100000001,
+      "DeltaShares_num": 213904.99607788958,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CHN",
+      "Sector": "Materials",
+      "PctShort_pp_num": 4.04494907,
+      "Delta_pp_num": 0.023624430000000807,
+      "DeltaShares_num": 91923.97797188535,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EMR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 4.04396035,
+      "Delta_pp_num": 0.01308596999999967,
+      "DeltaShares_num": 86339.93755874038,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "APX",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 3.95279512,
+      "Delta_pp_num": 0.27196061000000027,
+      "DeltaShares_num": 720430.9988264702,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "HLS",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 3.8571686,
+      "Delta_pp_num": -0.05762347999999973,
+      "DeltaShares_num": -418423.01355953515,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AGL",
+      "Sector": "Utilities",
+      "PctShort_pp_num": 3.77244242,
+      "Delta_pp_num": 0.07614152000000018,
+      "DeltaShares_num": 512239.9689641446,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "HMC",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 3.75955249,
+      "Delta_pp_num": 0.14763760999999986,
+      "DeltaShares_num": 609176.003732428,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WDS",
+      "Sector": "Energy",
+      "PctShort_pp_num": 3.65980989,
+      "Delta_pp_num": 0.22236600000000006,
+      "DeltaShares_num": 4222173.915781863,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BMN",
+      "Sector": "Energy",
+      "PctShort_pp_num": 3.62563915,
+      "Delta_pp_num": -0.05116763000000013,
+      "DeltaShares_num": -105099.98008473776,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RRL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 3.52055445,
+      "Delta_pp_num": 0.0741859800000002,
+      "DeltaShares_num": 561774.9648997039,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "JLG",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 3.49547953,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BRN",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 3.43300203,
+      "Delta_pp_num": -0.005035649999999947,
+      "DeltaShares_num": -102512.82867853343,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AOV",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 3.36803662,
+      "Delta_pp_num": 0.1386614899999996,
+      "DeltaShares_num": 187658.99453006405,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NXL",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 3.31487576,
+      "Delta_pp_num": -0.02389160999999973,
+      "DeltaShares_num": -79954.99019392394,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ALD",
+      "Sector": "Energy",
+      "PctShort_pp_num": 3.2526285,
+      "Delta_pp_num": 0.03225611000000006,
+      "DeltaShares_num": 76866.98718574923,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "A2M",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 3.24970372,
+      "Delta_pp_num": 0.04884383999999997,
+      "DeltaShares_num": 354326.0095154494,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "KGN",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 3.23738303,
+      "Delta_pp_num": 0.08807578000000005,
+      "DeltaShares_num": 87742.99711512122,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BPT",
+      "Sector": "Energy",
+      "PctShort_pp_num": 3.22800454,
+      "Delta_pp_num": -0.017230799999999658,
+      "DeltaShares_num": -393092.03959803283,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IDX",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 3.21213342,
+      "Delta_pp_num": -0.05802642000000002,
+      "DeltaShares_num": -216221.9925808236,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IGO",
+      "Sector": "Materials",
+      "PctShort_pp_num": 3.20234831,
+      "Delta_pp_num": -0.15512675999999992,
+      "DeltaShares_num": -1174725.0228297599,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EDV",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 3.0912824,
+      "Delta_pp_num": 0.19647851999999988,
+      "DeltaShares_num": 3518891.030897349,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BVS",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 3.07876975,
+      "Delta_pp_num": -0.01652977999999994,
+      "DeltaShares_num": -74102.9996075537,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GDG",
+      "Sector": "Financials",
+      "PctShort_pp_num": 3.07736471,
+      "Delta_pp_num": 0.0710311400000001,
+      "DeltaShares_num": 281825.03907170147,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ACL",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 3.07568123,
+      "Delta_pp_num": 0.2910499299999998,
+      "DeltaShares_num": 571596.9914790299,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "APA",
+      "Sector": "Utilities",
+      "PctShort_pp_num": 3.04561368,
+      "Delta_pp_num": -0.020447719999999947,
+      "DeltaShares_num": -266737.9530708194,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MGH",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 3.03940969,
+      "Delta_pp_num": -0.01614110999999996,
+      "DeltaShares_num": -58627.99525577016,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NHC",
+      "Sector": "Energy",
+      "PctShort_pp_num": 3.01809213,
+      "Delta_pp_num": 0.032552769999999676,
+      "DeltaShares_num": 274354.9994716048,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "REA",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 3.00101614,
+      "Delta_pp_num": -0.029267939999999992,
+      "DeltaShares_num": -38667.98780123005,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RWC",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 2.98918104,
+      "Delta_pp_num": 0.13924592000000002,
+      "DeltaShares_num": 1077121.9566203319,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "APE",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 2.94686639,
+      "Delta_pp_num": -0.01072676000000028,
+      "DeltaShares_num": -27682.993298061192,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DRO",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 2.93869955,
+      "Delta_pp_num": 0.23613507999999994,
+      "DeltaShares_num": 2065518.0656679794,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RHC",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 2.90628666,
+      "Delta_pp_num": 0.012017950000000166,
+      "DeltaShares_num": 27741.011271075346,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IMU",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 2.88439478,
+      "Delta_pp_num": 0.03617108999999985,
+      "DeltaShares_num": 107006.0004238896,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "A4N",
+      "Sector": "Materials",
+      "PctShort_pp_num": 2.87099471,
+      "Delta_pp_num": 0.00900190000000034,
+      "DeltaShares_num": 102376.06638340652,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BOQ",
+      "Sector": "Financials",
+      "PctShort_pp_num": 2.87064775,
+      "Delta_pp_num": 0.05872864,
+      "DeltaShares_num": 388472.0149369091,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CIP",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 2.82908291,
+      "Delta_pp_num": -0.014156300000000233,
+      "DeltaShares_num": -89696.02150164917,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DRR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 2.74885829,
+      "Delta_pp_num": -0.05485488000000016,
+      "DeltaShares_num": -290152.03530624136,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ZIP",
+      "Sector": "Financials",
+      "PctShort_pp_num": 2.73678584,
+      "Delta_pp_num": -0.28653554999999997,
+      "DeltaShares_num": -3698696.0865671933,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SKC",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 2.73269843,
+      "Delta_pp_num": -0.09499903999999981,
+      "DeltaShares_num": -987416.9808407277,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MAQ",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 2.72283424,
+      "Delta_pp_num": 0.03859356000000025,
+      "DeltaShares_num": 9947.000723659294,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WBT",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 2.70972106,
+      "Delta_pp_num": -0.004597049999999658,
+      "DeltaShares_num": -9594.991951267235,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SYR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 2.65795877,
+      "Delta_pp_num": 0.09055797999999982,
+      "DeltaShares_num": 1187702.9889558703,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "JHX",
+      "Sector": "Materials",
+      "PctShort_pp_num": 2.65352926,
+      "Delta_pp_num": -0.15943457000000016,
+      "DeltaShares_num": -685599.0041534379,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LNW",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 2.63860655,
+      "Delta_pp_num": 0.10451916000000017,
+      "DeltaShares_num": 32060.00228084647,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CRN",
+      "Sector": "Materials",
+      "PctShort_pp_num": 2.62607808,
+      "Delta_pp_num": -0.026232460000000124,
+      "DeltaShares_num": -439775.0541407615,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LOV",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 2.6125526,
+      "Delta_pp_num": -0.004793360000000302,
+      "DeltaShares_num": -5306.996756890323,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "YAL",
+      "Sector": "Energy",
+      "PctShort_pp_num": 2.59860226,
+      "Delta_pp_num": 0.02872573999999961,
+      "DeltaShares_num": 379305.99953008443,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WGX",
+      "Sector": "Materials",
+      "PctShort_pp_num": 2.59665569,
+      "Delta_pp_num": -0.07349754999999991,
+      "DeltaShares_num": -694303.0127247684,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ING",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 2.58350713,
+      "Delta_pp_num": -0.07821414000000004,
+      "DeltaShares_num": -290706.00347758085,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "HLI",
+      "Sector": "Financials",
+      "PctShort_pp_num": 2.57786542,
+      "Delta_pp_num": -0.023970399999999614,
+      "DeltaShares_num": -65315.99924535118,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NVX",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 2.53657126,
+      "Delta_pp_num": 0.2569891000000002,
+      "DeltaShares_num": 1710426.0083632395,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LYC",
+      "Sector": "Materials",
+      "PctShort_pp_num": 2.52920006,
+      "Delta_pp_num": 0.02372666999999984,
+      "DeltaShares_num": 252398.05269299075,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "OFX",
+      "Sector": "Financials",
+      "PctShort_pp_num": 2.49630706,
+      "Delta_pp_num": 0.01297164999999989,
+      "DeltaShares_num": 30353.990869059227,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BSL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 2.49099126,
+      "Delta_pp_num": 0.02850414999999984,
+      "DeltaShares_num": 125022.00927373208,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PMV",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 2.48427511,
+      "Delta_pp_num": -0.0028928000000001397,
+      "DeltaShares_num": -4625.008582144044,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SHV",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 2.40612611,
+      "Delta_pp_num": -0.013498209999999844,
+      "DeltaShares_num": -19181.987538261805,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WEB",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 2.39175314,
+      "Delta_pp_num": -0.09786885999999972,
+      "DeltaShares_num": -353640.0022748709,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SDF",
+      "Sector": "Financials",
+      "PctShort_pp_num": 2.39037683,
+      "Delta_pp_num": 0.05311280000000007,
+      "DeltaShares_num": 587581.9536314048,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IMM",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 2.38956595,
+      "Delta_pp_num": 0.00923573000000033,
+      "DeltaShares_num": 135568.02812297642,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NUF",
+      "Sector": "Materials",
+      "PctShort_pp_num": 2.3502123,
+      "Delta_pp_num": 0.11344839999999978,
+      "DeltaShares_num": 434556.989792224,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ORA",
+      "Sector": "Materials",
+      "PctShort_pp_num": 2.3115388,
+      "Delta_pp_num": -0.05019028999999975,
+      "DeltaShares_num": -639653.9247129001,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "FBU",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 2.30521189,
+      "Delta_pp_num": 0.0014278599999997255,
+      "DeltaShares_num": 15348.029615834355,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EVN",
+      "Sector": "Materials",
+      "PctShort_pp_num": 2.29949264,
+      "Delta_pp_num": -0.03856178000000021,
+      "DeltaShares_num": -776571.1312785,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "COH",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 2.28888459,
+      "Delta_pp_num": 0.015942169999999756,
+      "DeltaShares_num": 10426.00142480433,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "OBM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 2.24404973,
+      "Delta_pp_num": -0.05856286999999982,
+      "DeltaShares_num": -1105575.9888557047,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PPT",
+      "Sector": "Financials",
+      "PctShort_pp_num": 2.24175648,
+      "Delta_pp_num": 0.10150154999999961,
+      "DeltaShares_num": 116414.00648868969,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BAP",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 2.21405576,
+      "Delta_pp_num": 0.1011032300000001,
+      "DeltaShares_num": 343157.00052375067,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DTL",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 2.20698198,
+      "Delta_pp_num": 0.02911184000000011,
+      "DeltaShares_num": 45146.012947374955,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MP1",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 2.20294352,
+      "Delta_pp_num": -0.19997792000000025,
+      "DeltaShares_num": -323587.00405038754,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "OBL",
+      "Sector": "Financials",
+      "PctShort_pp_num": 2.13894201,
+      "Delta_pp_num": -0.019262030000000152,
+      "DeltaShares_num": -55558.00052338187,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MTS",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 2.12303378,
+      "Delta_pp_num": -0.2278471099999999,
+      "DeltaShares_num": -2504015.0311593898,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AX1",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 2.04003331,
+      "Delta_pp_num": -0.03155514000000004,
+      "DeltaShares_num": -189704.98109064437,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "HDN",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 2.03844493,
+      "Delta_pp_num": 0.0294087399999996,
+      "DeltaShares_num": 613706.9845883101,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SDR",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 2.03054354,
+      "Delta_pp_num": -0.11880007999999975,
+      "DeltaShares_num": -334299.0069450233,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "JIN",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 2.02501713,
+      "Delta_pp_num": 0.02281093000000034,
+      "DeltaShares_num": 14222.995797531446,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SIG",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 2.01939855,
+      "Delta_pp_num": 0.002184800000000209,
+      "DeltaShares_num": 252206.81956094503,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "QAL",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 1.96786005,
+      "Delta_pp_num": 0.04362836000000003,
+      "DeltaShares_num": 130960.98811099678,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PNI",
+      "Sector": "Financials",
+      "PctShort_pp_num": 1.93568608,
+      "Delta_pp_num": 0.00894499999999998,
+      "DeltaShares_num": 20285.000135200098,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SGM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.93456762,
+      "Delta_pp_num": -0.013030510000000106,
+      "DeltaShares_num": -25178.005665579345,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "OPT",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 1.92883801,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CCP",
+      "Sector": "Financials",
+      "PctShort_pp_num": 1.92510287,
+      "Delta_pp_num": -0.034100300000000194,
+      "DeltaShares_num": -23211.002096568234,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "REH",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 1.92408798,
+      "Delta_pp_num": -0.026011010000000168,
+      "DeltaShares_num": -168027.00991833024,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LLC",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 1.90658416,
+      "Delta_pp_num": 0.004641740000000061,
+      "DeltaShares_num": 32036.958663191646,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BEN",
+      "Sector": "Financials",
+      "PctShort_pp_num": 1.90573432,
+      "Delta_pp_num": 0.03017985000000012,
+      "DeltaShares_num": 171416.0223712623,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "FMG",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.87346263,
+      "Delta_pp_num": -0.1153736700000001,
+      "DeltaShares_num": -3552314.8239090964,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NSR",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 1.86291046,
+      "Delta_pp_num": 0.03626237999999993,
+      "DeltaShares_num": 509025.0317627713,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NIC",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.8301917,
+      "Delta_pp_num": -0.003454509999999855,
+      "DeltaShares_num": -149958.06389544904,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ONE",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 1.76388784,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "INR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.76145397,
+      "Delta_pp_num": 0.0037174300000000216,
+      "DeltaShares_num": 99173.956048958,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "KLS",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 1.75567795,
+      "Delta_pp_num": 0.021279889999999968,
+      "DeltaShares_num": 57784.020634059794,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SEK",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 1.72866125,
+      "Delta_pp_num": -0.24672541999999997,
+      "DeltaShares_num": -881353.0141022988,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CAR",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 1.71606718,
+      "Delta_pp_num": 0.016429079999999985,
+      "DeltaShares_num": 62125.9814733332,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PXA",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 1.70012745,
+      "Delta_pp_num": 0.04397702000000003,
+      "DeltaShares_num": 78104.00637211185,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WTC",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 1.6931425,
+      "Delta_pp_num": -0.009040619999999944,
+      "DeltaShares_num": -30251.99259691313,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ANN",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 1.67398948,
+      "Delta_pp_num": -0.06245440000000002,
+      "DeltaShares_num": -91149.00163289625,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PME",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 1.66735816,
+      "Delta_pp_num": -0.014490359999999924,
+      "DeltaShares_num": -15143.996810120298,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RMS",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.66648425,
+      "Delta_pp_num": -0.047635360000000126,
+      "DeltaShares_num": -911708.9313948788,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "XVGHAF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 1.66488889,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CKF",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 1.64560715,
+      "Delta_pp_num": -0.09345764000000001,
+      "DeltaShares_num": -110297.99364620703,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "VCX",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 1.6387443,
+      "Delta_pp_num": 0.011044009999999993,
+      "DeltaShares_num": 503924.7271254957,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "COF",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 1.61156887,
+      "Delta_pp_num": -0.0020979700000001156,
+      "DeltaShares_num": -12531.949611302465,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SBM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.57149138,
+      "Delta_pp_num": -0.01329609999999981,
+      "DeltaShares_num": -144091.01958474144,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "INA",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 1.56874302,
+      "Delta_pp_num": 0.03195175000000017,
+      "DeltaShares_num": 130229.98555512074,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ASX",
+      "Sector": "Financials",
+      "PctShort_pp_num": 1.51172707,
+      "Delta_pp_num": 0.007152880000000028,
+      "DeltaShares_num": 13898.004710940178,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WAF",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.49537333,
+      "Delta_pp_num": -0.0048369699999999405,
+      "DeltaShares_num": -55192.92761733383,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SNL",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 1.47614269,
+      "Delta_pp_num": 0.014991490000000107,
+      "DeltaShares_num": 6515.0008247107035,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SGH",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 1.45296772,
+      "Delta_pp_num": -0.013080650000000027,
+      "DeltaShares_num": -53238.005731684156,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AIS",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.41170301,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SUL",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 1.39746885,
+      "Delta_pp_num": -0.07076317999999993,
+      "DeltaShares_num": -159802.01268270006,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TNE",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 1.38633999,
+      "Delta_pp_num": 0.06045999000000002,
+      "DeltaShares_num": 197926.9871517457,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ARU",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.37144403,
+      "Delta_pp_num": 0.009606249999999816,
+      "DeltaShares_num": 272239.01104862243,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CAT",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 1.36682676,
+      "Delta_pp_num": 0.005182730000000024,
+      "DeltaShares_num": 14703.008686636575,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "HUB",
+      "Sector": "Financials",
+      "PctShort_pp_num": 1.36512239,
+      "Delta_pp_num": -0.0017769499999999994,
+      "DeltaShares_num": -1451.9959549901541,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GEM",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 1.35581638,
+      "Delta_pp_num": -0.0007790699999998818,
+      "DeltaShares_num": -6010.982792578638,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DXS",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 1.34854906,
+      "Delta_pp_num": -0.0022866099999998557,
+      "DeltaShares_num": -24593.98247156106,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MAF",
+      "Sector": "Financials",
+      "PctShort_pp_num": 1.30843399,
+      "Delta_pp_num": 0.038437419999999944,
+      "DeltaShares_num": 74901.99214047333,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "XRO",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 1.30653935,
+      "Delta_pp_num": 0.04262927999999988,
+      "DeltaShares_num": 70500.99556350708,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MMS",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 1.30258703,
+      "Delta_pp_num": 0.03040935999999994,
+      "DeltaShares_num": 21177.99788304628,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MAC",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.29273134,
+      "Delta_pp_num": 0.006737580000000021,
+      "DeltaShares_num": 2314.998665348394,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NWL",
+      "Sector": "Financials",
+      "PctShort_pp_num": 1.28751451,
+      "Delta_pp_num": -0.0002769199999999028,
+      "DeltaShares_num": -678.9965305868536,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BKW",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.27344933,
+      "Delta_pp_num": 0.01596763999999995,
+      "DeltaShares_num": 24446.006392875686,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AZJ",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 1.26367048,
+      "Delta_pp_num": 0.013737770000000094,
+      "DeltaShares_num": 240471.96905026957,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RIC",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 1.25188116,
+      "Delta_pp_num": 0.002564470000000041,
+      "DeltaShares_num": 9612.99462680798,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CXO",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.24751012,
+      "Delta_pp_num": -0.43811016999999985,
+      "DeltaShares_num": -10607000.893278036,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SRL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.22895427,
+      "Delta_pp_num": 0.33060723999999997,
+      "DeltaShares_num": 390951.9981901131,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MYX",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 1.21624093,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "XYZ",
+      "Sector": "Financials",
+      "PctShort_pp_num": 1.14128155,
+      "Delta_pp_num": -0.008683060000000076,
+      "DeltaShares_num": -3698.0025478812167,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IMD",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.13196925,
+      "Delta_pp_num": 0.07817357000000014,
+      "DeltaShares_num": 400125.02422870975,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "VAU",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.1159426,
+      "Delta_pp_num": 0.010172259999999822,
+      "DeltaShares_num": 691965.2788478285,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PEN",
+      "Sector": "Energy",
+      "PctShort_pp_num": 1.09596722,
+      "Delta_pp_num": -0.05133354000000012,
+      "DeltaShares_num": -140372.0163518167,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NHF",
+      "Sector": "Financials",
+      "PctShort_pp_num": 1.080492,
+      "Delta_pp_num": 0.03995711999999996,
+      "DeltaShares_num": 194597.9767001085,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TPW",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 1.06387448,
+      "Delta_pp_num": -0.0067079700000001186,
+      "DeltaShares_num": -8067.99810527754,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WOW",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 1.05447284,
+      "Delta_pp_num": 0.04521244000000002,
+      "DeltaShares_num": 552313.0569754262,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AEL",
+      "Sector": "Energy",
+      "PctShort_pp_num": 1.02071163,
+      "Delta_pp_num": -0.0007674399999999526,
+      "DeltaShares_num": -20347.965739384294,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ALX",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 1.01189343,
+      "Delta_pp_num": 0.019013689999999972,
+      "DeltaShares_num": 275857.0234644897,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LRV",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.98862242,
+      "Delta_pp_num": 0.04942451000000003,
+      "DeltaShares_num": 241896.99293549452,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NWS",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.98254624,
+      "Delta_pp_num": -0.14195058000000005,
+      "DeltaShares_num": -54771.99752549635,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CNU",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.97315018,
+      "Delta_pp_num": 0.07207078999999994,
+      "DeltaShares_num": 312706.00049542217,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GGP",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.96613579,
+      "Delta_pp_num": -0.005763239999999947,
+      "DeltaShares_num": -38657.028719005175,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ASB",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.96309026,
+      "Delta_pp_num": 0.007222559999999989,
+      "DeltaShares_num": 30419.98138592625,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SIQ",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.95966112,
+      "Delta_pp_num": 0.04732793000000002,
+      "DeltaShares_num": 64151.99061794649,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CHC",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.95942682,
+      "Delta_pp_num": 0.0010139599999999804,
+      "DeltaShares_num": 4796.002398980781,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BHP",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.95164496,
+      "Delta_pp_num": -0.05745871999999996,
+      "DeltaShares_num": -2918278.5002663583,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TLC",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.93805236,
+      "Delta_pp_num": 0.016979680000000053,
+      "DeltaShares_num": 377928.9126999527,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "JDO",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.93787551,
+      "Delta_pp_num": 0.013936810000000022,
+      "DeltaShares_num": 155844.9757103119,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SVL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.92784426,
+      "Delta_pp_num": -0.06148385000000001,
+      "DeltaShares_num": -1308704.882938277,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EL8",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.91122327,
+      "Delta_pp_num": -0.003967679999999918,
+      "DeltaShares_num": -15300.001449561212,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "HVN",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.90904739,
+      "Delta_pp_num": 0.02286336,
+      "DeltaShares_num": 284878.98692797497,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SRG",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.89943843,
+      "Delta_pp_num": 4.305000000004444e-05,
+      "DeltaShares_num": 260.00414156820625,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "A1N",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.87318471,
+      "Delta_pp_num": 0.0024360299999999224,
+      "DeltaShares_num": 7626.0010013920255,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AGE",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.85111001,
+      "Delta_pp_num": -0.0017849600000000576,
+      "DeltaShares_num": -79074.63770486414,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ABY",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.84909918,
+      "Delta_pp_num": -1.070000000047422e-06,
+      "DeltaShares_num": -1.0053498295601457,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WA1",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.84869883,
+      "Delta_pp_num": -0.019658399999999965,
+      "DeltaShares_num": -14595.99419133598,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "HSN",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.84380922,
+      "Delta_pp_num": 0.0007439500000000487,
+      "DeltaShares_num": 1517.9905456502456,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BGA",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 0.83537664,
+      "Delta_pp_num": -0.008302189999999987,
+      "DeltaShares_num": -25336.996791483834,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CXL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.81711809,
+      "Delta_pp_num": -0.010248959999999974,
+      "DeltaShares_num": -22001.989316505613,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ORG",
+      "Sector": "Utilities",
+      "PctShort_pp_num": 0.8136736,
+      "Delta_pp_num": 0.04625511999999998,
+      "DeltaShares_num": 796859.0025182571,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EML",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.80306412,
+      "Delta_pp_num": 0.010175610000000002,
+      "DeltaShares_num": 39085.98401013343,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CLW",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.79517706,
+      "Delta_pp_num": 0.0005339599999999445,
+      "DeltaShares_num": 3792.028478903696,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CNQ",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.7872465,
+      "Delta_pp_num": -0.0004983200000000521,
+      "DeltaShares_num": -359.99784430954605,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NEC",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.78709718,
+      "Delta_pp_num": 0.11129795999999992,
+      "DeltaShares_num": 1764920.8933516908,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SLC",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.77543779,
+      "Delta_pp_num": -0.026517290000000027,
+      "DeltaShares_num": -135758.00989899598,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BWP",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.7727306,
+      "Delta_pp_num": 0.0017481200000000197,
+      "DeltaShares_num": 12663.006972545758,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "VNT",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.77098916,
+      "Delta_pp_num": 0.016277579999999903,
+      "DeltaShares_num": 136108.02842635568,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "FCL",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.72538873,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SHL",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.7196835,
+      "Delta_pp_num": -0.004369149999999933,
+      "DeltaShares_num": -21593.99752349872,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DUG",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.69654664,
+      "Delta_pp_num": 0.0011057599999999557,
+      "DeltaShares_num": 1488.9898888175376,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NAB",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.69596894,
+      "Delta_pp_num": 0.021121549999999933,
+      "DeltaShares_num": 646959.9173476137,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "S32",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.69519411,
+      "Delta_pp_num": 0.19931774999999996,
+      "DeltaShares_num": 8976544.19138698,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DVP",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.68904667,
+      "Delta_pp_num": -0.05167993999999998,
+      "DeltaShares_num": -169760.02816435508,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BXB",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.68141325,
+      "Delta_pp_num": 0.05251958000000001,
+      "DeltaShares_num": 717512.0226336382,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LLL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.67947269,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RDX",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.67855552,
+      "Delta_pp_num": 0.008400989999999942,
+      "DeltaShares_num": 44112.03825813718,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SWM",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.6769612,
+      "Delta_pp_num": -0.0003174499999999414,
+      "DeltaShares_num": -4886.001523599029,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ALQ",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.66842536,
+      "Delta_pp_num": 0.004999609999999932,
+      "DeltaShares_num": 25358.00382141117,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EVT",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.66477904,
+      "Delta_pp_num": -0.02151641999999998,
+      "DeltaShares_num": -34969.00691169244,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "HUM",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.66425989,
+      "Delta_pp_num": -0.006001070000000053,
+      "DeltaShares_num": -29554.990100138355,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AMC",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.65640561,
+      "Delta_pp_num": 0.05223796999999997,
+      "DeltaShares_num": 365210.00326415524,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CSC",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.64624955,
+      "Delta_pp_num": 0.0416520199999999,
+      "DeltaShares_num": 84339.00272863638,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CBA",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.64535739,
+      "Delta_pp_num": 0.025336809999999987,
+      "DeltaShares_num": 424001.9780679792,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AMP",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.64000565,
+      "Delta_pp_num": 0.00505648000000003,
+      "DeltaShares_num": 128016.91861106828,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MYR",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.6320884,
+      "Delta_pp_num": 0.028425049999999952,
+      "DeltaShares_num": 491201.07281626016,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CWY",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.61239655,
+      "Delta_pp_num": -0.004807979999999934,
+      "DeltaShares_num": -107351.89345676452,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IAG",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.61027666,
+      "Delta_pp_num": 0.03931651000000003,
+      "DeltaShares_num": 929947.0480460245,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SXE",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.60744166,
+      "Delta_pp_num": -0.0015074800000000055,
+      "DeltaShares_num": -4004.02059773542,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MQG",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.60049759,
+      "Delta_pp_num": -0.008365989999999934,
+      "DeltaShares_num": -31886.001685058232,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "FFM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.59851556,
+      "Delta_pp_num": -0.00599236000000003,
+      "DeltaShares_num": -40906.99127419572,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SMR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.59611991,
+      "Delta_pp_num": -0.007889360000000067,
+      "DeltaShares_num": -71114.03101614304,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MGX",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.59103068,
+      "Delta_pp_num": 0.021770559999999994,
+      "DeltaShares_num": 256985.94601041637,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SXL",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.58811588,
+      "Delta_pp_num": -0.01207298999999995,
+      "DeltaShares_num": -28963.000268855132,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TER",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.58458794,
+      "Delta_pp_num": -0.01683615999999999,
+      "DeltaShares_num": -134851.95687057637,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "QUB",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.58420337,
+      "Delta_pp_num": -0.012859729999999958,
+      "DeltaShares_num": -227503.0281407684,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IPD",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.58215646,
+      "Delta_pp_num": -0.004699169999999975,
+      "DeltaShares_num": -95682.03111298941,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MAD",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.5723445,
+      "Delta_pp_num": 1.4799999999981495e-06,
+      "DeltaShares_num": 3.0112335744779557,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AIA",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.56771965,
+      "Delta_pp_num": -0.014179300000000006,
+      "DeltaShares_num": -239362.05007147416,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ANZ",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.5631793,
+      "Delta_pp_num": -0.013628229999999908,
+      "DeltaShares_num": -406600.992226813,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BLX",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.55437586,
+      "Delta_pp_num": -0.0004911299999998953,
+      "DeltaShares_num": -1122.9985074778087,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AEF",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.54455848,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SUN",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.53954617,
+      "Delta_pp_num": 0.011874130000000038,
+      "DeltaShares_num": 128592.97533852141,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IFT",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.53750085,
+      "Delta_pp_num": -0.01805562999999999,
+      "DeltaShares_num": -176871.05780552514,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ASM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.53650928,
+      "Delta_pp_num": 0.0013943599999999279,
+      "DeltaShares_num": 3116.996949576307,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DNL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.53550142,
+      "Delta_pp_num": 0.021739289999999967,
+      "DeltaShares_num": 394843.8890024368,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WJL",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.51718497,
+      "Delta_pp_num": 0.014121459999999919,
+      "DeltaShares_num": 55431.01735161175,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GDI",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.51478997,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BC8",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.5144121,
+      "Delta_pp_num": -0.031238059999999956,
+      "DeltaShares_num": -221412.03149328846,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WBC",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.51396594,
+      "Delta_pp_num": 0.017904349999999958,
+      "DeltaShares_num": 612392.0269637667,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LKE",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.5136099,
+      "Delta_pp_num": 0.0005876799999999793,
+      "DeltaShares_num": 12684.043431466445,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MPL",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.49973423,
+      "Delta_pp_num": 0.058926650000000025,
+      "DeltaShares_num": 1622841.8502234612,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AAI",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.49477786,
+      "Delta_pp_num": -0.009500729999999957,
+      "DeltaShares_num": -5985.996596237703,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AYA",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.49303328,
+      "Delta_pp_num": 0.49245099000000003,
+      "DeltaShares_num": 579314.9962937583,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IFL",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.49092868,
+      "Delta_pp_num": -0.00037005000000001065,
+      "DeltaShares_num": -2482.022092171479,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "COL",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 0.48835788,
+      "Delta_pp_num": 0.09126288000000005,
+      "DeltaShares_num": 1224114.0079079373,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WES",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.48459227,
+      "Delta_pp_num": 0.01700398999999997,
+      "DeltaShares_num": 192902.99088275805,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AUB",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.48335055,
+      "Delta_pp_num": -0.011036350000000028,
+      "DeltaShares_num": -12866.99727225909,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SX2",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.48248295,
+      "Delta_pp_num": -0.30176986999999994,
+      "DeltaShares_num": -422311.9954564348,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DOW",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.4772352,
+      "Delta_pp_num": -0.016075229999999996,
+      "DeltaShares_num": -107957.01351871155,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AUC",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.46873222,
+      "Delta_pp_num": -0.00023161000000004872,
+      "DeltaShares_num": -981.998924105661,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CMM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.46572271,
+      "Delta_pp_num": -0.025344489999999997,
+      "DeltaShares_num": -109390.99763951148,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CPU",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.46360113,
+      "Delta_pp_num": -0.009167560000000019,
+      "DeltaShares_num": -53023.98167449236,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "FAL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.45857785,
+      "Delta_pp_num": -0.022027320000000017,
+      "DeltaShares_num": -46840.00056137645,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SGP",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.45814119,
+      "Delta_pp_num": 0.005646119999999977,
+      "DeltaShares_num": 136769.85736451112,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CQR",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.45214455,
+      "Delta_pp_num": -0.008136720000000042,
+      "DeltaShares_num": -47293.02584142517,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TOR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.44225863,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ASL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.43702855,
+      "Delta_pp_num": -0.01647352999999996,
+      "DeltaShares_num": -31003.005216405378,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GTK",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.4244411,
+      "Delta_pp_num": -0.04544572999999996,
+      "DeltaShares_num": -48955.00200704078,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TPG",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.42351237,
+      "Delta_pp_num": 0.005049690000000051,
+      "DeltaShares_num": 93890.99032532703,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GMG",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.41171379,
+      "Delta_pp_num": -0.03933341999999995,
+      "DeltaShares_num": -804287.0329806283,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PNR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.41169041,
+      "Delta_pp_num": -0.027108619999999972,
+      "DeltaShares_num": -106857.00419118349,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CNI",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.40883882,
+      "Delta_pp_num": -0.012118650000000009,
+      "DeltaShares_num": -100595.93506901199,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "29M",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.40447697,
+      "Delta_pp_num": -0.006521739999999998,
+      "DeltaShares_num": -89434.99681597017,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "QRI",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.40277447,
+      "Delta_pp_num": -0.0005589200000000183,
+      "DeltaShares_num": -3404.0052258991636,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NXG",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.40118737,
+      "Delta_pp_num": -0.006017130000000037,
+      "DeltaShares_num": -6902.999256541545,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "QOR",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.39970055,
+      "Delta_pp_num": -3.981000000002899e-05,
+      "DeltaShares_num": -530.9178657326847,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MYS",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.39844763,
+      "Delta_pp_num": -0.015959469999999976,
+      "DeltaShares_num": -26991.992429207196,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DDR",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.39476865,
+      "Delta_pp_num": -0.0064734200000000075,
+      "DeltaShares_num": -11700.99627081072,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IPG",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.39356631,
+      "Delta_pp_num": -0.02100033000000001,
+      "DeltaShares_num": -21775.994408820698,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CEH",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.38783939,
+      "Delta_pp_num": -0.0017899299999999951,
+      "DeltaShares_num": -6954.985551287886,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ASK",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.38700445,
+      "Delta_pp_num": 0.036841400000000024,
+      "DeltaShares_num": 484133.9286422683,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MTH",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.38534295,
+      "Delta_pp_num": -0.0015735799999999633,
+      "DeltaShares_num": -2887.0035119474633,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WC8",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.38242444,
+      "Delta_pp_num": -0.02858609000000001,
+      "DeltaShares_num": -382187.0009582741,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ALL",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.3811801,
+      "Delta_pp_num": -0.009844589999999986,
+      "DeltaShares_num": -61130.01212322852,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SPK",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.37639371,
+      "Delta_pp_num": 0.018102740000000006,
+      "DeltaShares_num": 342019.14120369125,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MEI",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.37517322,
+      "Delta_pp_num": 0.011252419999999985,
+      "DeltaShares_num": 297169.00934540667,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AEE",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.37410833,
+      "Delta_pp_num": -0.09484785000000001,
+      "DeltaShares_num": -850532.0153189902,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TYR",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.37337463,
+      "Delta_pp_num": -0.015420839999999991,
+      "DeltaShares_num": -81524.04636972607,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MND",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.3699355,
+      "Delta_pp_num": 0.10258023,
+      "DeltaShares_num": 101839.99875069241,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BBT",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.35846909,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "STP",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.35696178,
+      "Delta_pp_num": -0.004459900000000017,
+      "DeltaShares_num": -8265.99163830909,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MGR",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.34614901,
+      "Delta_pp_num": 0.028290639999999978,
+      "DeltaShares_num": 1116309.108894689,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WPR",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.3405721,
+      "Delta_pp_num": 0.03311375,
+      "DeltaShares_num": 218339.9680668877,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PIQ",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.33563097,
+      "Delta_pp_num": -0.009347400000000006,
+      "DeltaShares_num": -15299.997901218012,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CSL",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.33491319,
+      "Delta_pp_num": -0.0007851499999999567,
+      "DeltaShares_num": -3807.984637013171,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BET",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.32931823,
+      "Delta_pp_num": -0.001739170000000012,
+      "DeltaShares_num": -19194.02404541755,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TCL",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.32701529,
+      "Delta_pp_num": -0.058271059999999986,
+      "DeltaShares_num": -1814669.854530841,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "OML",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.32583778,
+      "Delta_pp_num": 0.004173300000000046,
+      "DeltaShares_num": 22484.9594086383,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "VSL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.31937633,
+      "Delta_pp_num": 0.006187459999999978,
+      "DeltaShares_num": 8770.99673636537,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RFG",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.31290248,
+      "Delta_pp_num": -0.017317440000000017,
+      "DeltaShares_num": -10898.001626601646,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LKY",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.3073717,
+      "Delta_pp_num": 0.003722350000000041,
+      "DeltaShares_num": 9376.99537302868,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BBN",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.29748452,
+      "Delta_pp_num": -0.0005292000000000074,
+      "DeltaShares_num": -713.9964441959746,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AFG",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.29509266,
+      "Delta_pp_num": -0.00039410000000000833,
+      "DeltaShares_num": -1071.0064082830213,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "C79",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.29428206,
+      "Delta_pp_num": -0.04209282999999997,
+      "DeltaShares_num": -48944.00241400499,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CGF",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.29162664,
+      "Delta_pp_num": 0.07626805,
+      "DeltaShares_num": 527314.0113097255,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NST",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.288307,
+      "Delta_pp_num": -0.030357350000000005,
+      "DeltaShares_num": -434127.8941035266,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TUA",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.27545576,
+      "Delta_pp_num": 0.003805489999999967,
+      "DeltaShares_num": 20464.998621240025,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RSG",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.2749669,
+      "Delta_pp_num": -0.019027499999999975,
+      "DeltaShares_num": -405227.9088735739,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RUL",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.27354517,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WOR",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.26914837,
+      "Delta_pp_num": -0.02321685999999995,
+      "DeltaShares_num": -119808.00574167981,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DXI",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.26880425,
+      "Delta_pp_num": -0.03229363999999996,
+      "DeltaShares_num": -102458.0028866604,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GOR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.26341573,
+      "Delta_pp_num": 0.001599779999999995,
+      "DeltaShares_num": 17379.99488206813,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "FPR",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.26026751,
+      "Delta_pp_num": -0.0053829100000000185,
+      "DeltaShares_num": -11938.00501156773,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ARF",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.2565488,
+      "Delta_pp_num": -0.001112259999999976,
+      "DeltaShares_num": -4468.999639171059,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TLS",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.25547632,
+      "Delta_pp_num": -0.006024400000000041,
+      "DeltaShares_num": -685879.6862928309,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "360",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.25298426,
+      "Delta_pp_num": -0.056055030000000006,
+      "DeltaShares_num": -95576.00500901614,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AGY",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.25125434,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PGC",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.24845802,
+      "Delta_pp_num": 0.002564960000000005,
+      "DeltaShares_num": 42457.92110569496,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "QBE",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.23710912,
+      "Delta_pp_num": 0.07019816000000001,
+      "DeltaShares_num": 1060002.9549145168,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BRX",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.23677187,
+      "Delta_pp_num": -0.02135692,
+      "DeltaShares_num": -34597.99191870849,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ALK",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.23432851,
+      "Delta_pp_num": 0.11381982999999998,
+      "DeltaShares_num": 1555650.9405299432,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EQT",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.23318249,
+      "Delta_pp_num": -0.00013870000000001936,
+      "DeltaShares_num": 0.0011267131922068074,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SMI",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.23297571,
+      "Delta_pp_num": -0.000978089999999987,
+      "DeltaShares_num": 3970.0355662852526,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ATH",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.23013372,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AAC",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 0.2292512,
+      "Delta_pp_num": 0.0021542299999999792,
+      "DeltaShares_num": 12984.982093898114,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ARR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.22272534,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TAH",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.21347698,
+      "Delta_pp_num": 0.0028711299999999995,
+      "DeltaShares_num": 65641.16400274355,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "KPG",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.20969208,
+      "Delta_pp_num": 0.0007841000000000098,
+      "DeltaShares_num": 355.0009378370014,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PDI",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.20839954,
+      "Delta_pp_num": -0.04865298000000001,
+      "DeltaShares_num": -1275908.8004084928,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ORI",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.20141222,
+      "Delta_pp_num": -0.0007485499999999867,
+      "DeltaShares_num": -3563.0008007822325,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CYC",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.19332652,
+      "Delta_pp_num": -0.08898398000000002,
+      "DeltaShares_num": -98893.99237662999,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NEM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.18825615,
+      "Delta_pp_num": 0.033278840000000004,
+      "DeltaShares_num": 34858.99819405083,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CQE",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.18693361,
+      "Delta_pp_num": 0.07319876,
+      "DeltaShares_num": 271647.00837541313,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DBI",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.18644665,
+      "Delta_pp_num": 0.000697719999999985,
+      "DeltaShares_num": 3459.028302992345,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EHL",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.18499088,
+      "Delta_pp_num": -0.004599180000000008,
+      "DeltaShares_num": -23840.98814899265,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RPL",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.1825733,
+      "Delta_pp_num": 0.01725087,
+      "DeltaShares_num": 61431.99984080251,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MEK",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.17095293,
+      "Delta_pp_num": 0.01153187,
+      "DeltaShares_num": 339801.0681626797,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ECF",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.16889314,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BRE",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.16839965,
+      "Delta_pp_num": -0.010381749999999995,
+      "DeltaShares_num": -11701.99517496751,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BIO",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 0.16102499,
+      "Delta_pp_num": -0.0021005500000000066,
+      "DeltaShares_num": -4634.007201770495,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RNU",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.15483189,
+      "Delta_pp_num": 0.0015728499999999868,
+      "DeltaShares_num": 40000.00335125951,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GG8",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.15371524,
+      "Delta_pp_num": 0.055414660000000004,
+      "DeltaShares_num": 358103.98838820774,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "QAN",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.15348725,
+      "Delta_pp_num": 0.017394069999999984,
+      "DeltaShares_num": 263206.94182875496,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RGN",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.15175308,
+      "Delta_pp_num": 0.010280170000000005,
+      "DeltaShares_num": 119397.93664564565,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CEN",
+      "Sector": "Utilities",
+      "PctShort_pp_num": 0.1512194,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CCX",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.15063281,
+      "Delta_pp_num": -0.005752449999999992,
+      "DeltaShares_num": -22156.00946342852,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "STO",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.15059138,
+      "Delta_pp_num": -0.01016742000000001,
+      "DeltaShares_num": -330214.7175913062,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PYC",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.14976894,
+      "Delta_pp_num": -0.0010974499999999998,
+      "DeltaShares_num": -6400.991775601404,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DXB",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.14947468,
+      "Delta_pp_num": 0.0043318400000000035,
+      "DeltaShares_num": 25999.036836550455,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DUB",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.14650743,
+      "Delta_pp_num": -0.004238660000000005,
+      "DeltaShares_num": -111266.09536878904,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GSBU29",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.14170784,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RAS",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.1401867,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SCG",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.13625903,
+      "Delta_pp_num": 0.02271447,
+      "DeltaShares_num": 1184881.5681235157,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PAR",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.13617647,
+      "Delta_pp_num": -0.0006156200000000112,
+      "DeltaShares_num": -2484.008274493506,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RMD",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.13609698,
+      "Delta_pp_num": -0.001379269999999988,
+      "DeltaShares_num": -7990.021595376893,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "VEE",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.13370702,
+      "Delta_pp_num": 0.00364391,
+      "DeltaShares_num": 4954.993955913116,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EBO",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.13128014,
+      "Delta_pp_num": 0.007130829999999991,
+      "DeltaShares_num": 14494.01609891755,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CYL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.12823268,
+      "Delta_pp_num": -0.06755115,
+      "DeltaShares_num": -171798.00245714857,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GQG",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.12482772,
+      "Delta_pp_num": 0.0004896699999999976,
+      "DeltaShares_num": 14471.172244905028,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ACF",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.12356853,
+      "Delta_pp_num": 0.019226209999999994,
+      "DeltaShares_num": 59217.02884375909,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "VTM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.11521869,
+      "Delta_pp_num": 0.004948079999999994,
+      "DeltaShares_num": 6472.000514695188,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DEV",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.11403071,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SPL",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.1125555,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GLN",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.11043724,
+      "Delta_pp_num": -0.001043429999999998,
+      "DeltaShares_num": -11038.02508164104,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MDR",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.11017989,
+      "Delta_pp_num": 0.004628400000000005,
+      "DeltaShares_num": 36745.004791252664,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NMT",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.10913228,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IOZ",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.10764751,
+      "Delta_pp_num": 9.556000000000842e-05,
+      "DeltaShares_num": 202.0051077271928,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "XCLWAY",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.10623317,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IRE",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.10541279,
+      "Delta_pp_num": -0.0014181799999999911,
+      "DeltaShares_num": -2649.0109623731696,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ARX",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.10488526,
+      "Delta_pp_num": 0.005423249999999991,
+      "DeltaShares_num": 18712.014917137392,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PEB",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.10409012,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EUR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.10133607,
+      "Delta_pp_num": -0.0006253600000000054,
+      "DeltaShares_num": -9047.089586222311,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PLY",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.09957093,
+      "Delta_pp_num": -0.01402478,
+      "DeltaShares_num": -63227.97009014635,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ELS",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.09906304,
+      "Delta_pp_num": 0.006696300000000002,
+      "DeltaShares_num": 14628.99893925601,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PCL",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.09899493,
+      "Delta_pp_num": 0.0023205899999999974,
+      "DeltaShares_num": 192285.94948782865,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PPK",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.09692058,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "M7T",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.09626415,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NWH",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.09520851,
+      "Delta_pp_num": 0.0012230999999999909,
+      "DeltaShares_num": 5594.000284952985,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GOZ",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.0947288,
+      "Delta_pp_num": 0.0013591400000000087,
+      "DeltaShares_num": 10252.031184651307,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DGL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0946792,
+      "Delta_pp_num": 0.0015079300000000045,
+      "DeltaShares_num": 4300.997278197261,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GPT",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.09456245,
+      "Delta_pp_num": 0.008762630000000007,
+      "DeltaShares_num": 167854.96255440917,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MPW",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.0939783,
+      "Delta_pp_num": -0.00017807999999999713,
+      "DeltaShares_num": -186.00392781599658,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EIQ",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.09397539,
+      "Delta_pp_num": 0.0025614899999999996,
+      "DeltaShares_num": 16593.01741287904,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "FEX",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.09247207,
+      "Delta_pp_num": -0.02330409,
+      "DeltaShares_num": -173493.01543044066,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RAD",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.09240692,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SRV",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.09116611,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ABG",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.08981795,
+      "Delta_pp_num": 0.0014735999999999916,
+      "DeltaShares_num": 13168.938879888039,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ENL",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.08755787,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ASN",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0858492,
+      "Delta_pp_num": -0.017888699999999993,
+      "DeltaShares_num": -258012.89621701487,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "OCL",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.08540939,
+      "Delta_pp_num": -1.4520000000003974e-05,
+      "DeltaShares_num": -0.004090044210897759,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ATC",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0846298,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EOS",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.08443961,
+      "Delta_pp_num": 0.04527911,
+      "DeltaShares_num": 87366.9931535189,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SS1",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0841114,
+      "Delta_pp_num": -0.003525619999999993,
+      "DeltaShares_num": -4672.007849216403,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CVN",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.07993284,
+      "Delta_pp_num": 0.0007145500000000082,
+      "DeltaShares_num": 12783.920315331081,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "KNB",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.07835575,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PRU",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.07798166,
+      "Delta_pp_num": -0.0003152800000000011,
+      "DeltaShares_num": -4259.957454295363,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RCE",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.0777261,
+      "Delta_pp_num": 2.5590000000005886e-05,
+      "DeltaShares_num": 74.00203768981737,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "KNI",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.07734355,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GLPR",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.07581135,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GNC",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 0.07528362,
+      "Delta_pp_num": -0.011587910000000007,
+      "DeltaShares_num": -25760.00307542534,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EGR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.07492934,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ORD",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.07185608,
+      "Delta_pp_num": -0.011179609999999993,
+      "DeltaShares_num": -6235.002540523899,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "JMS",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.07128084,
+      "Delta_pp_num": -0.015679449999999998,
+      "DeltaShares_num": -308069.86323416047,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "COG",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.06995115,
+      "Delta_pp_num": -0.07355403,
+      "DeltaShares_num": -148459.99042680304,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GSBI32",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0696,
+      "Delta_pp_num": -2.410000000008239e-06,
+      "DeltaShares_num": -10.001500000013039,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CPV",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.06847156,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GSBK39",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.06759259,
+      "Delta_pp_num": -0.008333340000000009,
+      "DeltaShares_num": -9000.007200000007,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TBN",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.0644012,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RDY",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.06131797,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IRI",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.05427095,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "FRS",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.05413572,
+      "Delta_pp_num": 0.009771910000000002,
+      "DeltaShares_num": 35621.015253545396,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CMW",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.05287986,
+      "Delta_pp_num": -0.009980959999999997,
+      "DeltaShares_num": -261388.0376805102,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GSBU32",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.05249842,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IMR",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.05172959,
+      "Delta_pp_num": -0.060183679999999996,
+      "DeltaShares_num": -192677.99170344358,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CRD",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.05145958,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MEZ",
+      "Sector": "Utilities",
+      "PctShort_pp_num": 0.05144325,
+      "Delta_pp_num": 0.004824640000000005,
+      "DeltaShares_num": 61510.09094687051,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "FDV",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.04853778,
+      "Delta_pp_num": 0.0021802200000000035,
+      "DeltaShares_num": 9499.976558889612,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PAC",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.04844819,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CDA",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.04804133,
+      "Delta_pp_num": 0.0022940200000000008,
+      "DeltaShares_num": 4172.002336670601,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "3DA",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.04740863,
+      "Delta_pp_num": 0.00034287000000000206,
+      "DeltaShares_num": 6366.948070423736,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IFM",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.04723512,
+      "Delta_pp_num": -0.0023632500000000042,
+      "DeltaShares_num": -8943.00332392499,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DTR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.04721082,
+      "Delta_pp_num": -0.30485782,
+      "DeltaShares_num": -10189024.046687799,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GSBU33",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.04700379,
+      "Delta_pp_num": 0.007810609999999996,
+      "DeltaShares_num": 20620.0104,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MLX",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.04365622,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CHL",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.04276063,
+      "Delta_pp_num": -9.789999999999799e-05,
+      "DeltaShares_num": -69.99884167099663,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ALC",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.03884619,
+      "Delta_pp_num": 0.017632110000000003,
+      "DeltaShares_num": 236790.8966066857,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ATX",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.03591974,
+      "Delta_pp_num": -1.9999999999881224e-07,
+      "DeltaShares_num": -1.0261432580009568,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "XCLWAX",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.03590736,
+      "Delta_pp_num": -0.07181473000000001,
+      "DeltaShares_num": -302340.0133000001,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GSBK35",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.03439724,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GSBU28",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.03438106,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AQZ",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.03353039,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "UNT",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.03192359,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TMG",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.03163121,
+      "Delta_pp_num": -7.119999999999349e-06,
+      "DeltaShares_num": -81.04896150314016,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "XCLWAS",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.03137324,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LIN",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.031315,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PRN",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0310267,
+      "Delta_pp_num": 0.0006894900000000009,
+      "DeltaShares_num": 6399.983767729544,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DHHF",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.03080118,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EVO",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.02987161,
+      "Delta_pp_num": 0.01188782,
+      "DeltaShares_num": 21811.99871784921,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EOL",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.02984702,
+      "Delta_pp_num": 0.01069759,
+      "DeltaShares_num": 3362.998479950699,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LPD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02950522,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GSBK31",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02871296,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RYZ",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.02809883,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TLG",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.02757593,
+      "Delta_pp_num": 0.0004550600000000002,
+      "DeltaShares_num": 2071.9668871776084,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GSBI30",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0274878,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RAC",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.02709941,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BCB",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.02613274,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BTL",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.02473926,
+      "Delta_pp_num": -0.005434790000000002,
+      "DeltaShares_num": -67155.02515948436,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "OCC",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.02470849,
+      "Delta_pp_num": 0.006471789999999998,
+      "DeltaShares_num": 15940.019028871597,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AVH",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.02469236,
+      "Delta_pp_num": 0.00126273,
+      "DeltaShares_num": 930.0047488725031,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MCP",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 0.02426899,
+      "Delta_pp_num": 0.0008905900000000001,
+      "DeltaShares_num": 1281.996654831899,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GSBI28",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02401583,
+      "Delta_pp_num": 0.007282319999999998,
+      "DeltaShares_num": 27599.9928,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CAY",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0237665,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WR1",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0227677,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "88E",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.02274212,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AMI",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.02210788,
+      "Delta_pp_num": 0.0003859200000000014,
+      "DeltaShares_num": 6531.976332288003,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ADT",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02182694,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "HLO",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.02074433,
+      "Delta_pp_num": -0.00252929,
+      "DeltaShares_num": -4131.001590636995,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AVL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.02072243,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "HPG",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.02071599,
+      "Delta_pp_num": 0.006799660000000001,
+      "DeltaShares_num": 9309.000814685602,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "XCLWBO",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.02024851,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CLV",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0201917,
+      "Delta_pp_num": 0.02014799,
+      "DeltaShares_num": 33647.0105247459,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CBO",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 0.0201113,
+      "Delta_pp_num": 0.01695288,
+      "DeltaShares_num": 71023.0076404968,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GHM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0197755,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "KMD",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.01940049,
+      "Delta_pp_num": -0.0009779900000000015,
+      "DeltaShares_num": -6960.036826771597,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "FBM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.01917066,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ATG",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.01872604,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PSQ",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.01675149,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DLI",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.01625165,
+      "Delta_pp_num": -0.005748349999999999,
+      "DeltaShares_num": -41228.99371543201,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GSBW34",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01622857,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CTM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.01616979,
+      "Delta_pp_num": -0.00031838000000000005,
+      "DeltaShares_num": -1763.0443093740032,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GSBK54",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01584158,
+      "Delta_pp_num": -0.003366339999999999,
+      "DeltaShares_num": -3400.003399999996,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BTR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.01496068,
+      "Delta_pp_num": -0.00828655,
+      "DeltaShares_num": -47999.99923097051,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CCM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.01475584,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AMD",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.01455888,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DTZ",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.01446534,
+      "Delta_pp_num": -0.0026569299999999983,
+      "DeltaShares_num": -16206.988336519775,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "STM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.01439172,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DAI",
+      "Sector": "Consumer Staples",
+      "PctShort_pp_num": 0.01375905,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "QSML",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.01310565,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "POD",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.01298362,
+      "Delta_pp_num": 0.0019600499999999996,
+      "DeltaShares_num": 15666.964406063998,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "VTX",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.01249192,
+      "Delta_pp_num": -0.01351121,
+      "DeltaShares_num": -32687.995702936794,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BWN",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.01247201,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GHY",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.0124447,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MTL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0122297,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "4DX",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.01203967,
+      "Delta_pp_num": -0.00682496,
+      "DeltaShares_num": -31999.96820904959,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RAG",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.01190921,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "KKC",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0118217,
+      "Delta_pp_num": 0.0010891799999999986,
+      "DeltaShares_num": 3512.9745250757987,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MAH",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.01113863,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IMB",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.01106061,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AL3",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.01056068,
+      "Delta_pp_num": 0.001736989999999999,
+      "DeltaShares_num": 9527.990905361388,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DUR",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.01039496,
+      "Delta_pp_num": -0.0021057100000000002,
+      "DeltaShares_num": -5420.984717737203,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RDM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.01035484,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RGL",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.01030788,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "HZN",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.00979185,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TTT",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0096588,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BKI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00857986,
+      "Delta_pp_num": 1.8709999999999907e-05,
+      "DeltaShares_num": 151.01481424590747,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WHK",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.00793742,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CCV",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.00789537,
+      "Delta_pp_num": 0.00725223,
+      "DeltaShares_num": 45511.0078413345,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "STK",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0076849,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AAR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00744522,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ABB",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.00741824,
+      "Delta_pp_num": -0.0006391499999999989,
+      "DeltaShares_num": -1869.999778834499,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AMA",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.00732205,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AHI",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.00714657,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "REG",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.00653246,
+      "Delta_pp_num": 0.0021550200000000005,
+      "DeltaShares_num": 6491.983742369999,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CVW",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.00646498,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "FPH",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.00636475,
+      "Delta_pp_num": 8.062e-05,
+      "DeltaShares_num": 473.9986399752088,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TVN",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00636383,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SVR",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.00632221,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GCI",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00594857,
+      "Delta_pp_num": -8.810999999999975e-05,
+      "DeltaShares_num": -495.01563969329436,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "HAS",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00563368,
+      "Delta_pp_num": 5.780000000000368e-06,
+      "DeltaShares_num": 11.994644151000102,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ARG",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00562696,
+      "Delta_pp_num": 0.0004772700000000001,
+      "DeltaShares_num": 3632.008348729796,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DAVA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00552506,
+      "Delta_pp_num": -0.01517161,
+      "DeltaShares_num": -6463.998102384099,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SNT",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.00546196,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ALA",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.00542305,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "URW",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00520147,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SPA",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.00516873,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "STN",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00507977,
+      "Delta_pp_num": 0.00462787,
+      "DeltaShares_num": 21290.9889958714,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PPE",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.0050788,
+      "Delta_pp_num": -0.00181759,
+      "DeltaShares_num": -1983.0018681784995,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GML",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0048312,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NGI",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.00481616,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NVU",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.00461736,
+      "Delta_pp_num": -0.0006775899999999996,
+      "DeltaShares_num": -6428.019595468104,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AIZ",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.00455543,
+      "Delta_pp_num": -0.0012235399999999995,
+      "DeltaShares_num": -40310.10570303476,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "JNO",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00447817,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "KCN",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00436156,
+      "Delta_pp_num": -0.00230028,
+      "DeltaShares_num": -5929.010620737599,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GSBQ26",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00435025,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MCY",
+      "Sector": "Utilities",
+      "PctShort_pp_num": 0.00401758,
+      "Delta_pp_num": 0.0019901,
+      "DeltaShares_num": 28000.013788466993,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "COI",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.00375239,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MKR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00361447,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RMY",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.00350894,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BIS",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00336927,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BCI",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00321207,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "FFG",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.0031517,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GOLD",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00300426,
+      "Delta_pp_num": 0.00214053,
+      "DeltaShares_num": 2336.9910541949994,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SGI",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.00284252,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "TOE",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.00270864,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LTP",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.00267946,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "FUN",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0024906,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AXE",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.00237554,
+      "Delta_pp_num": 0.0010492500000000003,
+      "DeltaShares_num": 2673.9822839025005,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BSX",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00227514,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IGL",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.00216651,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EXP",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.00198156,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PWR",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.00193317,
+      "Delta_pp_num": -0.00141417,
+      "DeltaShares_num": -2435.9936368356,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MI6",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0018253,
+      "Delta_pp_num": -0.00023765000000000006,
+      "DeltaShares_num": -4913.017665874504,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GWA",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.0017741,
+      "Delta_pp_num": -0.0002160599999999999,
+      "DeltaShares_num": -573.0021671477989,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AGI",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.00174439,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AWJ",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00174157,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MPK",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00158483,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GLA",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00158112,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SVM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00144944,
+      "Delta_pp_num": -0.00238384,
+      "DeltaShares_num": -15421.983577595201,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CVV",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00129608,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PPM",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.00122583,
+      "Delta_pp_num": -1.7400000000000748e-06,
+      "DeltaShares_num": -0.023135161800382775,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "A1M",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00121211,
+      "Delta_pp_num": 5.2699999999999275e-06,
+      "DeltaShares_num": 42.034564566698464,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NTU",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00116062,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AW1",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00111936,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "VYS",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00104921,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IR1",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00099394,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ASG",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 0.00098796,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EXR",
+      "Sector": "Energy",
+      "PctShort_pp_num": 0.00095826,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "KSL",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.00085527,
+      "Delta_pp_num": -0.0006205,
+      "DeltaShares_num": -1791.9881027899996,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SGQ",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00077146,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ART",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.0007709,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "RHI",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.0007563,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ENR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00073918,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "BDM",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00057509,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "AAA",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.0005478,
+      "Delta_pp_num": 2.9709999999999958e-05,
+      "DeltaShares_num": 25.002540521299977,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CWP",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.00053284,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CVC",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.00045526,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "HGO",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00043763,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NZM",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 0.00040234,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PPC",
+      "Sector": "Real Estate",
+      "PctShort_pp_num": 0.00036911,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SSM",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 0.00036366,
+      "Delta_pp_num": -0.00015634999999999998,
+      "DeltaShares_num": -963.0426624690003,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MME",
+      "Sector": "Financials",
+      "PctShort_pp_num": 0.00030947,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "WMG",
+      "Sector": "Materials",
+      "PctShort_pp_num": 0.00030045,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GSBW30",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 0.00029268,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "MVP",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 0.00025564,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "FND",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.00024595,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SKO",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 0.0001252,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CGS",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 8.349e-05,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PPS",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 7.054e-05,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "CST",
+      "Sector": "Materials",
+      "PctShort_pp_num": 5.887e-05,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SGLLV",
+      "Sector": "Unknown",
+      "PctShort_pp_num": 5.813e-05,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EME",
+      "Sector": "Energy",
+      "PctShort_pp_num": 2.241e-05,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "SKT",
+      "Sector": "Communication Services",
+      "PctShort_pp_num": 2.179e-05,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "VVA",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 5.9e-06,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "NGX",
+      "Sector": "Materials",
+      "PctShort_pp_num": 2.21e-06,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "JNS",
+      "Sector": "Utilities",
+      "PctShort_pp_num": 2.14e-06,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PET",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 2.08e-06,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "IME",
+      "Sector": "Health Care",
+      "PctShort_pp_num": 1.85e-06,
+      "Delta_pp_num": -9.999999999999904e-09,
+      "DeltaShares_num": -0.0004175810000000002,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "PBH",
+      "Sector": "Consumer Discretionary",
+      "PctShort_pp_num": 1.73e-06,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GT1",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.47e-06,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EFE",
+      "Sector": "Materials",
+      "PctShort_pp_num": 7.9e-07,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "OEC",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 5.6e-07,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LSA",
+      "Sector": "Materials",
+      "PctShort_pp_num": 3.5e-07,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "DXN",
+      "Sector": "Information Technology",
+      "PctShort_pp_num": 3.3e-07,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "EWC",
+      "Sector": "Utilities",
+      "PctShort_pp_num": 2.6e-07,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GRR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 1.7e-07,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "LIS",
+      "Sector": "Industrials",
+      "PctShort_pp_num": 1.6e-07,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "ODE",
+      "Sector": "Materials",
+      "PctShort_pp_num": 6e-08,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    },
+    {
+      "Code": "GPR",
+      "Sector": "Materials",
+      "PctShort_pp_num": 3e-08,
+      "Delta_pp_num": 0.0,
+      "DeltaShares_num": 0.0,
+      "DaysToCover": 0.0,
+      "ADV": 0.0,
+      "Date": "2025-09-09"
+    }
+  ]
+}
