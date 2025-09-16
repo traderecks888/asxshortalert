@@ -9,21 +9,25 @@
 :root{
   --bg:#f7f9fc; --card:#ffffff; --ink:#0b0f14; --muted:#5b6775; --line:#e8edf3;
   --pill:#eef1f6; --flag-bg:#111; --flag-ink:#fff; --accent:#0a84ff;
+  --font:14px; --pad-y:.55rem; --pad-x:.55rem; --lh:1.35;
 }
 @media (prefers-color-scheme: dark){
   :root{ --bg:#0b0f14; --card:#121822; --ink:#eef3f8; --muted:#9aa7b4; --line:#1b2430; --pill:#1a2230; --flag-bg:#fff; --flag-ink:#111; --accent:#4da3ff; }
 }
-html,body{height:100%}
-body{background:var(--bg); color:var(--ink); font:14px/1.5 system-ui, Segoe UI, Roboto, Helvetica, Arial; padding:0; margin:0}
+/* Density modes */
+body{background:var(--bg); color:var(--ink); font:var(--font)/var(--lh) system-ui, Segoe UI, Roboto, Helvetica, Arial; padding:0; margin:0}
+body.compact{ --font:13px; --pad-y:.35rem; --pad-x:.45rem; --lh:1.25 }
+body.ultra{   --font:12px; --pad-y:.25rem; --pad-x:.35rem; --lh:1.2  }
+
 a{color:var(--accent); text-decoration:none}
 a:hover{text-decoration:underline}
 .wrap{max-width:1100px; margin:0 auto; padding:1rem}
 .card{background:var(--card); border:1px solid var(--line); border-radius:14px; box-shadow:0 1px 2px rgba(0,0,0,.03)}
 .card + .card{margin-top:1rem}
 .section{padding:1rem 1rem}
-h1{font-size:1.25rem; margin:.25rem 0 .5rem}
-h2{font-size:1.05rem; margin:1rem 0 .5rem}
-h3{font-size:.95rem; margin:.75rem 0 .5rem}
+h1{font-size:1.15rem; margin:.25rem 0 .5rem}
+h2{font-size:1rem; margin:.75rem 0 .5rem}
+h3{font-size:.95rem; margin:.5rem 0 .35rem}
 .mono{font-variant-numeric:tabular-nums}
 
 .topbar{
@@ -31,29 +35,34 @@ h3{font-size:.95rem; margin:.75rem 0 .5rem}
   background:color-mix(in oklab, var(--bg) 85%, transparent);
   border-bottom:1px solid var(--line);
 }
-.topbar .inner{display:flex; align-items:center; gap:.75rem; padding:.5rem 1rem}
-.topbar nav{display:flex; gap:.75rem; flex-wrap:wrap}
-.badge{display:inline-block; padding:.2rem .5rem; border-radius:999px; background:var(--pill); color:var(--muted); font-size:.8rem}
-.btn{padding:.35rem .6rem; border:1px solid var(--line); background:var(--card); border-radius:10px; cursor:pointer}
+.topbar .inner{display:flex; align-items:center; gap:.55rem; padding:.4rem .8rem}
+.topbar nav{display:flex; gap:.55rem; flex-wrap:wrap}
+.badge{display:inline-block; padding:.1rem .45rem; border-radius:999px; background:var(--pill); color:var(--muted); font-size:.8rem}
+.btn{padding:.3rem .5rem; border:1px solid var(--line); background:var(--card); border-radius:10px; cursor:pointer}
 .btn:hover{background:color-mix(in oklab, var(--card) 85%, var(--line))}
-.right{margin-left:auto; display:flex; gap:.5rem}
+.right{margin-left:auto; display:flex; gap:.35rem}
 
-.controls{display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; margin:.5rem 0}
-select,input[type="search"]{padding:.45rem .6rem; border:1px solid var(--line); border-radius:10px; background:var(--card); color:var(--ink)}
+.controls{display:flex; gap:.4rem; flex-wrap:wrap; align-items:center; margin:.4rem 0}
+select,input[type="search"]{padding:.35rem .5rem; border:1px solid var(--line); border-radius:10px; background:var(--card); color:var(--ink)}
 .muted{color:var(--muted); font-size:.85rem}
 
-.grid{display:grid; grid-template-columns:1fr 1fr; gap:1rem}
+.grid{display:grid; grid-template-columns:1fr 1fr; gap:.8rem}
 @media (max-width: 860px){ .grid{grid-template-columns:1fr} }
 
 .table-wrap{overflow:auto; border:1px solid var(--line); border-radius:12px}
-table{border-collapse:separate; border-spacing:0; width:100%; min-width:540px}
-th,td{padding:.6rem .7rem; border-bottom:1px solid var(--line)}
+table{border-collapse:separate; border-spacing:0; width:100%; min-width:560px}
+th,td{padding:var(--pad-y) var(--pad-x); border-bottom:1px solid var(--line); white-space:nowrap}
 thead th{position:sticky; top:0; background:var(--card); z-index:1; text-align:left; font-weight:600; font-size:.9rem}
 tbody tr:nth-child(even){background:color-mix(in oklab, var(--card) 96%, var(--line))}
 tbody tr:hover{background:color-mix(in oklab, var(--card) 90%, var(--line))}
-.pill{padding:.15rem .45rem; border-radius:999px; background:var(--pill); font-size:.8rem}
+.pill{padding:.1rem .35rem; border-radius:999px; background:var(--pill); font-size:.75rem}
 .flag{background:var(--flag-bg); color:var(--flag-ink)}
 
+/* sticky first column so Codes remain visible when horizontally scrolling */
+table.sticky-first th.col-code, table.sticky-first td.col-code{ position:sticky; left:0; background:var(--card); z-index:2; }
+table.sticky-first thead th.col-code{ z-index:3; }
+
+/* subtle heat for DTC buckets */
 .dtc-0-1{background:color-mix(in oklab, var(--card) 98%, #bcdcff)}
 .dtc-1-3{background:color-mix(in oklab, var(--card) 96%, #bcdcff)}
 .dtc-3-5{background:color-mix(in oklab, var(--card) 94%, #ffd48a)}
@@ -61,16 +70,31 @@ tbody tr:hover{background:color-mix(in oklab, var(--card) 90%, var(--line))}
 
 footer{color:var(--muted); font-size:.85rem; margin:1rem 0}
 
-/* Mobile card-mode for tables */
+/* --- MOBILE OPTIMISATION: keep tables, hide non-essentials, tighten spacing --- */
 @media (max-width:680px){
-  .table-wrap{border:none}
-  table{min-width:0; border:0}
-  thead{display:none}
-  tbody tr{display:block; border:1px solid var(--line); border-radius:12px; margin:.5rem 0; background:var(--card)}
-  tbody td{display:flex; justify-content:space-between; align-items:center; border-bottom:1px dashed var(--line)}
-  tbody td:last-child{border-bottom:0}
-  tbody td::before{content:attr(data-label); font-weight:600; color:var(--muted); margin-right:1rem}
+  .wrap{padding:.6rem}
+  .grid{gap:.6rem}
+  table{min-width:0}
+  /* hide columns that are non-critical for quick scanning */
+  .col-sector, .col-flags, .col-adv, .col-negdays { display:none }
 }
+
+@media (max-width:420px){
+  /* further condense: tailor per-table essentials */
+  /* Gross: keep Code, Gross, % Issued */
+  .tbl-gross .col-sector, .tbl-gross .col-flags { display:none }
+  /* ASIC high/delta: keep Code, % Short, Δ pp (already minimal) */
+  .tbl-asic .col-sector { display:none }
+  /* Covering: prioritize Δ pp and Δ shares; hide % Short */
+  .tbl-cover .col-sector, .tbl-cover .col-pctshort { display:none }
+  /* DTC: keep DTC and Code; hide % Short and ADV */
+  .tbl-dtc .col-sector, .tbl-dtc .col-pctshort, .tbl-dtc .col-adv { display:none }
+  /* Scores: keep Code and Score */
+  .tbl-scores .col-negdays, .tbl-scores .col-sumshares, .tbl-scores .col-sumpp { display:none }
+}
+
+/* prevent header wrap on tiny screens */
+th{white-space:nowrap}
 </style>
 </head>
 <body>
@@ -87,6 +111,7 @@ footer{color:var(--muted); font-size:.85rem; margin:1rem 0}
     </nav>
     <div class="right">
       <span class="badge">Generated: {{ generated_at|default('') }}</span>
+      <button class="btn" id="densityToggle" title="Toggle density">↔︎</button>
       <button class="btn" id="themeToggle" title="Toggle dark mode">🌓</button>
     </div>
   </div>
@@ -113,22 +138,22 @@ footer{color:var(--muted); font-size:.85rem; margin:1rem 0}
       <div>
         <h3>Top by quantity</h3>
         <div class="table-wrap">
-          <table class="filterable sortable">
+          <table class="filterable sortable sticky-first tbl-gross">
             <thead><tr>
-              <th data-sort="text">Code</th>
-              <th data-sort="text">Sector</th>
-              <th data-sort="num">Gross</th>
-              <th data-sort="num">% Issued</th>
-              <th>Flags</th>
+              <th class="col-code" data-sort="text">Code</th>
+              <th class="col-sector" data-sort="text">Sector</th>
+              <th class="col-gross" data-sort="num">Gross</th>
+              <th class="col-pctissued" data-sort="num">% Issued</th>
+              <th class="col-flags">Flags</th>
             </tr></thead>
             <tbody>
             {% for r in (gross_top_qty|default([])) %}
               <tr data-code="{{ r.Code }}" data-sector="{{ r.Sector | default('Unknown') }}">
-                <td data-label="Code">{{ r.Code }}</td>
-                <td data-label="Sector">{{ r.Sector | default('Unknown') }}</td>
-                <td data-label="Gross" class="mono" data-value="{{ (r.Gross_num | default(r.Gross) | default(0)) | float }}">{{ "{:,}".format(((r.Gross_num | default(r.Gross)) | default(0)) | int) }}</td>
-                <td data-label="% Issued" class="mono" data-value="{{ (r.PctGrossVsIssuedPct_num | default(r.PctGrossVsIssuedPct) | default(0)) | float }}">{{ ((r.PctGrossVsIssuedPct_num | default(r.PctGrossVsIssuedPct) | default(0)) | float) | round(3) }}%</td>
-                <td data-label="Flags">
+                <td class="col-code" data-label="Code">{{ r.Code }}</td>
+                <td class="col-sector" data-label="Sector">{{ r.Sector | default('Unknown') }}</td>
+                <td class="col-gross mono" data-label="Gross" data-value="{{ (r.Gross_num | default(r.Gross) | default(0)) | float }}">{{ "{:,}".format(((r.Gross_num | default(r.Gross)) | default(0)) | int) }}</td>
+                <td class="col-pctissued mono" data-label="% Issued" data-value="{{ (r.PctGrossVsIssuedPct_num | default(r.PctGrossVsIssuedPct) | default(0)) | float }}">{{ ((r.PctGrossVsIssuedPct_num | default(r.PctGrossVsIssuedPct) | default(0)) | float) | round(3) }}%</td>
+                <td class="col-flags" data-label="Flags">
                   {% if r.FLAG_big_qty %}<span class="pill flag">Q</span>{% endif %}
                   {% if r.FLAG_big_pct %}<span class="pill flag">%</span>{% endif %}
                 </td>
@@ -142,22 +167,22 @@ footer{color:var(--muted); font-size:.85rem; margin:1rem 0}
       <div>
         <h3>Top by % issued</h3>
         <div class="table-wrap">
-          <table class="filterable sortable">
+          <table class="filterable sortable sticky-first tbl-gross">
             <thead><tr>
-              <th data-sort="text">Code</th>
-              <th data-sort="text">Sector</th>
-              <th data-sort="num">Gross</th>
-              <th data-sort="num">% Issued</th>
-              <th>Flags</th>
+              <th class="col-code" data-sort="text">Code</th>
+              <th class="col-sector" data-sort="text">Sector</th>
+              <th class="col-gross" data-sort="num">Gross</th>
+              <th class="col-pctissued" data-sort="num">% Issued</th>
+              <th class="col-flags">Flags</th>
             </tr></thead>
             <tbody>
             {% for r in (gross_top_pct|default([])) %}
               <tr data-code="{{ r.Code }}" data-sector="{{ r.Sector | default('Unknown') }}">
-                <td data-label="Code">{{ r.Code }}</td>
-                <td data-label="Sector">{{ r.Sector | default('Unknown') }}</td>
-                <td data-label="Gross" class="mono" data-value="{{ (r.Gross_num | default(r.Gross) | default(0)) | float }}">{{ "{:,}".format(((r.Gross_num | default(r.Gross)) | default(0)) | int) }}</td>
-                <td data-label="% Issued" class="mono" data-value="{{ (r.PctGrossVsIssuedPct_num | default(r.PctGrossVsIssuedPct) | default(0)) | float }}">{{ ((r.PctGrossVsIssuedPct_num | default(r.PctGrossVsIssuedPct) | default(0)) | float) | round(3) }}%</td>
-                <td data-label="Flags">
+                <td class="col-code" data-label="Code">{{ r.Code }}</td>
+                <td class="col-sector" data-label="Sector">{{ r.Sector | default('Unknown') }}</td>
+                <td class="col-gross mono" data-label="Gross" data-value="{{ (r.Gross_num | default(r.Gross) | default(0)) | float }}">{{ "{:,}".format(((r.Gross_num | default(r.Gross)) | default(0)) | int) }}</td>
+                <td class="col-pctissued mono" data-label="% Issued" data-value="{{ (r.PctGrossVsIssuedPct_num | default(r.PctGrossVsIssuedPct) | default(0)) | float }}">{{ ((r.PctGrossVsIssuedPct_num | default(r.PctGrossVsIssuedPct) | default(0)) | float) | round(3) }}%</td>
+                <td class="col-flags" data-label="Flags">
                   {% if r.FLAG_big_qty %}<span class="pill flag">Q</span>{% endif %}
                   {% if r.FLAG_big_pct %}<span class="pill flag">%</span>{% endif %}
                 </td>
@@ -176,20 +201,20 @@ footer{color:var(--muted); font-size:.85rem; margin:1rem 0}
       <div>
         <h3>High % Shorted</h3>
         <div class="table-wrap">
-          <table class="filterable sortable">
+          <table class="filterable sortable sticky-first tbl-asic">
             <thead><tr>
-              <th data-sort="text">Code</th>
-              <th data-sort="text">Sector</th>
-              <th data-sort="num">% Short</th>
-              <th data-sort="num">Δ pp</th>
+              <th class="col-code" data-sort="text">Code</th>
+              <th class="col-sector" data-sort="text">Sector</th>
+              <th class="col-pctshort" data-sort="num">% Short</th>
+              <th class="col-delta-pp" data-sort="num">Δ pp</th>
             </tr></thead>
             <tbody>
             {% for r in (pos_high|default([])) %}
               <tr data-code="{{ r.Code }}" data-sector="{{ r.Sector | default('Unknown') }}">
-                <td data-label="Code">{{ r.Code }}</td>
-                <td data-label="Sector">{{ r.Sector | default('Unknown') }}</td>
-                <td data-label="% Short" class="mono" data-value="{{ (r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float }}">{{ ((r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float) | round(2) }}</td>
-                <td data-label="Δ pp" class="mono" data-value="{{ (r.Delta_pp_num | default(r.Delta_pp) | default(0)) | float }}">{{ ((r.Delta_pp_num | default(r.Delta_pp) | default(0)) | float) | round(2) }}</td>
+                <td class="col-code" data-label="Code">{{ r.Code }}</td>
+                <td class="col-sector" data-label="Sector">{{ r.Sector | default('Unknown') }}</td>
+                <td class="col-pctshort mono" data-label="% Short" data-value="{{ (r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float }}">{{ ((r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float) | round(2) }}</td>
+                <td class="col-delta-pp mono" data-label="Δ pp" data-value="{{ (r.Delta_pp_num | default(r.Delta_pp) | default(0)) | float }}">{{ ((r.Delta_pp_num | default(r.Delta_pp) | default(0)) | float) | round(2) }}</td>
               </tr>
             {% endfor %}
             </tbody>
@@ -200,20 +225,20 @@ footer{color:var(--muted); font-size:.85rem; margin:1rem 0}
       <div>
         <h3>Big Δ day-over-day</h3>
         <div class="table-wrap">
-          <table class="filterable sortable">
+          <table class="filterable sortable sticky-first tbl-asic">
             <thead><tr>
-              <th data-sort="text">Code</th>
-              <th data-sort="text">Sector</th>
-              <th data-sort="num">% Short</th>
-              <th data-sort="num">Δ pp</th>
+              <th class="col-code" data-sort="text">Code</th>
+              <th class="col-sector" data-sort="text">Sector</th>
+              <th class="col-pctshort" data-sort="num">% Short</th>
+              <th class="col-delta-pp" data-sort="num">Δ pp</th>
             </tr></thead>
             <tbody>
             {% for r in (pos_delta|default([])) %}
               <tr data-code="{{ r.Code }}" data-sector="{{ r.Sector | default('Unknown') }}">
-                <td data-label="Code">{{ r.Code }}</td>
-                <td data-label="Sector">{{ r.Sector | default('Unknown') }}</td>
-                <td data-label="% Short" class="mono" data-value="{{ (r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float }}">{{ ((r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float) | round(2) }}</td>
-                <td data-label="Δ pp" class="mono" data-value="{{ (r.Delta_pp_num | default(r.Delta_pp) | default(0)) | float }}">{{ ((r.Delta_pp_num | default(r.Delta_pp) | default(0)) | float) | round(2) }}</td>
+                <td class="col-code" data-label="Code">{{ r.Code }}</td>
+                <td class="col-sector" data-label="Sector">{{ r.Sector | default('Unknown') }}</td>
+                <td class="col-pctshort mono" data-label="% Short" data-value="{{ (r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float }}">{{ ((r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float) | round(2) }}</td>
+                <td class="col-delta-pp mono" data-label="Δ pp" data-value="{{ (r.Delta_pp_num | default(r.Delta_pp) | default(0)) | float }}">{{ ((r.Delta_pp_num | default(r.Delta_pp) | default(0)) | float) | round(2) }}</td>
               </tr>
             {% endfor %}
             </tbody>
@@ -226,22 +251,22 @@ footer{color:var(--muted); font-size:.85rem; margin:1rem 0}
   <div id="covering" class="card section">
     <h2>Likely covering (largest decreases)</h2>
     <div class="table-wrap">
-      <table class="filterable sortable">
+      <table class="filterable sortable sticky-first tbl-cover">
         <thead><tr>
-          <th data-sort="text">Code</th>
-          <th data-sort="text">Sector</th>
-          <th data-sort="num">% Short</th>
-          <th data-sort="num">Δ pp</th>
-          <th data-sort="num">Δ shares</th>
+          <th class="col-code" data-sort="text">Code</th>
+          <th class="col-sector" data-sort="text">Sector</th>
+          <th class="col-pctshort" data-sort="num">% Short</th>
+          <th class="col-delta-pp" data-sort="num">Δ pp</th>
+          <th class="col-deltashares" data-sort="num">Δ shares</th>
         </tr></thead>
         <tbody>
         {% for r in (pos_cover|default([])) %}
           <tr data-code="{{ r.Code }}" data-sector="{{ r.Sector | default('Unknown') }}">
-            <td data-label="Code">{{ r.Code }}</td>
-            <td data-label="Sector">{{ r.Sector | default('Unknown') }}</td>
-            <td data-label="% Short" class="mono" data-value="{{ (r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float }}">{{ ((r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float) | round(2) }}</td>
-            <td data-label="Δ pp" class="mono" data-value="{{ (r.Delta_pp_num | default(r.Delta_pp) | default(0)) | float }}">{{ ((r.Delta_pp_num | default(r.Delta_pp) | default(0)) | float) | round(2) }}</td>
-            <td data-label="Δ shares" class="mono" data-value="{{ (r.DeltaShares_num | default(r.DeltaShares) | default(0)) | float }}">{{ "{:,}".format(((r.DeltaShares_num | default(r.DeltaShares) | default(0)) | int)) }}</td>
+            <td class="col-code" data-label="Code">{{ r.Code }}</td>
+            <td class="col-sector" data-label="Sector">{{ r.Sector | default('Unknown') }}</td>
+            <td class="col-pctshort mono" data-label="% Short" data-value="{{ (r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float }}">{{ ((r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float) | round(2) }}</td>
+            <td class="col-delta-pp mono" data-label="Δ pp" data-value="{{ (r.Delta_pp_num | default(r.Delta_pp) | default(0)) | float }}">{{ ((r.Delta_pp_num | default(r.Delta_pp) | default(0)) | float) | round(2) }}</td>
+            <td class="col-deltashares mono" data-label="Δ shares" data-value="{{ (r.DeltaShares_num | default(r.DeltaShares) | default(0)) | float }}">{{ "{:,}".format(((r.DeltaShares_num | default(r.DeltaShares) | default(0)) | int)) }}</td>
           </tr>
         {% endfor %}
         </tbody>
@@ -252,13 +277,13 @@ footer{color:var(--muted); font-size:.85rem; margin:1rem 0}
   <div id="dtc" class="card section">
     <h2>High Days-to-Cover (hardest to unwind)</h2>
     <div class="table-wrap">
-      <table class="filterable sortable">
+      <table class="filterable sortable sticky-first tbl-dtc">
         <thead><tr>
-          <th data-sort="text">Code</th>
-          <th data-sort="text">Sector</th>
-          <th data-sort="num">% Short</th>
-          <th data-sort="num">DTC (days)</th>
-          <th data-sort="num">ADV (shares)</th>
+          <th class="col-code" data-sort="text">Code</th>
+          <th class="col-sector" data-sort="text">Sector</th>
+          <th class="col-pctshort" data-sort="num">% Short</th>
+          <th class="col-dtc" data-sort="num">DTC (days)</th>
+          <th class="col-adv" data-sort="num">ADV (shares)</th>
         </tr></thead>
         <tbody>
         {% for r in (pos_dtc|default([])) %}
@@ -268,11 +293,11 @@ footer{color:var(--muted); font-size:.85rem; margin:1rem 0}
         {% elif dtc >= 3 %}{% set dtcclass = 'dtc-3-5' %}
         {% elif dtc >= 1 %}{% set dtcclass = 'dtc-1-3' %}{% endif %}
           <tr data-code="{{ r.Code }}" data-sector="{{ r.Sector | default('Unknown') }}" class="{{ dtcclass }}">
-            <td data-label="Code">{{ r.Code }}</td>
-            <td data-label="Sector">{{ r.Sector | default('Unknown') }}</td>
-            <td data-label="% Short" class="mono" data-value="{{ (r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float }}">{{ ((r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float) | round(2) }}</td>
-            <td data-label="DTC (days)" class="mono" data-value="{{ dtc }}">{{ dtc | round(2) }}</td>
-            <td data-label="ADV (shares)" class="mono" data-value="{{ (r.ADV_num | default(r.ADV) | default(0)) | float }}">{{ "{:,}".format(((r.ADV_num | default(r.ADV) | default(0)) | int)) }}</td>
+            <td class="col-code" data-label="Code">{{ r.Code }}</td>
+            <td class="col-sector" data-label="Sector">{{ r.Sector | default('Unknown') }}</td>
+            <td class="col-pctshort mono" data-label="% Short" data-value="{{ (r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float }}">{{ ((r.PctShort_pp_num | default(r.PctShort_pp) | default(0)) | float) | round(2) }}</td>
+            <td class="col-dtc mono" data-label="DTC (days)" data-value="{{ dtc }}">{{ dtc | round(2) }}</td>
+            <td class="col-adv mono" data-label="ADV (shares)" data-value="{{ (r.ADV_num | default(r.ADV) | default(0)) | float }}">{{ "{:,}".format(((r.ADV_num | default(r.ADV) | default(0)) | int)) }}</td>
           </tr>
         {% endfor %}
         </tbody>
@@ -286,22 +311,22 @@ footer{color:var(--muted); font-size:.85rem; margin:1rem 0}
       <div>
         <h3>3-day window</h3>
         <div class="table-wrap">
-          <table class="filterable sortable">
+          <table class="filterable sortable sticky-first tbl-scores">
             <thead><tr>
-              <th data-sort="text">Code</th>
-              <th data-sort="num">Neg days</th>
-              <th data-sort="num">Σ Δshares↓</th>
-              <th data-sort="num">Σ Δpp↓</th>
-              <th data-sort="num">Score</th>
+              <th class="col-code" data-sort="text">Code</th>
+              <th class="col-negdays" data-sort="num">Neg days</th>
+              <th class="col-sumshares" data-sort="num">Σ Δshares↓</th>
+              <th class="col-sumpp" data-sort="num">Σ Δpp↓</th>
+              <th class="col-score" data-sort="num">Score</th>
             </tr></thead>
             <tbody>
             {% for r in (cov3|default([])) %}
               <tr data-code="{{ r.Code }}">
-                <td data-label="Code">{{ r.Code }}</td>
-                <td data-label="Neg days" class="mono" data-value="{{ r.NegDays | default(0) }}">{{ r.NegDays | default(0) }}</td>
-                <td data-label="Σ Δshares↓" class="mono" data-value="{{ (r.CovNegShares | default(0) | float) | abs }}">{{ "{:,}".format((r.CovNegShares | default(0) | float) | int | abs) }}</td>
-                <td data-label="Σ Δpp↓" class="mono" data-value="{{ (r.CovNegPP | default(0) | float) | abs }}">{{ (r.CovNegPP | default(0) | float) | round(2) | abs }}</td>
-                <td data-label="Score" class="mono" data-value="{{ (r.CoverScore | default(0) | float) }}">{{ (r.CoverScore | default(0) | float) | round(2) }}</td>
+                <td class="col-code" data-label="Code">{{ r.Code }}</td>
+                <td class="col-negdays mono" data-label="Neg days" data-value="{{ r.NegDays | default(0) }}">{{ r.NegDays | default(0) }}</td>
+                <td class="col-sumshares mono" data-label="Σ Δshares↓" data-value="{{ (r.CovNegShares | default(0) | float) | abs }}">{{ "{:,}".format((r.CovNegShares | default(0) | float) | int | abs) }}</td>
+                <td class="col-sumpp mono" data-label="Σ Δpp↓" data-value="{{ (r.CovNegPP | default(0) | float) | abs }}">{{ (r.CovNegPP | default(0) | float) | round(2) | abs }}</td>
+                <td class="col-score mono" data-label="Score" data-value="{{ (r.CoverScore | default(0) | float) }}">{{ (r.CoverScore | default(0) | float) | round(2) }}</td>
               </tr>
             {% endfor %}
             </tbody>
@@ -311,22 +336,22 @@ footer{color:var(--muted); font-size:.85rem; margin:1rem 0}
       <div>
         <h3>5-day window</h3>
         <div class="table-wrap">
-          <table class="filterable sortable">
+          <table class="filterable sortable sticky-first tbl-scores">
             <thead><tr>
-              <th data-sort="text">Code</th>
-              <th data-sort="num">Neg days</th>
-              <th data-sort="num">Σ Δshares↓</th>
-              <th data-sort="num">Σ Δpp↓</th>
-              <th data-sort="num">Score</th>
+              <th class="col-code" data-sort="text">Code</th>
+              <th class="col-negdays" data-sort="num">Neg days</th>
+              <th class="col-sumshares" data-sort="num">Σ Δshares↓</th>
+              <th class="col-sumpp" data-sort="num">Σ Δpp↓</th>
+              <th class="col-score" data-sort="num">Score</th>
             </tr></thead>
             <tbody>
             {% for r in (cov5|default([])) %}
               <tr data-code="{{ r.Code }}">
-                <td data-label="Code">{{ r.Code }}</td>
-                <td data-label="Neg days" class="mono" data-value="{{ r.NegDays | default(0) }}">{{ r.NegDays | default(0) }}</td>
-                <td data-label="Σ Δshares↓" class="mono" data-value="{{ (r.CovNegShares | default(0) | float) | abs }}">{{ "{:,}".format((r.CovNegShares | default(0) | float) | int | abs) }}</td>
-                <td data-label="Σ Δpp↓" class="mono" data-value="{{ (r.CovNegPP | default(0) | float) | abs }}">{{ (r.CovNegPP | default(0) | float) | round(2) | abs }}</td>
-                <td data-label="Score" class="mono" data-value="{{ (r.CoverScore | default(0) | float) }}">{{ (r.CoverScore | default(0) | float) | round(2) }}</td>
+                <td class="col-code" data-label="Code">{{ r.Code }}</td>
+                <td class="col-negdays mono" data-label="Neg days" data-value="{{ r.NegDays | default(0) }}">{{ r.NegDays | default(0) }}</td>
+                <td class="col-sumshares mono" data-label="Σ Δshares↓" data-value="{{ (r.CovNegShares | default(0) | float) | abs }}">{{ "{:,}".format((r.CovNegShares | default(0) | float) | int | abs) }}</td>
+                <td class="col-sumpp mono" data-label="Σ Δpp↓" data-value="{{ (r.CovNegPP | default(0) | float) | abs }}">{{ (r.CovNegPP | default(0) | float) | round(2) | abs }}</td>
+                <td class="col-score mono" data-label="Score" data-value="{{ (r.CoverScore | default(0) | float) }}">{{ (r.CoverScore | default(0) | float) | round(2) }}</td>
               </tr>
             {% endfor %}
             </tbody>
@@ -363,6 +388,24 @@ footer{color:var(--muted); font-size:.85rem; margin:1rem 0}
   btn.addEventListener('click',()=>{
     const now=(document.documentElement.dataset.theme==='dark')?'light':'dark';
     apply(now); localStorage.setItem(key,now);
+  });
+})();
+
+// Density toggle: comfortable -> compact -> ultra
+(function(){
+  const key='asx-density';
+  const btn=document.getElementById('densityToggle');
+  const apply=(mode)=>{
+    document.body.classList.remove('compact','ultra');
+    if(mode==='compact') document.body.classList.add('compact');
+    if(mode==='ultra')   document.body.classList.add('ultra');
+  };
+  let mode=localStorage.getItem(key) || 'compact'; // default to compact for phones
+  apply(mode);
+  btn.addEventListener('click', ()=>{
+    mode = (mode==='comfortable') ? 'compact' : (mode==='compact' ? 'ultra' : 'comfortable');
+    localStorage.setItem(key, mode);
+    apply(mode);
   });
 })();
 
